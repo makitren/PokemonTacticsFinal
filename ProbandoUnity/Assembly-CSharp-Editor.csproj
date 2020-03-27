@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\Todo\ListData.cs" />
+    <Compile Include="Assets\Editor\Todo\TodoList.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\CustomTiledImporterAttribute.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ICustomTiledImporter.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.cs" />
@@ -76,44 +78,45 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\SpriteDepthInMapEditor.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\Tiled2UnityMenuItems.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
+    <None Include="Assets\Editor\Todo\README.txt" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -305,7 +308,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/alfre/Documents/GitHub/Pokemon-Tactics/ProbandoUnity/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/alfre/Documents/GitHub/PokemonTacticsFinal/ProbandoUnity/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

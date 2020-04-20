@@ -81,8 +81,9 @@ public class ControladorDialogoPersonaje : MonoBehaviour
         {
             interrogacionOn.Raise();
             jugadorEnRango = true;
-           
+
         }
+      
     }
     private void OnTriggerExit2D(Collider2D otro)
     {
@@ -102,6 +103,17 @@ public class ControladorDialogoPersonaje : MonoBehaviour
             {
                 SacarSiguienteFrase();
             }
+        }
+
+        if (panelDialogo.activeInHierarchy == true)
+        {
+            otro.GetComponent<MoverPersonaje>().enabled = false;
+            otro.GetComponent<Animator>().enabled = false;
+        }
+        else
+        {
+            otro.GetComponent<MoverPersonaje>().enabled = true;
+            otro.GetComponent<Animator>().enabled = true;
         }
     }
 

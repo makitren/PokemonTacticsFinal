@@ -72,5 +72,4 @@ public class Warp : MonoBehaviour
     {
         isFadeIn = false;
     }
-
 }

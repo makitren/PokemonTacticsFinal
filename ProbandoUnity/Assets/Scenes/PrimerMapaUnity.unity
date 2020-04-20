@@ -16126,7 +16126,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 234330056}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &155423043 stripped
 Transform:
@@ -16349,8 +16349,8 @@ Transform:
   m_LocalPosition: {x: -1.661, y: 1.45, z: 0}
   m_LocalScale: {x: 1.0798, y: 1, z: 1}
   m_Children:
-  - {fileID: 917308800}
   - {fileID: 152657678}
+  - {fileID: 917308800}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17277,11 +17277,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917308797}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06853121, y: -0.062000036, z: -1000}
-  m_LocalScale: {x: 0.9260974, y: 1, z: 1}
+  m_LocalPosition: {x: -0.068531215, y: -0.062000036, z: -1000}
+  m_LocalScale: {x: 0.92609745, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 234330056}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &917308801
 MonoBehaviour:
@@ -17402,7 +17402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.1999512, y: 0}
+  m_AnchoredPosition: {x: 2.2001953, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1144898067
@@ -36412,6 +36412,21 @@ PrefabInstance:
         type: 3}
       propertyPath: velocidadFrase
       value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2393595489757114019, guid: 00bb268756fd2004096371794b75ea77,
+        type: 3}
+      propertyPath: dialogo.listaFrases.Array.data[0]
+      value: "Caza-Bichos Antonio: \xA1Hola! Soy el cazabichos Antonio."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2393595489757114019, guid: 00bb268756fd2004096371794b75ea77,
+        type: 3}
+      propertyPath: dialogo.listaFrases.Array.data[1]
+      value: 'Caza-Bichos Antonio: Veo que acabas de llegar al pueblo.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2393595489757114019, guid: 00bb268756fd2004096371794b75ea77,
+        type: 3}
+      propertyPath: dialogo.listaFrases.Array.data[2]
+      value: "Caza-Bichos Antonio: Si te puedo ayudar con algo, \xA1no dudes en preguntarme!"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00bb268756fd2004096371794b75ea77, type: 3}

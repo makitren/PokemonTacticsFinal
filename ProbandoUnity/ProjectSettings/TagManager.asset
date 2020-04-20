@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MostrarArea
   - Pueblo Raqueta
+  - Monedas
   layers:
   - Default
   - TransparentFX
@@ -43,6 +44,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Carteles
+    uniqueID: 1267555045
+    locked: 0
   - name: Player
     uniqueID: 2087395089
+    locked: 0
+  - name: EncimaJugador
+    uniqueID: 3798050729
     locked: 0

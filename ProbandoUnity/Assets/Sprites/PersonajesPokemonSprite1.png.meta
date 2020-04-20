@@ -1,0 +1,2239 @@
+fileFormatVersion: 2
+guid: 2db60577603785042b7b1d3e0109b78a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2682714935123323163
+    second: PersonajesPokemonSprite1_0
+  - first:
+      213: 6561853688750625542
+    second: PersonajesPokemonSprite1_1
+  - first:
+      213: 8938602928472224009
+    second: PersonajesPokemonSprite1_2
+  - first:
+      213: -6840239232537953985
+    second: PersonajesPokemonSprite1_3
+  - first:
+      213: 7164792272102506318
+    second: PersonajesPokemonSprite1_4
+  - first:
+      213: -5063097129862725380
+    second: PersonajesPokemonSprite1_5
+  - first:
+      213: 5880843558788080460
+    second: PersonajesPokemonSprite1_6
+  - first:
+      213: 6734055237094640897
+    second: PersonajesPokemonSprite1_7
+  - first:
+      213: -4527545974676710781
+    second: PersonajesPokemonSprite1_8
+  - first:
+      213: 5933644686369931007
+    second: PersonajesPokemonSprite1_9
+  - first:
+      213: -6189264841282707207
+    second: PersonajesPokemonSprite1_10
+  - first:
+      213: -6422489130104155942
+    second: PersonajesPokemonSprite1_11
+  - first:
+      213: 6526510178847900386
+    second: PersonajesPokemonSprite1_12
+  - first:
+      213: -6955209353354363870
+    second: PersonajesPokemonSprite1_13
+  - first:
+      213: 8623564198404487664
+    second: PersonajesPokemonSprite1_14
+  - first:
+      213: -6882742804887787847
+    second: PersonajesPokemonSprite1_15
+  - first:
+      213: -4212708675946418329
+    second: PersonajesPokemonSprite1_16
+  - first:
+      213: -7949466697546830549
+    second: PersonajesPokemonSprite1_17
+  - first:
+      213: 1685969504813526794
+    second: PersonajesPokemonSprite1_18
+  - first:
+      213: 6287022043526387813
+    second: PersonajesPokemonSprite1_19
+  - first:
+      213: -5488536570315809501
+    second: PersonajesPokemonSprite1_20
+  - first:
+      213: 8254903566772673722
+    second: PersonajesPokemonSprite1_21
+  - first:
+      213: 329116796065814678
+    second: PersonajesPokemonSprite1_22
+  - first:
+      213: 6789107774440477901
+    second: PersonajesPokemonSprite1_23
+  - first:
+      213: 643562956825844846
+    second: PersonajesPokemonSprite1_24
+  - first:
+      213: -4252165255209289484
+    second: PersonajesPokemonSprite1_25
+  - first:
+      213: 840523055566649903
+    second: PersonajesPokemonSprite1_26
+  - first:
+      213: -3977613555573254953
+    second: PersonajesPokemonSprite1_27
+  - first:
+      213: -7886346566604931068
+    second: PersonajesPokemonSprite1_28
+  - first:
+      213: -801780251871079697
+    second: PersonajesPokemonSprite1_29
+  - first:
+      213: 6981651655442928059
+    second: PersonajesPokemonSprite1_30
+  - first:
+      213: -1983927286442953948
+    second: PersonajesPokemonSprite1_31
+  - first:
+      213: -3044562807567805879
+    second: PersonajesPokemonSprite1_32
+  - first:
+      213: 4253915193672754978
+    second: PersonajesPokemonSprite1_33
+  - first:
+      213: -4903658855436121442
+    second: PersonajesPokemonSprite1_34
+  - first:
+      213: -7964307186143851631
+    second: PersonajesPokemonSprite1_35
+  - first:
+      213: 1453283287975587748
+    second: PersonajesPokemonSprite1_36
+  - first:
+      213: 2662731727206260351
+    second: PersonajesPokemonSprite1_37
+  - first:
+      213: 6934138331501037408
+    second: PersonajesPokemonSprite1_38
+  - first:
+      213: -8080852696630583902
+    second: PersonajesPokemonSprite1_39
+  - first:
+      213: 2371437007404059870
+    second: PersonajesPokemonSprite1_40
+  - first:
+      213: 8724271849725564434
+    second: PersonajesPokemonSprite1_41
+  - first:
+      213: -5923073645575063427
+    second: PersonajesPokemonSprite1_42
+  - first:
+      213: 5647986647669376280
+    second: PersonajesPokemonSprite1_43
+  - first:
+      213: -6210968620602329502
+    second: PersonajesPokemonSprite1_44
+  - first:
+      213: 7900205677111444287
+    second: PersonajesPokemonSprite1_45
+  - first:
+      213: 8423803935777404918
+    second: PersonajesPokemonSprite1_46
+  - first:
+      213: -7569390780385757358
+    second: PersonajesPokemonSprite1_47
+  - first:
+      213: -2215581911636441512
+    second: PersonajesPokemonSprite1_48
+  - first:
+      213: -8500183723568586172
+    second: PersonajesPokemonSprite1_49
+  - first:
+      213: 5271407417115575758
+    second: PersonajesPokemonSprite1_50
+  - first:
+      213: 2582732024283019301
+    second: PersonajesPokemonSprite1_51
+  - first:
+      213: 2532477722621493729
+    second: PersonajesPokemonSprite1_52
+  - first:
+      213: -3539097303960094308
+    second: PersonajesPokemonSprite1_53
+  - first:
+      213: -3510158568957801925
+    second: PersonajesPokemonSprite1_54
+  - first:
+      213: -6825332308998995682
+    second: PersonajesPokemonSprite1_55
+  - first:
+      213: 1995389436933639730
+    second: PersonajesPokemonSprite1_56
+  - first:
+      213: -6172269845344633175
+    second: PersonajesPokemonSprite1_57
+  - first:
+      213: 6087017272730281835
+    second: PersonajesPokemonSprite1_58
+  - first:
+      213: -1026015825070174575
+    second: PersonajesPokemonSprite1_59
+  - first:
+      213: -687360165088816154
+    second: PersonajesPokemonSprite1_60
+  - first:
+      213: -403267398250514499
+    second: PersonajesPokemonSprite1_61
+  - first:
+      213: 8758670095156262034
+    second: PersonajesPokemonSprite1_62
+  - first:
+      213: -47536140345250972
+    second: PersonajesPokemonSprite1_63
+  - first:
+      213: -4624865584055493934
+    second: PersonajesPokemonSprite1_64
+  - first:
+      213: 3801797444905712564
+    second: PersonajesPokemonSprite1_65
+  - first:
+      213: 1067014518513838832
+    second: PersonajesPokemonSprite1_66
+  - first:
+      213: -6593239612185484527
+    second: PersonajesPokemonSprite1_67
+  - first:
+      213: 1198378431548137499
+    second: PersonajesPokemonSprite1_68
+  - first:
+      213: 4709647819722565776
+    second: PersonajesPokemonSprite1_69
+  - first:
+      213: 8432640818210040732
+    second: PersonajesPokemonSprite1_70
+  - first:
+      213: 1332808301722248420
+    second: PersonajesPokemonSprite1_71
+  - first:
+      213: -7597313384033755207
+    second: PersonajesPokemonSprite1_72
+  - first:
+      213: 8859861073934169100
+    second: PersonajesPokemonSprite1_73
+  - first:
+      213: -8857827602310272778
+    second: PersonajesPokemonSprite1_74
+  - first:
+      213: -9019520258359173179
+    second: PersonajesPokemonSprite1_75
+  - first:
+      213: 1696054204492221098
+    second: PersonajesPokemonSprite1_76
+  - first:
+      213: 8957436789341481225
+    second: PersonajesPokemonSprite1_77
+  - first:
+      213: 960643127747587607
+    second: PersonajesPokemonSprite1_78
+  - first:
+      213: 6121472705950926083
+    second: PersonajesPokemonSprite1_79
+  - first:
+      213: 2759457769486877847
+    second: PersonajesPokemonSprite1_80
+  - first:
+      213: -4835975104882841523
+    second: PersonajesPokemonSprite1_81
+  - first:
+      213: 6526664340398258246
+    second: PersonajesPokemonSprite1_82
+  - first:
+      213: -5037797476089497957
+    second: PersonajesPokemonSprite1_83
+  - first:
+      213: 5890903323937800516
+    second: PersonajesPokemonSprite1_84
+  - first:
+      213: 7482940228833876814
+    second: PersonajesPokemonSprite1_85
+  - first:
+      213: -1948283554141369138
+    second: PersonajesPokemonSprite1_86
+  - first:
+      213: 2366615815635163527
+    second: PersonajesPokemonSprite1_87
+  - first:
+      213: 111689826304382329
+    second: PersonajesPokemonSprite1_88
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 672
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7490b54583ae11b42a0d2c597c15bbe3
+      internalID: -2682714935123323163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 675
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36596d34386729489918d0a2c450c72
+      internalID: 6561853688750625542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 672
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4aa526500bdb494fabbaf6b0058b373
+      internalID: 8938602928472224009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 672
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14b6527f3db6984e9a708b94d45d7ab
+      internalID: -6840239232537953985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 675
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b98d8e31f3be2e4b999f43f1f704a26
+      internalID: 7164792272102506318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_5
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 672
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1c85022b6d8644fb0408ffe71d234b
+      internalID: -5063097129862725380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_6
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 672
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad0ac78d06094d4eb51c2e943e0ed6f
+      internalID: 5880843558788080460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_7
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 675
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a885b509d7b434bbab17bb17ccc067
+      internalID: 6734055237094640897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_8
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 672
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a395442634319634dad9d4560734e62b
+      internalID: -4527545974676710781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_9
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 672
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436ee6ae4f5c0b9438bedf26cc866a4d
+      internalID: 5933644686369931007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_10
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 675
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde50307f6578e14d880aeaebeb69933
+      internalID: -6189264841282707207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_11
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 672
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9969743ac766b4a88d50f5b7251a1b
+      internalID: -6422489130104155942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 579
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec77493ef794ca46aca993ebee2877d
+      internalID: 6526510178847900386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 579
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82380b9770e26a74f9d54d8b58866818
+      internalID: -6955209353354363870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 579
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8579697c838629d4eb488ecad6204988
+      internalID: 8623564198404487664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_15
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 579
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3463db928e500f43af2ead62c22bf1b
+      internalID: -6882742804887787847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_16
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 579
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa192a0a8ace9e46a70aa363e9f1adc
+      internalID: -4212708675946418329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_17
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 579
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43fa00e53662514c9d5ad7fe82d1463
+      internalID: -7949466697546830549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_18
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 579
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11856d4a2516b584681f4bfd57fd4736
+      internalID: 1685969504813526794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_19
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 579
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f29334f562eab45943a51326628e4e
+      internalID: 6287022043526387813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_20
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 579
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453077a1c0098154daca60d9fa6a353f
+      internalID: -5488536570315809501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_21
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 579
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3651ba322f67d40bd5b9d0311f7527
+      internalID: 8254903566772673722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_22
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 579
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c03f35d1f8fb1544bc926bc2d4179ee
+      internalID: 329116796065814678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_23
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 579
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c25fffac222e146aadbdd1b8091066
+      internalID: 6789107774440477901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 483
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f55ded3265aead4c902d8cb51bb9688
+      internalID: 643562956825844846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_25
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 483
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad417561b3da435429b84c6f45d9b1db
+      internalID: -4252165255209289484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_26
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 483
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39aba6b759cfef6408d2fdc4a277cdc0
+      internalID: 840523055566649903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_27
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 483
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a130e6c0444b74e916c56e31aa6638
+      internalID: -3977613555573254953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_28
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 483
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a49ab72f1410ce40a4925692cb79e26
+      internalID: -7886346566604931068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_29
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 483
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877a6177b30728945b99a3edbe39b9d1
+      internalID: -801780251871079697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_30
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 483
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751e3d723e4fe1549bcfb1ffa585b7cb
+      internalID: 6981651655442928059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_31
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 483
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbc701f6f5a42549b8d1ba0b0a9c958
+      internalID: -1983927286442953948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_32
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 483
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f811466f232da40a2749183873434b
+      internalID: -3044562807567805879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_33
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 483
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9c38454c66a5849948e5cbcbdfe600
+      internalID: 4253915193672754978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_34
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 483
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5effd40f51ab5419d82732ce65e13e
+      internalID: -4903658855436121442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_35
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 483
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4fcb806c789e24287e9acad43791b7
+      internalID: -7964307186143851631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 384
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bc495f0a0c16044993312f1b3f8a83
+      internalID: 1453283287975587748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_37
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 387
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04461384c349c564c8b4afcbee6ce20c
+      internalID: 2662731727206260351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 384
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cf3ded0b85d4e4bb95bfc5754fe005
+      internalID: 6934138331501037408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_39
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 384
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bdb5ea1739ccb4e810d4736f54a5bd
+      internalID: -8080852696630583902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_40
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 387
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a023c89460ebf0479ee592f23bad599
+      internalID: 2371437007404059870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_41
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 384
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7969ef93f67d7364a82c3a45eda9620b
+      internalID: 8724271849725564434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_42
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 384
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6d4e1bb5810a64a82c36d243dbbfdb
+      internalID: -5923073645575063427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_43
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 387
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d4cae220b3be540a7ab00ca53ae7a0
+      internalID: 5647986647669376280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_44
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 384
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5a460196ecd634db47dae91e4c863e
+      internalID: -6210968620602329502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_45
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 384
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f56a71e30e6584d9eaa53430a3c386
+      internalID: 7900205677111444287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_46
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 387
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4ce172a0d248443b08a4712065dfdc
+      internalID: 8423803935777404918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_47
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 384
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865cb4aabcd6676449d6aa75469816a9
+      internalID: -7569390780385757358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 288
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0601398549c44a40a205ca7be910c8e
+      internalID: -2215581911636441512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_49
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 291
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6485b82e360cd904bae385b88b074061
+      internalID: -8500183723568586172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_50
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 288
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56c142e7948ba94e9151c2ce73d574c
+      internalID: 5271407417115575758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_51
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 288
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b179af46a97fa4786709bec6b48890
+      internalID: 2582732024283019301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_52
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 291
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6131645efac7f214da34d7dbc019fc75
+      internalID: 2532477722621493729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_53
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 288
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b244b4a273a427b46973c08c85db3a86
+      internalID: -3539097303960094308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_54
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 288
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe7866e12c3b444286c90ceed2d8916
+      internalID: -3510158568957801925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_55
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 291
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a80499c68adae49859bce25b2de55b
+      internalID: -6825332308998995682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_56
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 288
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812c09b95f320e343a8fc47fe966008a
+      internalID: 1995389436933639730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_57
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 291
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45686693c7c2c324caff85c645b6a434
+      internalID: -6172269845344633175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_58
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 291
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b547d508ae5f397469f0777afeef3220
+      internalID: 6087017272730281835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_59
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 195
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac563d51bc6d1e4f8d9aa881daf6f68
+      internalID: -1026015825070174575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_60
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 195
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97779e2ce6f2174499ca5c5b852ebbf6
+      internalID: -687360165088816154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_61
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 195
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0af4a987a263da4f86b0c3cb1ca41d0
+      internalID: -403267398250514499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_62
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 195
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be09afb10b91444da5f721b83502e6f
+      internalID: 8758670095156262034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_63
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 195
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c85400bee8ef441b92f91e1a041ce2
+      internalID: -47536140345250972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_64
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 195
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe22f1dd2402344458ccaf66dee99e21
+      internalID: -4624865584055493934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_65
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 195
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7f9ca8a3bc83e47844fd0a48cc077f
+      internalID: 3801797444905712564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_66
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 195
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8c7654ed4d2f948bb2eb1fa5a0d8bf
+      internalID: 1067014518513838832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_67
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 195
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379478ffe8aa4274fb48fc6d775896cf
+      internalID: -6593239612185484527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_68
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 195
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecce69c9d04b4249a72c675d49c6cf4
+      internalID: 1198378431548137499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_69
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 195
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbe5eaae64708348adc2ab7db0ab532
+      internalID: 4709647819722565776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_70
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 99
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb78e94d5f3a634458573e94f4346204
+      internalID: 8432640818210040732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_71
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 99
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e555a86b5516b48842998334d2aa90
+      internalID: 1332808301722248420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_72
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 99
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad0e7a87871d284ea23b9d1d129355e
+      internalID: -7597313384033755207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_73
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 99
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2c160ca1fc93543828a9b4fee79b5e
+      internalID: 8859861073934169100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_74
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 99
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dcec53ea5b71848b277a3a0b30bec6
+      internalID: -8857827602310272778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_75
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 99
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc0c71249f5a1444b40794ff0d0d875
+      internalID: -9019520258359173179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_76
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 99
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a508ec6c167ee3941b250aa44867c26d
+      internalID: 1696054204492221098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_77
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 99
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea3283ed8d9a4c4e9b627681cf8331c
+      internalID: 8957436789341481225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_78
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 99
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33395060a5a513f4baf169b7d79284ed
+      internalID: 960643127747587607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_79
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 99
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9998c903351c7b24cba2e0d8f1945d6c
+      internalID: 6121472705950926083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c456d0b95c0224c803f4cdfa6fbc6d
+      internalID: 2759457769486877847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_81
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 3
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc8b3518321ecb41840c675d31de838
+      internalID: -4835975104882841523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_82
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab15c2b3024eaf459fffb0677641868
+      internalID: 6526664340398258246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_83
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4104cbf87a1d941a937b390000d709
+      internalID: -5037797476089497957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_84
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 3
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f146a785d18000545ae912033f9697dc
+      internalID: 5890903323937800516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_85
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be414b9afadd554fb914a5d6ad77227
+      internalID: 7482940228833876814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_86
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 0
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd509238a1479445bcc8a46981db14b
+      internalID: -1948283554141369138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_87
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 3
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74698bb0385022747b6cffcc4e51e24c
+      internalID: 2366615815635163527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajesPokemonSprite1_88
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 0
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59106b0472f87d6429710ce14ee49d07
+      internalID: 111689826304382329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 23cd980af49023247808468915062bfe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

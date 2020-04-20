@@ -31,7 +31,7 @@ MonoBehaviour:
       color: {r: 1, g: 0, b: 0, a: 1}
       index: 1
     task: Monedas Coleccionables Con Letrero
-    isComplete: 0
+    isComplete: 1
   - owner:
       name: Note
       color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -49,13 +49,13 @@ MonoBehaviour:
       color: {r: 1, g: 0, b: 0, a: 1}
       index: 1
     task: Pasar de un mapa a otro(En distintos scenes)
-    isComplete: 0
+    isComplete: 1
   - owner:
       name: Urgent
       color: {r: 1, g: 0, b: 0, a: 1}
       index: 1
     task: Dialogo entre personajes
-    isComplete: 0
+    isComplete: 1
   - owner:
       name: Urgent
       color: {r: 1, g: 0, b: 0, a: 1}
@@ -63,9 +63,9 @@ MonoBehaviour:
     task: "Men\xFA pausa durante el juego"
     isComplete: 0
   - owner:
-      name: Normal
-      color: {r: 1, g: 1, b: 1, a: 1}
-      index: 0
+      name: Urgent
+      color: {r: 1, g: 0, b: 0, a: 1}
+      index: 1
     task: Crear Misiones para personaje
     isComplete: 0
   - owner:
@@ -73,4 +73,46 @@ MonoBehaviour:
       color: {r: 0, g: 1, b: 1, a: 1}
       index: 2
     task: 'NOTA: USED BY COMPOSITE EN TILEMAP COLLIDER PARA QUE NO CHOQUE'
+    isComplete: 0
+  - owner:
+      name: Normal
+      color: {r: 1, g: 1, b: 1, a: 1}
+      index: 0
+    task: 'Poner dentro de cada grid del mapa: Cell Gap: -0.0001 en x e y'
+    isComplete: 0
+  - owner:
+      name: Normal
+      color: {r: 1, g: 1, b: 1, a: 1}
+      index: 0
+    task: Hacer FadeIn y FadeOut entre escenas
+    isComplete: 0
+  - owner:
+      name: Urgent
+      color: {r: 1, g: 0, b: 0, a: 1}
+      index: 1
+    task: Crear inventario de los pokemon
+    isComplete: 0
+  - owner:
+      name: Urgent
+      color: {r: 1, g: 0, b: 0, a: 1}
+      index: 1
+    task: Crear inventarior de los objetos
+    isComplete: 0
+  - owner:
+      name: Urgent
+      color: {r: 1, g: 0, b: 0, a: 1}
+      index: 1
+    task: Como hacer elecciones en las conversaciones
+    isComplete: 0
+  - owner:
+      name: Urgent
+      color: {r: 1, g: 0, b: 0, a: 1}
+      index: 1
+    task: Como hacer que un npc se mueva cuando ocurra algo
+    isComplete: 0
+  - owner:
+      name: Normal
+      color: {r: 1, g: 1, b: 1, a: 1}
+      index: 0
+    task: Llaves para abrir puertas
     isComplete: 0

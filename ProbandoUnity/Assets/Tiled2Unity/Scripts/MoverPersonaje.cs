@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class MoverPersonaje : MonoBehaviour
@@ -8,12 +7,16 @@ public class MoverPersonaje : MonoBehaviour
     Animator animacion;
     Rigidbody2D rb2d;
     Vector2 movimiento;
+    public ValorVector posicionComienzo;
 
     // Start is called before the first frame update
     void Start()
     {
         animacion = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
+        animacion.SetFloat("movX", 0);
+        animacion.SetFloat("movY", -1);
+        transform.position = posicionComienzo.valorInicial;
     }
 
     // Update is called once per frame
@@ -35,8 +38,10 @@ public class MoverPersonaje : MonoBehaviour
 
 
     }
+    
     private void FixedUpdate()
     {
+        movimiento.Normalize();
         rb2d.MovePosition(rb2d.position + movimiento * velMovimiento * Time.deltaTime);
     }
 }

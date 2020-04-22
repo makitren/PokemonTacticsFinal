@@ -1,0 +1,1735 @@
+fileFormatVersion: 2
+guid: 7d7aa8af32a02524a81c825d68374c1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3761213143499446898
+    second: EdificiosPokemon_0
+  - first:
+      213: -3590678301907272383
+    second: EdificiosPokemon_1
+  - first:
+      213: 8139576286991228042
+    second: EdificiosPokemon_2
+  - first:
+      213: -3556706771833438565
+    second: EdificiosPokemon_3
+  - first:
+      213: -7565147038170763914
+    second: EdificiosPokemon_4
+  - first:
+      213: -2562255204255230317
+    second: EdificiosPokemon_5
+  - first:
+      213: 5987531069438563176
+    second: EdificiosPokemon_6
+  - first:
+      213: 6578006424000550265
+    second: EdificiosPokemon_7
+  - first:
+      213: -7609821887300114329
+    second: EdificiosPokemon_8
+  - first:
+      213: 2523375812916235347
+    second: EdificiosPokemon_9
+  - first:
+      213: -530744348932633095
+    second: EdificiosPokemon_10
+  - first:
+      213: -8241509039112764764
+    second: EdificiosPokemon_11
+  - first:
+      213: -4853814639854449924
+    second: EdificiosPokemon_12
+  - first:
+      213: 323411503421042853
+    second: EdificiosPokemon_13
+  - first:
+      213: 4412045001136483409
+    second: EdificiosPokemon_14
+  - first:
+      213: 154235000143905794
+    second: EdificiosPokemon_15
+  - first:
+      213: 7924004565570164348
+    second: EdificiosPokemon_16
+  - first:
+      213: 7659972279912105986
+    second: EdificiosPokemon_17
+  - first:
+      213: -6099599085541902014
+    second: EdificiosPokemon_18
+  - first:
+      213: -8656845216378001359
+    second: EdificiosPokemon_19
+  - first:
+      213: 3280351428285992436
+    second: EdificiosPokemon_20
+  - first:
+      213: -4207650842226517613
+    second: EdificiosPokemon_21
+  - first:
+      213: 3088481966252545674
+    second: EdificiosPokemon_22
+  - first:
+      213: 8698654946646212399
+    second: EdificiosPokemon_23
+  - first:
+      213: 6482282194148004485
+    second: EdificiosPokemon_24
+  - first:
+      213: -881068891478516101
+    second: EdificiosPokemon_25
+  - first:
+      213: -6806786256474547105
+    second: EdificiosPokemon_26
+  - first:
+      213: 6344360671075455882
+    second: EdificiosPokemon_27
+  - first:
+      213: -6263870861259621756
+    second: EdificiosPokemon_28
+  - first:
+      213: -7068542769797140960
+    second: EdificiosPokemon_29
+  - first:
+      213: -5608719701878349606
+    second: EdificiosPokemon_30
+  - first:
+      213: 1861999134614819574
+    second: EdificiosPokemon_31
+  - first:
+      213: -481512431892085876
+    second: EdificiosPokemon_32
+  - first:
+      213: 6754289979574138817
+    second: EdificiosPokemon_33
+  - first:
+      213: -1526716879483616100
+    second: EdificiosPokemon_34
+  - first:
+      213: -623096320359554714
+    second: EdificiosPokemon_35
+  - first:
+      213: -7331619426582933396
+    second: EdificiosPokemon_36
+  - first:
+      213: -2156490199902976083
+    second: EdificiosPokemon_37
+  - first:
+      213: -3934813018076112829
+    second: EdificiosPokemon_38
+  - first:
+      213: -4846914342572782278
+    second: EdificiosPokemon_39
+  - first:
+      213: 5387248052765686501
+    second: EdificiosPokemon_40
+  - first:
+      213: -6798162137773768076
+    second: EdificiosPokemon_41
+  - first:
+      213: -3792288478135820770
+    second: EdificiosPokemon_42
+  - first:
+      213: -2338920555471345322
+    second: EdificiosPokemon_43
+  - first:
+      213: 5609756699640341790
+    second: EdificiosPokemon_44
+  - first:
+      213: 6761330038044577641
+    second: EdificiosPokemon_45
+  - first:
+      213: 3478430534386505645
+    second: EdificiosPokemon_46
+  - first:
+      213: 4172845898501734746
+    second: EdificiosPokemon_47
+  - first:
+      213: 4904449615451281452
+    second: EdificiosPokemon_48
+  - first:
+      213: 8409888710971714390
+    second: EdificiosPokemon_49
+  - first:
+      213: 5472917214452302428
+    second: EdificiosPokemon_50
+  - first:
+      213: 7579456782414888355
+    second: EdificiosPokemon_51
+  - first:
+      213: 1468340457928445026
+    second: EdificiosPokemon_52
+  - first:
+      213: 6968787164451748323
+    second: EdificiosPokemon_53
+  - first:
+      213: 35000814044147823
+    second: EdificiosPokemon_54
+  - first:
+      213: -1194642329125463820
+    second: EdificiosPokemon_55
+  - first:
+      213: 94220383597923314
+    second: EdificiosPokemon_56
+  - first:
+      213: 4738580056085566207
+    second: EdificiosPokemon_57
+  - first:
+      213: 8643115470329696137
+    second: EdificiosPokemon_58
+  - first:
+      213: -6196436884583362434
+    second: EdificiosPokemon_59
+  - first:
+      213: -5186494177899299525
+    second: EdificiosPokemon_60
+  - first:
+      213: 5373145457833692213
+    second: EdificiosPokemon_61
+  - first:
+      213: 4311921869506557746
+    second: EdificiosPokemon_62
+  - first:
+      213: -1426705613003536627
+    second: EdificiosPokemon_63
+  - first:
+      213: -8198171884651059825
+    second: EdificiosPokemon_64
+  - first:
+      213: 2759381762286111326
+    second: EdificiosPokemon_65
+  - first:
+      213: -3622628894368331934
+    second: EdificiosPokemon_66
+  - first:
+      213: -5588503403428404115
+    second: EdificiosPokemon_67
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EdificiosPokemon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 928
+        width: 99
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b347a6f3dfad434c81981539ab35651
+      internalID: -3761213143499446898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 928
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249b665eac5b4a845a405b2a1e360e5b
+      internalID: -3590678301907272383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 880
+        width: 92
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee974ab3474d6544abee5d9083def516
+      internalID: 8139576286991228042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_3
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 896
+        width: 108
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165e620b29bc5e7478fd823372b28a17
+      internalID: -3556706771833438565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_4
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 944
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d666886dd007cb444886970201ea856b
+      internalID: -7565147038170763914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_5
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 944
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddcbe1cf17e52843bda7ab4a11f9ddf
+      internalID: -2562255204255230317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_6
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 928
+        width: 208
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60ac05372ea58a48986b4118b36295d
+      internalID: 5987531069438563176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_7
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 832
+        width: 105
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caab6d2f00795f47816b6cc79f8e2a0
+      internalID: 6578006424000550265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 848
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54b7d892d7d76c4e834a84c813370f7
+      internalID: -7609821887300114329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 848
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08f9beab8b979e4abe37513c5c115ef
+      internalID: 2523375812916235347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 848
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abece9ac20068f4a95743799617ccb9
+      internalID: -530744348932633095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 848
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1aeec012260754d8addbdff7dedfce
+      internalID: -8241509039112764764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_12
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 848
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef195627b1333f347a0d54735116462d
+      internalID: -4853814639854449924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_13
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 848
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342f6f1afc2ae3f44921dc2789279ad8
+      internalID: 323411503421042853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_14
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 848
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9501c17f31e64a4486c71573fc83ab3
+      internalID: 4412045001136483409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 848
+        width: 112
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f1272d3162d6b418159f7365c62063
+      internalID: 154235000143905794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 736
+        width: 106
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb1b7be0fbc09249a9b477afb869c96
+      internalID: 7924004565570164348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 736
+        width: 106
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ae5abf294a55a45ac2d92605f90e87
+      internalID: 7659972279912105986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 736
+        width: 106
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d46e8c017e604746a5e18b1fe433eb5
+      internalID: -6099599085541902014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_19
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 736
+        width: 106
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67b10b3cdff614429e5c97428b07902
+      internalID: -8656845216378001359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_20
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 736
+        width: 106
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97b6645652016a4e9c3aecd63105ca1
+      internalID: 3280351428285992436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_21
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 736
+        width: 106
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db064b14e5712b14eaad30a161dfe83f
+      internalID: -4207650842226517613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_22
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 752
+        width: 176
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98b3c96870a1d34e9154f60ab018ef5
+      internalID: 3088481966252545674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca77ff2bf55635469d5fdd1942817fa
+      internalID: 8698654946646212399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_24
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 608
+        width: 60
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611ac63c2b132bb4badcb6edf9e4cec1
+      internalID: 6482282194148004485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_25
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 672
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6963d18aae9ae48a6e31448b709316
+      internalID: -881068891478516101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_26
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 608
+        width: 104
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615a0386216297f40af736de5c41d517
+      internalID: -6806786256474547105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 608
+        width: 80
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4702a13ba0694b14eb0c8ef216cfe75a
+      internalID: 6344360671075455882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_28
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 544
+        width: 153
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560347af0aa7d4145abaf13635d5de81
+      internalID: -6263870861259621756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_29
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 624
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e791816550b2ca8418d91beacaee67f6
+      internalID: -7068542769797140960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_30
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 624
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd597fc92c2f3d4a8e119083daf8693
+      internalID: -5608719701878349606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_31
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 560
+        width: 157
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8d1256d2d7e9d4aa311a2ba62a54b5
+      internalID: 1861999134614819574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_32
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 560
+        width: 112
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb66644bf7ae3b43ac638f1e0356d75
+      internalID: -481512431892085876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_33
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 672
+        width: 112
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfe2a7c1d0075d44ab9bb2361c9aba3
+      internalID: 6754289979574138817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 608
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfc37421a3d86a4793cdda6e4fbd5f5
+      internalID: -1526716879483616100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_35
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 512
+        width: 58
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333c66f317fb0e84c97be1d9d368e0ea
+      internalID: -623096320359554714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_36
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 240
+        width: 105
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41ffcd3e3f3da542b88b5b2825c9dca
+      internalID: -7331619426582933396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_37
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 584
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fcc44f6f6ee194d95ee1abf5bef07d
+      internalID: -2156490199902976083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_38
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 528
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eb4bed52a805b4da7f3638139fea81
+      internalID: -3934813018076112829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_39
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8f419ea53a5dc41ba903f99c7cbec7
+      internalID: -4846914342572782278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 336
+        width: 274
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f2f4a1e28adc945afa091703648d7a
+      internalID: 5387248052765686501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_41
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 432
+        width: 114
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd50a80370548b4fb59e2af14002c31
+      internalID: -6798162137773768076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_42
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 416
+        width: 105
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb63005d5d85ace4da3da2ed982b67e0
+      internalID: -3792288478135820770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_43
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 432
+        width: 116
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c5738b31b2023409b3c4abd6fe7d16
+      internalID: -2338920555471345322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_44
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 464
+        width: 128
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369f7ca5987318e449b524011790544d
+      internalID: 5609756699640341790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_45
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 384
+        width: 93
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d0dc619e108984a9b381aaf28639eb
+      internalID: 6761330038044577641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 112
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f060b4e5064178c4db1966023d4998bf
+      internalID: 3478430534386505645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_47
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 336
+        width: 112
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cd73a6941b8924084a993a863ae486
+      internalID: 4172845898501734746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_48
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 352
+        width: 149
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c206e060ca19f4448aa1609b4b94ff6b
+      internalID: 4904449615451281452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_49
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 304
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122feef244fea1848895d68f64d1e5ee
+      internalID: 8409888710971714390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_50
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 304
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fc53fc8c68d9847a594812020e22a9
+      internalID: 5472917214452302428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd62b02b988533645b885471f88154d0
+      internalID: 7579456782414888355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_52
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 256
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae6001d7232a7341a98354e237c8461
+      internalID: 1468340457928445026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_53
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 256
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf445df8ae496bd418feb94c89610f74
+      internalID: 6968787164451748323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_54
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 256
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1b784b8fedf104382afc3066d1d374
+      internalID: 35000814044147823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_55
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 224
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8913473464e2928499cd29e08b365fdc
+      internalID: -1194642329125463820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_56
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 256
+        width: 112
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e0bc713843ea248b1ee8da090682ed
+      internalID: 94220383597923314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_57
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 240
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c33cc9044d9ed40bc0b0bd68cbce89
+      internalID: 4738580056085566207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_58
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 128
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fa6cdc2d87f1e498b2bb32d058b4ba
+      internalID: 8643115470329696137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 176
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de364aaea36056419f49da8a0400fa4
+      internalID: -6196436884583362434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_60
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 174
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c5270ea054a9a43b8348644edb8c03
+      internalID: -5186494177899299525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_61
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 95
+        width: 304
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440f369baf6120b478f4f5f641b332b8
+      internalID: 5373145457833692213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_62
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 175
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f51821ef4bed84e9c01e0e3707affe
+      internalID: 4311921869506557746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_63
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 32
+        width: 160
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79f4b437b50654458d192d70d51b118
+      internalID: -1426705613003536627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 112
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9023dbcc40b674c95d16efefccb251
+      internalID: -8198171884651059825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_65
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 48
+        width: 78
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9936f3fec27bd4a86dccd85e4a62b3
+      internalID: 2759381762286111326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_66
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d72b0eacd249142a6ef511366197ee
+      internalID: -3622628894368331934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdificiosPokemon_67
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 11
+        width: 144
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a8a3e6d8ffe7b43bc88e0f4c906eb5
+      internalID: -5588503403428404115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5b78ddc5e6170154185d092df792f3a3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

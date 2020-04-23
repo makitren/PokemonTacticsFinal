@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ProbandoUnity1.unity
     guid: cc35f9d8b9e29234aadf7839fcd2200d
+  - enabled: 1
+    path: Assets/Scenes/MapaTres.unity
+    guid: fc606f73685d4194a8fef715dd039b21
   m_configObjects: {}

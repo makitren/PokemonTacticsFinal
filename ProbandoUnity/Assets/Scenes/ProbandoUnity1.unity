@@ -46305,7 +46305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escenaCargar: MapaTres
-  posicionJugador: {x: 0, y: 0}
+  posicionJugador: {x: -2.371, y: -0.955}
   memoriaJugador: {fileID: 0}
 --- !u!1 &1750295566
 GameObject:

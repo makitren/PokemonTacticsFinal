@@ -40,4 +40,8 @@ public class MenuPausa : MonoBehaviour
         SceneManager.LoadScene(menuPrincipal);
         Time.timeScale = 1f;
     }
+    public void Inventario()
+    {
+        
+    }
 }

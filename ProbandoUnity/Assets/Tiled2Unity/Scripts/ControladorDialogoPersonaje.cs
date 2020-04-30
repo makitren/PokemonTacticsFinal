@@ -50,7 +50,7 @@ public class ControladorDialogoPersonaje : MonoBehaviour
         foreach(char letra in frase.ToCharArray())
         {
             salidaTexto.text += letra;
-           // sonido.PlayOneShot(sonidoHabla);
+           //sonido.PlayOneShot(sonidoHabla);
             yield return new WaitForSeconds(velocidadFrase);
         }
     }
@@ -69,7 +69,7 @@ public class ControladorDialogoPersonaje : MonoBehaviour
                 panelDialogo.SetActive(true);
                 ComenzarDialogo();
                 interrogacionOff.Raise();
-                //salidaTexto.text = frases;
+                //salidaTexto.text = frases.ToString();
 
             }
         }
@@ -99,23 +99,25 @@ public class ControladorDialogoPersonaje : MonoBehaviour
     {
         if (otro.CompareTag("Player"))
         {
-            if (Input.GetKeyDown(KeyCode.Return)&& salidaTexto.text==fraseActiva)
+            if (Input.GetKeyDown(KeyCode.Return) && salidaTexto.text == fraseActiva)
             {
                 SacarSiguienteFrase();
             }
         }
-
-        if (panelDialogo.activeInHierarchy == true)
-        {
-            otro.GetComponent<MoverPersonaje>().enabled = false;
-            otro.GetComponent<Animator>().enabled = false;
-        }
         else
         {
-            otro.GetComponent<MoverPersonaje>().enabled = true;
-            otro.GetComponent<Animator>().enabled = true;
+
+            if (panelDialogo.activeInHierarchy == true)
+            {
+                otro.GetComponent<MoverPersonaje>().enabled = false;
+                otro.GetComponent<Animator>().enabled = false;
+            }
+            else
+            {
+                otro.GetComponent<MoverPersonaje>().enabled = true;
+                otro.GetComponent<Animator>().enabled = true;
+            }
         }
+
     }
-
-
 }

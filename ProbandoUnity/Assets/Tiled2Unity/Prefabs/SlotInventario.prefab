@@ -86,6 +86,7 @@ GameObject:
   - component: {fileID: 5749483013818863307}
   - component: {fileID: 5749483013818863306}
   - component: {fileID: 5749483013818863300}
+  - component: {fileID: -7896127204640802030}
   m_Layer: 5
   m_Name: SlotInventario
   m_TagString: Untagged
@@ -193,7 +194,34 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5749483013818863306}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -7896127204640802030}
+        m_MethodName: ClickedOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &-7896127204640802030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5749483013818863304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8985fcf69ad54114aa059bf6d310385f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemNameText: {fileID: 5749483014175954728}
+  itemImage: {fileID: 5749483012831176025}
+  thisitem: {fileID: 0}
+  thisManager: {fileID: 0}
 --- !u!1 &5749483014175954734
 GameObject:
   m_ObjectHideFlags: 0

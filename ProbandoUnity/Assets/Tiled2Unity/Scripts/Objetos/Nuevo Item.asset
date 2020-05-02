@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: PruebaInv
-  m_EditorClassIdentifier: Assembly-CSharp::NewBehaviourScript
-  nombreItem: Espada Larga
-  descripcionItem: Epadita guapa
-  item: {fileID: 9069327911869504326, guid: 504a14bd30c5d764ab841a7e7a96a626, type: 3}
+  m_Name: Nuevo Item
+  m_EditorClassIdentifier: Assembly-CSharp::Inventatio
+  nombreItem: PruebaInv
+  descripcionItem: Descripcion generica
+  item: {fileID: 679739729869728943, guid: fca81a2c799dfbc4dbe15f915b7d893f, type: 3}
   idinv: 1
   usable: 0
   unico: 0

@@ -8,6 +8,7 @@ public class MenuPausa : MonoBehaviour
     private bool enPausa;
     public GameObject panelPausa;
     public string menuPrincipal;
+    public GameObject invetario;
     void Start()
     {
         enPausa = false;
@@ -42,6 +43,12 @@ public class MenuPausa : MonoBehaviour
     }
     public void Inventario()
     {
-        
+        panelPausa.SetActive(false);
+        invetario.SetActive(true);
+    }
+    public void salirInventario()
+    {
+        panelPausa.SetActive(true);
+        invetario.SetActive(false);
     }
 }

@@ -12,6 +12,7 @@ public class ManagerInventario : MonoBehaviour
     [SerializeField] private GameObject inventoryPane;
     [SerializeField] private TextMeshProUGUI desciptionItems;
     [SerializeField] private GameObject useButton;
+    public Inventatio itemInv;
 
     public void SetTextAndButton(string description, bool buttonActive)
     {
@@ -48,9 +49,17 @@ public class ManagerInventario : MonoBehaviour
         SetTextAndButton("",false);
     }
     
-    public void SetupDesctiptionAndButton(string newDescriptionText,bool isButtonUsable) 
+    public void SetupDesctiptionAndButton(string newDescriptionText,bool isButtonUsable,Inventatio item) 
     {
+        itemInv = item;
         desciptionItems.text = newDescriptionText;
         useButton.SetActive(isButtonUsable);
+    }
+    public void BotonUsarPresionado()
+    {
+        if (itemInv)
+        {
+            itemInv.Use();
+        }
     }
 }

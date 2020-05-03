@@ -30,7 +30,7 @@ public class SlotInventario : MonoBehaviour
     {
         if (thisitem)
         {
-            thisManager.SetupDesctiptionAndButton(thisitem.descripcionItem, thisitem.usable);
+            thisManager.SetupDesctiptionAndButton(thisitem.descripcionItem, thisitem.usable,thisitem);
         }
         else
         {

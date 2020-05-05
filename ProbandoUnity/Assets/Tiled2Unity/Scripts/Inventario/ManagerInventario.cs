@@ -43,8 +43,9 @@ public class ManagerInventario : MonoBehaviour
         }
     }
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
+        ClearInventory();
         MakeInventorySlots();
         SetTextAndButton("",false);
     }
@@ -60,6 +61,13 @@ public class ManagerInventario : MonoBehaviour
         if (itemInv)
         {
             itemInv.Use();
+        }
+    }
+    void ClearInventory()
+    {
+        for(int i = 0; i < inventoryPane.transform.childCount; i++)
+        {
+            Destroy(inventoryPane.transform.GetChild(i).gameObject);
         }
     }
 }

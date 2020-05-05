@@ -10,11 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: Nuevo Item
+  m_Name: FuegoSagrado
   m_EditorClassIdentifier: Assembly-CSharp::Inventatio
-  nombreItem: PruebaInv
-  descripcionItem: Descripcion generica
-  item: {fileID: 679739729869728943, guid: fca81a2c799dfbc4dbe15f915b7d893f, type: 3}
-  idinv: 1
-  usable: 0
+  nombreItem: Fuego Sagrado
+  descripcionItem: Fuego Muy Antiguo que da poder a quien lo porta
+  item: {fileID: -7079720951457237320, guid: 71abe5799ea446246b43b9ee1980e20f, type: 3}
+  idinv: 5
+  usable: 1
   unico: 0
+  thisEvent:
+    m_PersistentCalls:
+      m_Calls: []

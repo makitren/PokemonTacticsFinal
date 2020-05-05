@@ -105,6 +105,8 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\DialogoPersonajes.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\EscuchadorSenial.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Interrogacion.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Inventario\FisicasObjetosSuelo.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Inventario\GuardarInventario.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Inventario\Inventario.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Inventario\InventarioJugador.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Inventario\ManagerInventario.cs" />

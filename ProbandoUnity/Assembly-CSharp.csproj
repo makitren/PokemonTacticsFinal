@@ -101,10 +101,13 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\AsignarMonedas.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\ControladorDialogoPersonaje.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\DialogoPersonajes.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\EscuchadorSenial.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\GameSaveManager.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Interrogacion.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Inventario\BooleanMonedas.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Inventario\FisicasObjetosSuelo.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Inventario\GuardarInventario.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Inventario\Inventario.cs" />
@@ -113,6 +116,7 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Inventario\SlotInventario.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\MenuPausa.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Moneda.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\MonedaCogida.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\MoverPersonaje.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />

@@ -4,6 +4,7 @@ using UnityEngine;
 public class MoverPersonaje : MonoBehaviour
 {
     public float velMovimiento = 20f;
+    public int monedas = 0;
     Animator animacion;
     Rigidbody2D rb2d;
     Vector2 movimiento;
@@ -35,7 +36,7 @@ public class MoverPersonaje : MonoBehaviour
         {
             animacion.SetBool("andando", false);
         }
-
+        monedas = Moneda.moneda;
 
     }
     

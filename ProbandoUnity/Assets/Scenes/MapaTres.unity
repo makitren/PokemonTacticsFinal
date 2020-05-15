@@ -14979,7 +14979,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fee9671cc18274d4bbcd910eba96d9a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moneda: 0
   textoMonedas: {fileID: 1249824456}
 --- !u!114 &506630327
 MonoBehaviour:
@@ -15127,6 +15126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velMovimiento: 0.5
+  monedas: 0
   posicionComienzo: {fileID: 11400000, guid: 64869272ded1c874c89f712906ef4cad, type: 2}
 --- !u!212 &506630334
 SpriteRenderer:
@@ -16832,7 +16832,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fee9671cc18274d4bbcd910eba96d9a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moneda: 0
   textoMonedas: {fileID: 1249824456}
 --- !u!1 &944747666
 GameObject:
@@ -17357,6 +17356,7 @@ GameObject:
   - component: {fileID: 1249824455}
   - component: {fileID: 1249824457}
   - component: {fileID: 1249824456}
+  - component: {fileID: 1249824458}
   m_Layer: 5
   m_Name: Texto Moneda
   m_TagString: Untagged
@@ -17502,6 +17502,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1249824454}
   m_CullTransparentMesh: 0
+--- !u!114 &1249824458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249824454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4fa4f79019b6bb46b9b7f6f3d0c3cab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoMonedas: {fileID: 1249824456}
 --- !u!1 &1278880307
 GameObject:
   m_ObjectHideFlags: 0

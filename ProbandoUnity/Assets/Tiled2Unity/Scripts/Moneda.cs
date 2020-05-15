@@ -4,12 +4,12 @@ using TMPro;
 
 public class Moneda : MonoBehaviour
 {
-    public int moneda = 0;
+    static public int moneda = 0;
     public TextMeshProUGUI textoMonedas;
 
     private void Awake()
     {
-        GameObject.DontDestroyOnLoad(textoMonedas);
+        DontDestroyOnLoad(textoMonedas);
     }
 
     private void OnTriggerEnter2D(Collider2D otro)
@@ -19,10 +19,8 @@ public class Moneda : MonoBehaviour
             {
             moneda++;
             textoMonedas.text = "Monedas: "+moneda.ToString();
+            otro.gameObject.SetActive(false);
            
-            Destroy(otro.gameObject);
-           
-            
         }
     }
 }

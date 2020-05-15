@@ -15,7 +15,6 @@ public class Inventatio : ScriptableObject
 
     public void Use()
     {
-        Debug.Log("Usando Item");
         thisEvent.Invoke();
     }
 }

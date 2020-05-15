@@ -68,6 +68,8 @@
     <Compile Include="Assets\MenuPrincipal.cs" />
     <Compile Include="Assets\MostrarArea.cs" />
     <Compile Include="Assets\Mover.cs" />
+    <Compile Include="Assets\QuestGiver.cs" />
+    <Compile Include="Assets\QuestGoal.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -101,6 +103,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\ActivadoMisiones.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\AsignarMonedas.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\ControladorDialogoPersonaje.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\DialogoPersonajes.cs" />
@@ -118,6 +121,7 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Moneda.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\MonedaCogida.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\MoverPersonaje.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Quest.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GPUInstancing.cs" />

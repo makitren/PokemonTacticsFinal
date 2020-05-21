@@ -3,6 +3,7 @@ using UnityEngine;
 using TMPro;
 using System.Data.Common;
 using System.Threading;
+using System.Collections;
 
 public class Moneda : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class Moneda : MonoBehaviour
        
     }
 
-    private void OnTriggerEnter2D(Collider2D otro)
+    IEnumerator OnTriggerEnter2D(Collider2D otro)
     {
         
           
@@ -34,9 +35,10 @@ public class Moneda : MonoBehaviour
                     moverPersonaje.quest.Completada();
                     textoMonedas.text = "Monedas: " + moneda.ToString();
                     mision.SetActive(true);
+                    yield return new WaitForSecondsRealtime(2f);
+                    mision.SetActive(false);
                 }
             }
         }
     }
-
 }

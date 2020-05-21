@@ -8,12 +8,14 @@ public class Quest
     public string titulo;
     public string desc;
     public int oroRecibido;
+    public bool completada;
 
     public QuestGoal questGoal;
 
     public void Completada()
     {
         activada = false;
+        completada = true;
         Debug.Log(titulo+" ha sido completada");
     }
 }

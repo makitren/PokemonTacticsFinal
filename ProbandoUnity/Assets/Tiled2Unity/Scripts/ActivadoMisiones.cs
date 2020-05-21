@@ -17,9 +17,13 @@ public class ActivadoMisiones : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && jugadorEnRango)
+        if (Input.GetKeyDown(KeyCode.E) && jugadorEnRango&&!questGiver.quest.activada&&!questGiver.quest.completada)
         {
             questGiver.AbrirVentataQuest();
+        }
+        else
+        {
+
         }
     }
     private void OnTriggerEnter2D(Collider2D otro)

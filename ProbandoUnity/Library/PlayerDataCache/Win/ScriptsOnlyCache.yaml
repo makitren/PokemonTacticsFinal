@@ -3,9 +3,13 @@ ScriptsOnlyBuild:
     Assembly-CSharp-Editor.dll:
     - ListData
     Assembly-CSharp.dll:
+    - ActivadoMisiones
+    - AsignarMonedas
     - Cartel
     - ControladorDialogoPersonaje
     - EscuchadorSenial
+    - GameSaveManager
+    - GuardarInventario
     - Interrogacion
     - InventarioJugador
     - MainCamera
@@ -15,6 +19,7 @@ ScriptsOnlyBuild:
     - Moneda
     - MostrarArea
     - MoverPersonaje
+    - QuestGiver
     - Senial
     - SlotInventario
     - TransicionEscena
@@ -108,29 +113,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10020}
     - Class: 114
-      Script: {instanceID: 10360}
+      Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10398}
+      Script: {instanceID: 10404}
     - Class: 114
-      Script: {instanceID: 10682}
+      Script: {instanceID: 10694}
     - Class: 114
-      Script: {instanceID: 10742}
+      Script: {instanceID: 10754}
     - Class: 114
-      Script: {instanceID: 10784}
+      Script: {instanceID: 10796}
     - Class: 114
-      Script: {instanceID: 10948}
+      Script: {instanceID: 10906}
     - Class: 114
-      Script: {instanceID: 10956}
+      Script: {instanceID: 10962}
     - Class: 114
-      Script: {instanceID: 11026}
+      Script: {instanceID: 10970}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 11040}
     - Class: 114
-      Script: {instanceID: 11286}
+      Script: {instanceID: 11260}
     - Class: 114
-      Script: {instanceID: 11312}
+      Script: {instanceID: 11300}
     - Class: 114
-      Script: {instanceID: 11626}
+      Script: {instanceID: 11326}
+    - Class: 114
+      Script: {instanceID: 11644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -187,31 +194,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9948}
     - Class: 114
-      Script: {instanceID: 10372}
+      Script: {instanceID: 10376}
     - Class: 114
-      Script: {instanceID: 10396}
+      Script: {instanceID: 10402}
     - Class: 114
-      Script: {instanceID: 10400}
+      Script: {instanceID: 10406}
     - Class: 114
-      Script: {instanceID: 10784}
-    - Class: 114
-      Script: {instanceID: 11026}
+      Script: {instanceID: 10796}
     - Class: 114
       Script: {instanceID: 11040}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 11054}
     - Class: 114
-      Script: {instanceID: 11312}
+      Script: {instanceID: 11260}
     - Class: 114
-      Script: {instanceID: 11504}
+      Script: {instanceID: 11326}
     - Class: 114
-      Script: {instanceID: 11620}
+      Script: {instanceID: 11518}
     - Class: 114
-      Script: {instanceID: 11728}
+      Script: {instanceID: 11638}
     - Class: 114
-      Script: {instanceID: 11750}
+      Script: {instanceID: 11746}
     - Class: 114
-      Script: {instanceID: 11766}
+      Script: {instanceID: 11768}
+    - Class: 114
+      Script: {instanceID: 11784}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -264,8 +271,6 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 0}
-    - Class: 114
       Script: {instanceID: 640}
     - Class: 114
       Script: {instanceID: 9734}
@@ -286,45 +291,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10266}
     - Class: 114
-      Script: {instanceID: 10360}
+      Script: {instanceID: 10270}
     - Class: 114
-      Script: {instanceID: 10372}
+      Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10392}
+      Script: {instanceID: 10376}
+    - Class: 114
+      Script: {instanceID: 10386}
     - Class: 114
       Script: {instanceID: 10398}
     - Class: 114
-      Script: {instanceID: 10460}
+      Script: {instanceID: 10404}
     - Class: 114
-      Script: {instanceID: 10568}
+      Script: {instanceID: 10436}
     - Class: 114
-      Script: {instanceID: 10588}
+      Script: {instanceID: 10468}
     - Class: 114
-      Script: {instanceID: 10682}
+      Script: {instanceID: 10544}
     - Class: 114
-      Script: {instanceID: 10742}
+      Script: {instanceID: 10578}
     - Class: 114
-      Script: {instanceID: 10784}
+      Script: {instanceID: 10598}
     - Class: 114
-      Script: {instanceID: 10948}
+      Script: {instanceID: 10694}
     - Class: 114
-      Script: {instanceID: 10956}
+      Script: {instanceID: 10754}
     - Class: 114
-      Script: {instanceID: 11026}
+      Script: {instanceID: 10796}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 10906}
     - Class: 114
-      Script: {instanceID: 11286}
+      Script: {instanceID: 10962}
     - Class: 114
-      Script: {instanceID: 11312}
+      Script: {instanceID: 10970}
     - Class: 114
-      Script: {instanceID: 11540}
+      Script: {instanceID: 11040}
     - Class: 114
-      Script: {instanceID: 11626}
+      Script: {instanceID: 11260}
     - Class: 114
-      Script: {instanceID: 11728}
+      Script: {instanceID: 11300}
     - Class: 114
-      Script: {instanceID: 11780}
+      Script: {instanceID: 11326}
+    - Class: 114
+      Script: {instanceID: 11556}
+    - Class: 114
+      Script: {instanceID: 11644}
+    - Class: 114
+      Script: {instanceID: 11746}
+    - Class: 114
+      Script: {instanceID: 11800}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -381,8 +396,6 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 0}
-    - Class: 114
       Script: {instanceID: 640}
     - Class: 114
       Script: {instanceID: 9734}
@@ -399,37 +412,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10060}
     - Class: 114
-      Script: {instanceID: 10266}
+      Script: {instanceID: 10270}
     - Class: 114
-      Script: {instanceID: 10360}
+      Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10568}
+      Script: {instanceID: 10578}
     - Class: 114
-      Script: {instanceID: 10588}
+      Script: {instanceID: 10598}
     - Class: 114
-      Script: {instanceID: 10682}
+      Script: {instanceID: 10694}
     - Class: 114
-      Script: {instanceID: 10742}
+      Script: {instanceID: 10754}
     - Class: 114
-      Script: {instanceID: 10784}
+      Script: {instanceID: 10796}
     - Class: 114
-      Script: {instanceID: 10948}
+      Script: {instanceID: 10906}
     - Class: 114
-      Script: {instanceID: 10956}
+      Script: {instanceID: 10962}
     - Class: 114
-      Script: {instanceID: 11026}
+      Script: {instanceID: 10970}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 11040}
     - Class: 114
-      Script: {instanceID: 11286}
+      Script: {instanceID: 11260}
     - Class: 114
-      Script: {instanceID: 11312}
+      Script: {instanceID: 11300}
     - Class: 114
-      Script: {instanceID: 11540}
+      Script: {instanceID: 11326}
     - Class: 114
-      Script: {instanceID: 11626}
+      Script: {instanceID: 11556}
     - Class: 114
-      Script: {instanceID: 11780}
+      Script: {instanceID: 11644}
+    - Class: 114
+      Script: {instanceID: 11800}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -619,6 +634,12 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 845dc069dd77ec3d543ef5b2758fcde6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MonedaCogida
+  - hash:
+      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -647,6 +668,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1f6c2a6d16af265dfa186e90ef846f50
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameSaveManager
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -685,7 +712,7 @@ ScriptsOnlyBuild:
     className: WarpTextExample
   - hash:
       serializedVersion: 2
-      Hash: ee98b2dbdc844f22cd9a625339acdaf0
+      Hash: 14496f668b80f4e643e100276ede99d0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MoverPersonaje
@@ -701,6 +728,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 07cba5cd26cd553ad56f7430ccb955e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GuardarInventario
   - hash:
       serializedVersion: 2
       Hash: dd7520b7d4e690e8c593273e7b9fbe80
@@ -751,6 +784,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: c97df1f4942b1af3da1630efeb14b08a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuestGiver
+  - hash:
+      serializedVersion: 2
       Hash: 47930f3b40e24ef5b3b5e3d9ada7097a
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -761,6 +800,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Warp
+  - hash:
+      serializedVersion: 2
+      Hash: f66d29863319b730a2390c9716802e9f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ActivadoMisiones
   - hash:
       serializedVersion: 2
       Hash: 02645cd2809521863e990f79b565042a
@@ -809,6 +854,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 3dcf38d1ddfed8a9a8761fcd08d5a5f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BooleanMonedas
   - hash:
       serializedVersion: 2
       Hash: 918b97153aeacec0e0f1bcd0db735aee
@@ -869,6 +920,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: f958f32d927d64da1830aa91a3ee79a9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AsignarMonedas
   - hash:
       serializedVersion: 2
       Hash: d5f681ff4b3b52a23ce8a641a854810b
@@ -1009,7 +1066,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: cbee269e53d1ae8733d41ff57c626263
+      Hash: a4963bb323fae984bc7fba8b0adde301
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Moneda
@@ -1261,6 +1318,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: 9983544e85a670f3f3bf6e432882a5f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FisicasObjetosSuelo
+  - hash:
+      serializedVersion: 2
       Hash: 6b36c91b774c4919c21f4fbab89e88bd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1283,4 +1346,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/PrimerMapaUnity.unity
   - Assets/Scenes/ProbandoUnity1.unity
   - Assets/Scenes/MapaTres.unity
-  playerPath: C:/Users/anton/Desktop/JuegoProyecto/ProbandoUnity.exe
+  playerPath: C:/Users/alfre/Desktop/ProbandoUnity.exe

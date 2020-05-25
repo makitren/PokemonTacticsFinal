@@ -122,6 +122,7 @@
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Moneda.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\MonedaCogida.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\MoverPersonaje.cs" />
+    <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Puerta.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Quest.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />

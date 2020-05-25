@@ -12,6 +12,7 @@ public class QuestGiver : MonoBehaviour
     public TextMeshProUGUI titletext;
     public TextMeshProUGUI descricionText;
     public TextMeshProUGUI oroTexto;
+    public GameObject barreraBorrar;
 
     public void AbrirVentataQuest()
     {
@@ -25,5 +26,10 @@ public class QuestGiver : MonoBehaviour
         questWindows.SetActive(false);
         quest.activada = true;
         moverPersonaje.quest = quest;
+        if (barreraBorrar)
+        {
+            Destroy(barreraBorrar);
+        }
+        
     }
 }

@@ -7,9 +7,11 @@ public class QuestGoal
     public GoalType goalType;
     public int requisitoMision;
     public int currentAmount;
+    public GameObject objetoBorrar;
     public bool IsReached()
     {
         return (currentAmount >= requisitoMision);
+
     }
     public void CojerMonedas()
     {

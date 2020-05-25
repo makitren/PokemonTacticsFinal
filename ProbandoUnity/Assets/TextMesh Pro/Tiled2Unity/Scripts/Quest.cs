@@ -9,6 +9,7 @@ public class Quest
     public string desc;
     public int oroRecibido;
     public bool completada;
+    
 
     public QuestGoal questGoal;
 
@@ -17,5 +18,10 @@ public class Quest
         activada = false;
         completada = true;
         Debug.Log(titulo+" ha sido completada");
+        if (questGoal.objetoBorrar)
+        {
+            questGoal.objetoBorrar.SetActive(false);
+        }
+        
     }
 }

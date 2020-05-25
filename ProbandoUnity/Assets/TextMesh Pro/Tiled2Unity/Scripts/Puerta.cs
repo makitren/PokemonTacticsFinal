@@ -27,10 +27,7 @@ public class Puerta : MonoBehaviour
         abierta = true;
         fisicasColision.enabled = false;
     }
-    public void Cerrar()
-    {
-
-    }
+   
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))

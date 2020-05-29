@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp-Editor.dll:
     - ListData
+    - TodoList
     Assembly-CSharp.dll:
     - ActivadoMisiones
     - AsignarMonedas
@@ -50,7 +51,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -1346,4 +1346,8 @@ ScriptsOnlyBuild:
   - Assets/Scenes/PrimerMapaUnity.unity
   - Assets/Scenes/ProbandoUnity1.unity
   - Assets/Scenes/MapaTres.unity
+<<<<<<< Updated upstream
   playerPath: C:/Users/alfre/Desktop/ProbandoUnity.exe
+=======
+  playerPath: C:/Users/anton/Desktop/Juego/ProbandoUnity.exe
+>>>>>>> Stashed changes

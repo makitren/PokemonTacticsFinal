@@ -209,7 +209,6 @@ GameObject:
   - component: {fileID: 75245902}
   - component: {fileID: 75245901}
   - component: {fileID: 75245900}
-  - component: {fileID: 75245903}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: Untagged
@@ -225,17 +224,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75245898}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.12890625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 680266295}
   - {fileID: 633426447}
-  m_Father: {fileID: 1929459010}
+  m_Father: {fileID: 1719871599}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -266.8, y: 0.6}
+  m_AnchoredPosition: {x: 383.81976, y: 70.25576}
   m_SizeDelta: {x: 115.2, y: 104.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &75245900
@@ -281,7 +280,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 75245903}
+      - m_Target: {fileID: 1719871600}
         m_MethodName: Comprar
         m_Mode: 1
         m_Arguments:
@@ -328,31 +327,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75245898}
   m_CullTransparentMesh: 0
---- !u!114 &75245903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 75245898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e61a973ded17b64e9d430a0b2cfdae0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pokemons: {fileID: 0}
-  boton: {fileID: 75245900}
-  tiendaPokemon:
-  - {fileID: 11400000, guid: 9f6ff10c04d35d04fa637011af389d92, type: 2}
-  - {fileID: 11400000, guid: cdf16dfe235596f479bc24b3c5d9b6e3, type: 2}
-  - {fileID: 11400000, guid: 4900667fc0ef30647a99eeb80ca296f3, type: 2}
-  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
-  - {fileID: 11400000, guid: 6080c55c6815eb44189eb596e961a90c, type: 2}
-  pokemonJugador: {fileID: 0}
-  pokemonsEnemigo: {fileID: 1125086374}
-  image: {fileID: 633426448}
-  text: {fileID: 1957267306}
-  precio: {fileID: 823228098}
 --- !u!1 &120774838
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,7 +439,6 @@ GameObject:
   - component: {fileID: 242899583}
   - component: {fileID: 242899582}
   - component: {fileID: 242899581}
-  - component: {fileID: 242899580}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: Untagged
@@ -481,44 +454,19 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 242899578}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 44.739044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 341294457}
   - {fileID: 834767731}
-  m_Father: {fileID: 1929459010}
-  m_RootOrder: 4
+  m_Father: {fileID: 2056037800}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -136.9, y: 0.6000366}
+  m_AnchoredPosition: {x: -157.5021, y: 118.6734}
   m_SizeDelta: {x: 115.2, y: 104.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &242899580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 242899578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e61a973ded17b64e9d430a0b2cfdae0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pokemons: {fileID: 0}
-  boton: {fileID: 242899581}
-  tiendaPokemon:
-  - {fileID: 11400000, guid: 9f6ff10c04d35d04fa637011af389d92, type: 2}
-  - {fileID: 11400000, guid: cdf16dfe235596f479bc24b3c5d9b6e3, type: 2}
-  - {fileID: 11400000, guid: 4900667fc0ef30647a99eeb80ca296f3, type: 2}
-  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
-  - {fileID: 11400000, guid: 6080c55c6815eb44189eb596e961a90c, type: 2}
-  pokemonJugador: {fileID: 0}
-  pokemonsEnemigo: {fileID: 1125086374}
-  image: {fileID: 834767732}
-  text: {fileID: 369064729}
-  precio: {fileID: 939649238}
 --- !u!114 &242899581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -562,7 +510,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 242899580}
+      - m_Target: {fileID: 2056037801}
         m_MethodName: Comprar
         m_Mode: 1
         m_Arguments:
@@ -27091,7 +27039,6 @@ GameObject:
   - component: {fileID: 1481110475}
   - component: {fileID: 1481110474}
   - component: {fileID: 1481110473}
-  - component: {fileID: 1481110472}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: Untagged
@@ -27107,44 +27054,19 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481110470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 44.739044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1963741086}
   - {fileID: 962739593}
-  m_Father: {fileID: 1929459010}
-  m_RootOrder: 3
+  m_Father: {fileID: 1487870742}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.2, y: 0.6}
+  m_AnchoredPosition: {x: -24.802113, y: 118.67336}
   m_SizeDelta: {x: 115.2, y: 104.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1481110472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1481110470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e61a973ded17b64e9d430a0b2cfdae0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pokemons: {fileID: 0}
-  boton: {fileID: 1481110473}
-  tiendaPokemon:
-  - {fileID: 11400000, guid: 9f6ff10c04d35d04fa637011af389d92, type: 2}
-  - {fileID: 11400000, guid: cdf16dfe235596f479bc24b3c5d9b6e3, type: 2}
-  - {fileID: 11400000, guid: 4900667fc0ef30647a99eeb80ca296f3, type: 2}
-  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
-  - {fileID: 11400000, guid: 6080c55c6815eb44189eb596e961a90c, type: 2}
-  pokemonJugador: {fileID: 0}
-  pokemonsEnemigo: {fileID: 1125086374}
-  image: {fileID: 962739594}
-  text: {fileID: 1788738146}
-  precio: {fileID: 533091950}
 --- !u!114 &1481110473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27188,7 +27110,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1481110472}
+      - m_Target: {fileID: 1487870743}
         m_MethodName: Comprar
         m_Mode: 1
         m_Arguments:
@@ -27235,6 +27157,120 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481110470}
   m_CullTransparentMesh: 0
+--- !u!1 &1487870741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1487870742}
+  - component: {fileID: 1487870743}
+  m_Layer: 0
+  m_Name: BotonComprar3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1487870742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487870741}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20.602118, y: -118.073364, z: -44.739044}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1481110471}
+  m_Father: {fileID: 1929459010}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1487870743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487870741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e61a973ded17b64e9d430a0b2cfdae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemons: {fileID: 0}
+  boton: {fileID: 1481110473}
+  tiendaPokemon:
+  - {fileID: 11400000, guid: 9f6ff10c04d35d04fa637011af389d92, type: 2}
+  - {fileID: 11400000, guid: cdf16dfe235596f479bc24b3c5d9b6e3, type: 2}
+  - {fileID: 11400000, guid: 4900667fc0ef30647a99eeb80ca296f3, type: 2}
+  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
+  - {fileID: 11400000, guid: 6080c55c6815eb44189eb596e961a90c, type: 2}
+  pokemonJugador: {fileID: 1862979243}
+  pokemonsEnemigo: {fileID: 1125086374}
+  image: {fileID: 962739594}
+  text: {fileID: 1788738146}
+  precio: {fileID: 533091950}
+--- !u!1 &1488858306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1488858307}
+  - component: {fileID: 1488858308}
+  m_Layer: 0
+  m_Name: BotonComprar5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1488858307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488858306}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20.602118, y: -118.073364, z: -44.739044}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2134448599}
+  m_Father: {fileID: 1929459010}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1488858308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488858306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e61a973ded17b64e9d430a0b2cfdae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemons: {fileID: 0}
+  boton: {fileID: 2134448601}
+  tiendaPokemon:
+  - {fileID: 11400000, guid: 9f6ff10c04d35d04fa637011af389d92, type: 2}
+  - {fileID: 11400000, guid: cdf16dfe235596f479bc24b3c5d9b6e3, type: 2}
+  - {fileID: 11400000, guid: 4900667fc0ef30647a99eeb80ca296f3, type: 2}
+  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
+  - {fileID: 11400000, guid: 6080c55c6815eb44189eb596e961a90c, type: 2}
+  pokemonJugador: {fileID: 1862979243}
+  pokemonsEnemigo: {fileID: 1125086374}
+  image: {fileID: 1787431555}
+  text: {fileID: 863047738}
+  precio: {fileID: 51381920}
 --- !u!1 &1537202837
 GameObject:
   m_ObjectHideFlags: 0
@@ -27301,6 +27337,120 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1575734667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1575734668}
+  - component: {fileID: 1575734669}
+  m_Layer: 0
+  m_Name: BotonComprar4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1575734668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575734667}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20.602118, y: -118.073364, z: -44.739044}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2013165977}
+  m_Father: {fileID: 1929459010}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1575734669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575734667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e61a973ded17b64e9d430a0b2cfdae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemons: {fileID: 0}
+  boton: {fileID: 2013165979}
+  tiendaPokemon:
+  - {fileID: 11400000, guid: 9f6ff10c04d35d04fa637011af389d92, type: 2}
+  - {fileID: 11400000, guid: cdf16dfe235596f479bc24b3c5d9b6e3, type: 2}
+  - {fileID: 11400000, guid: 4900667fc0ef30647a99eeb80ca296f3, type: 2}
+  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
+  - {fileID: 11400000, guid: 6080c55c6815eb44189eb596e961a90c, type: 2}
+  pokemonJugador: {fileID: 1862979243}
+  pokemonsEnemigo: {fileID: 1125086374}
+  image: {fileID: 926072414}
+  text: {fileID: 1367237195}
+  precio: {fileID: 1183797489}
+--- !u!1 &1719871598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1719871599}
+  - component: {fileID: 1719871600}
+  m_Layer: 0
+  m_Name: BotonComprar1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1719871599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719871598}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -650.61975, y: -69.65576, z: 0.12890625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 75245899}
+  m_Father: {fileID: 1929459010}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1719871600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719871598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e61a973ded17b64e9d430a0b2cfdae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemons: {fileID: 0}
+  boton: {fileID: 75245900}
+  tiendaPokemon:
+  - {fileID: 11400000, guid: 9f6ff10c04d35d04fa637011af389d92, type: 2}
+  - {fileID: 11400000, guid: cdf16dfe235596f479bc24b3c5d9b6e3, type: 2}
+  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
+  - {fileID: 11400000, guid: 4900667fc0ef30647a99eeb80ca296f3, type: 2}
+  - {fileID: 11400000, guid: 6080c55c6815eb44189eb596e961a90c, type: 2}
+  pokemonJugador: {fileID: 1862979243}
+  pokemonsEnemigo: {fileID: 1125086374}
+  image: {fileID: 633426448}
+  text: {fileID: 1957267306}
+  precio: {fileID: 823228098}
 --- !u!1 &1721655833
 GameObject:
   m_ObjectHideFlags: 0
@@ -27844,17 +27994,17 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 75245899}
-  - {fileID: 2134448599}
-  - {fileID: 2013165977}
-  - {fileID: 1481110471}
-  - {fileID: 242899579}
+  - {fileID: 1575734668}
+  - {fileID: 1487870742}
+  - {fileID: 1488858307}
+  - {fileID: 2056037800}
+  - {fileID: 1719871599}
   m_Father: {fileID: 1215634141}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.1, y: -311.3}
+  m_AnchoredPosition: {x: 12.1, y: -117}
   m_SizeDelta: {x: 672, y: 132.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929459011
@@ -28060,7 +28210,6 @@ GameObject:
   - component: {fileID: 2013165981}
   - component: {fileID: 2013165980}
   - component: {fileID: 2013165979}
-  - component: {fileID: 2013165978}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: Untagged
@@ -28076,44 +28225,19 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013165976}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 44.739044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1740537843}
   - {fileID: 926072413}
-  m_Father: {fileID: 1929459010}
-  m_RootOrder: 2
+  m_Father: {fileID: 1575734668}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 129.6, y: 0.6000366}
+  m_AnchoredPosition: {x: 108.997894, y: 118.6734}
   m_SizeDelta: {x: 115.2, y: 104.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2013165978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2013165976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e61a973ded17b64e9d430a0b2cfdae0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pokemons: {fileID: 0}
-  boton: {fileID: 2013165979}
-  tiendaPokemon:
-  - {fileID: 11400000, guid: 9f6ff10c04d35d04fa637011af389d92, type: 2}
-  - {fileID: 11400000, guid: cdf16dfe235596f479bc24b3c5d9b6e3, type: 2}
-  - {fileID: 11400000, guid: 4900667fc0ef30647a99eeb80ca296f3, type: 2}
-  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
-  - {fileID: 11400000, guid: 6080c55c6815eb44189eb596e961a90c, type: 2}
-  pokemonJugador: {fileID: 0}
-  pokemonsEnemigo: {fileID: 1125086374}
-  image: {fileID: 926072414}
-  text: {fileID: 1367237195}
-  precio: {fileID: 1183797489}
 --- !u!114 &2013165979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28157,7 +28281,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2013165978}
+      - m_Target: {fileID: 1575734669}
         m_MethodName: Comprar
         m_Mode: 1
         m_Arguments:
@@ -28204,6 +28328,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013165976}
   m_CullTransparentMesh: 0
+--- !u!1 &2056037799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2056037800}
+  - component: {fileID: 2056037801}
+  m_Layer: 0
+  m_Name: BotonComprar2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2056037800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056037799}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20.602118, y: -118.073364, z: -44.739044}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 242899579}
+  m_Father: {fileID: 1929459010}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2056037801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056037799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e61a973ded17b64e9d430a0b2cfdae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemons: {fileID: 0}
+  boton: {fileID: 242899581}
+  tiendaPokemon:
+  - {fileID: 11400000, guid: 9f6ff10c04d35d04fa637011af389d92, type: 2}
+  - {fileID: 11400000, guid: cdf16dfe235596f479bc24b3c5d9b6e3, type: 2}
+  - {fileID: 11400000, guid: 4900667fc0ef30647a99eeb80ca296f3, type: 2}
+  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
+  - {fileID: 11400000, guid: 6080c55c6815eb44189eb596e961a90c, type: 2}
+  pokemonJugador: {fileID: 1862979243}
+  pokemonsEnemigo: {fileID: 1125086374}
+  image: {fileID: 834767732}
+  text: {fileID: 369064729}
+  precio: {fileID: 939649238}
 --- !u!1 &2134448598
 GameObject:
   m_ObjectHideFlags: 0
@@ -28216,7 +28397,6 @@ GameObject:
   - component: {fileID: 2134448603}
   - component: {fileID: 2134448602}
   - component: {fileID: 2134448601}
-  - component: {fileID: 2134448600}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: Untagged
@@ -28232,44 +28412,19 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134448598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 44.739044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 794036679}
   - {fileID: 1787431554}
-  m_Father: {fileID: 1929459010}
-  m_RootOrder: 1
+  m_Father: {fileID: 1488858307}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 262.3, y: 0.6000366}
+  m_AnchoredPosition: {x: 241.69794, y: 118.6734}
   m_SizeDelta: {x: 115.2, y: 104.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2134448600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134448598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e61a973ded17b64e9d430a0b2cfdae0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pokemons: {fileID: 0}
-  boton: {fileID: 2134448601}
-  tiendaPokemon:
-  - {fileID: 11400000, guid: 9f6ff10c04d35d04fa637011af389d92, type: 2}
-  - {fileID: 11400000, guid: cdf16dfe235596f479bc24b3c5d9b6e3, type: 2}
-  - {fileID: 11400000, guid: 4900667fc0ef30647a99eeb80ca296f3, type: 2}
-  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
-  - {fileID: 11400000, guid: 6080c55c6815eb44189eb596e961a90c, type: 2}
-  pokemonJugador: {fileID: 0}
-  pokemonsEnemigo: {fileID: 1125086374}
-  image: {fileID: 1787431555}
-  text: {fileID: 863047738}
-  precio: {fileID: 51381920}
 --- !u!114 &2134448601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28313,7 +28468,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2134448600}
+      - m_Target: {fileID: 1488858308}
         m_MethodName: Comprar
         m_Mode: 1
         m_Arguments:

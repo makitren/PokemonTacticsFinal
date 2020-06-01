@@ -16,7 +16,7 @@ public class MoverPersonaje : MonoBehaviour
     public float velMovimiento = 20f;
     public int monedas = 0;
     public Quest quest;
-    Animator animacion;
+    public Animator animacion;
     Rigidbody2D rb2d;
     Vector2 movimiento;
     public Moneda moneda;

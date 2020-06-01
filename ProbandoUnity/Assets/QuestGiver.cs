@@ -16,6 +16,9 @@ public class QuestGiver : MonoBehaviour
 
     public void AbrirVentataQuest()
     {
+        moverPersonaje.movimientoPersonaje = true;
+        Debug.Log(moverPersonaje.movimientoPersonaje);
+        moverPersonaje.animacion.SetBool("andando", false);
         questWindows.SetActive(true);
         titletext.text = quest.titulo;
         descricionText.text = quest.desc;
@@ -32,4 +35,5 @@ public class QuestGiver : MonoBehaviour
         }
         
     }
+
 }

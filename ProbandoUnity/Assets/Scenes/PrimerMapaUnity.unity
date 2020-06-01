@@ -13739,6 +13739,7 @@ MonoBehaviour:
       requisitoMision: 0
       currentAmount: 0
       objetoBorrar: {fileID: 0}
+  animacion: {fileID: 0}
   moneda: {fileID: 0}
   posicionComienzo: {fileID: 11400000, guid: 64869272ded1c874c89f712906ef4cad, type: 2}
   inventarioJugador: {fileID: 11400000, guid: fee4ef020e5f86646a240f3caf4c922d, type: 2}
@@ -35301,6 +35302,11 @@ PrefabInstance:
       propertyPath: dialogo.listaFrases.Array.data[2]
       value: "Caza-Bichos Antonio: Si te puedo ayudar con algo, \xA1no dudes en preguntarme!"
       objectReference: {fileID: 0}
+    - target: {fileID: 2393595489757114019, guid: 00bb268756fd2004096371794b75ea77,
+        type: 3}
+      propertyPath: moverPersonaje
+      value: 
+      objectReference: {fileID: 234330054}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00bb268756fd2004096371794b75ea77, type: 3}
 --- !u!4 &2393595491023530728 stripped
@@ -35377,9 +35383,33 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1371073004, guid: 2b1c119878d75b040b4e807b62bebf5c, type: 3}
+      propertyPath: dialogo.listaFrases.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371073004, guid: 2b1c119878d75b040b4e807b62bebf5c, type: 3}
       propertyPath: questGiver
       value: 
       objectReference: {fileID: 562756119}
+    - target: {fileID: 1371073004, guid: 2b1c119878d75b040b4e807b62bebf5c, type: 3}
+      propertyPath: dialogo.nombrePersonaje
+      value: Anciano Mishi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371073004, guid: 2b1c119878d75b040b4e807b62bebf5c, type: 3}
+      propertyPath: dialogo.listaFrases.Array.data[0]
+      value: Ahora que tienes estas monedas ya puedes comprar pokemones
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371073004, guid: 2b1c119878d75b040b4e807b62bebf5c, type: 3}
+      propertyPath: velocidadFrase
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371073004, guid: 2b1c119878d75b040b4e807b62bebf5c, type: 3}
+      propertyPath: salidaTexto
+      value: 
+      objectReference: {fileID: 473531842}
+    - target: {fileID: 1371073004, guid: 2b1c119878d75b040b4e807b62bebf5c, type: 3}
+      propertyPath: panelDialogo
+      value: 
+      objectReference: {fileID: 1175872128}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b1c119878d75b040b4e807b62bebf5c, type: 3}
 --- !u!1001 &4604081513431547318

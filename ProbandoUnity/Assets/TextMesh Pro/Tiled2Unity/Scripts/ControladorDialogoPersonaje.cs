@@ -14,6 +14,7 @@ public class ControladorDialogoPersonaje : MonoBehaviour
     string fraseActiva;
     public float velocidadFrase;
     public bool jugadorEnRango;
+    public MoverPersonaje moverPersonaje;
     void Start()
     {
         frases = new Queue<string>();
@@ -109,13 +110,13 @@ public class ControladorDialogoPersonaje : MonoBehaviour
 
             if (panelDialogo.activeInHierarchy == true)
             {
-                otro.GetComponent<MoverPersonaje>().enabled = false;
-                otro.GetComponent<Animator>().enabled = false;
+                moverPersonaje.movimientoPersonaje = true;
+                moverPersonaje.animacion.SetBool("andando", false);
             }
             else
             {
-                otro.GetComponent<MoverPersonaje>().enabled = true;
-                otro.GetComponent<Animator>().enabled = true;
+                moverPersonaje.movimientoPersonaje = false;
+                moverPersonaje.animacion.SetBool("andando", false);
             }
         }
 

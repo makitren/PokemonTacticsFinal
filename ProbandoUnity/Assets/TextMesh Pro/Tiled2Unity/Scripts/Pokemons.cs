@@ -11,4 +11,5 @@ public class Pokemons:ScriptableObject
     public int precio;
     public Sprite sprite;
     public string tipo;
+    public GameObject anmin;
 }

@@ -104,10 +104,12 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\ActivadoMisiones.cs" />
+    <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\AsignadorPokemons.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\AsignarMonedas.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\CofreLlave.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\ControladorDialogoPersonaje.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\DialogoPersonajes.cs" />
+    <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Empujon.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\EscuchadorSenial.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\GameSaveManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Interrogacion.cs" />
@@ -125,6 +127,7 @@
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\MonedaCogida.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\MoverPersonaje.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Pokemon.cs" />
+    <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\PokemonEnemigosDatos.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\PokemonJugador.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Pokemons.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\PokemonsEnemigo.cs" />

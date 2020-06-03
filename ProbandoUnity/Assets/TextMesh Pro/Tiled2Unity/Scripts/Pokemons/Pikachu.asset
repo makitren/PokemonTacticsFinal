@@ -18,3 +18,4 @@ MonoBehaviour:
   precio: 2
   sprite: {fileID: 21300000, guid: 3a5bc3fbc04bb15409b186fb888cdb0b, type: 3}
   tipo: Electrico
+  anmin: {fileID: 3412122047468627618, guid: ca57936434fcf9e4ea1469556bf35d02, type: 3}

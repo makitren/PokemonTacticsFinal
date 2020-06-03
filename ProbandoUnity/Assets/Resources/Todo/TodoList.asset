@@ -37,13 +37,13 @@ MonoBehaviour:
       color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
       index: 3
     task: Tienda para comprar los pokemon
-    isComplete: 0
+    isComplete: 1
   - owner:
       name: Note
       color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
       index: 3
     task: Tienda para comprar los objetos para los pokemon
-    isComplete: 0
+    isComplete: 1
   - owner:
       name: Urgent
       color: {r: 1, g: 0, b: 0, a: 1}
@@ -91,7 +91,7 @@ MonoBehaviour:
       color: {r: 1, g: 0, b: 0, a: 1}
       index: 1
     task: Crear inventario de los pokemon
-    isComplete: 0
+    isComplete: 1
   - owner:
       name: Urgent
       color: {r: 1, g: 0, b: 0, a: 1}
@@ -109,19 +109,19 @@ MonoBehaviour:
       color: {r: 1, g: 0, b: 0, a: 1}
       index: 1
     task: Como hacer que un npc se mueva cuando ocurra algo
-    isComplete: 0
+    isComplete: 1
   - owner:
       name: Normal
       color: {r: 1, g: 1, b: 1, a: 1}
       index: 0
     task: Llaves para abrir puertas
-    isComplete: 0
+    isComplete: 1
   - owner:
       name: Urgent
       color: {r: 1, g: 0, b: 0, a: 1}
       index: 1
     task: Sonido cada vez que comencemos una conversacion y la continuemos
-    isComplete: 0
+    isComplete: 1
   - owner:
       name: Urgent
       color: {r: 1, g: 0, b: 0, a: 1}

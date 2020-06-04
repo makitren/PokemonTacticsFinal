@@ -20,6 +20,7 @@ public class PokemonsMios : Pokemon
         gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
         gameObject.GetComponent<Animator>().runtimeAnimatorController = anim.runtimeAnimatorController;
         anim = gameObject.GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -69,4 +70,5 @@ public class PokemonsMios : Pokemon
             }
         }
     }
+    
 }

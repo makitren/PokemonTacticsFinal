@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PokemonEnemigosDatos : MonoBehaviour
+public class PokemonEnemigosDatos : Pokemon
 {
-    public class PokemonsMios : Pokemon
-    {
         public Transform target;
         public string enemigo;
         public float chaseRadius;
         public float attackRadius;
         public Transform homePositions;
-        public Animator anim;
+        public Animator anm;
         public Sprite sprite;
         // Start is called before the first frame update
         void Start()
         {
             target = GameObject.FindWithTag(enemigo).transform;
-            anim = GetComponent<Animator>();
+            gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
+            gameObject.GetComponent<Animator>().runtimeAnimatorController = anm.runtimeAnimatorController;
+            anm = gameObject.GetComponent<Animator>();
         }
 
         // Update is called once per frame
@@ -32,17 +32,17 @@ public class PokemonEnemigosDatos : MonoBehaviour
                 transform.position = Vector3.MoveTowards(transform.position, target.position, movimiento * Time.deltaTime);
                 Vector3 ventor = Vector3.MoveTowards(transform.position, target.position, movimiento * Time.deltaTime);
                 chanageAnimation(ventor - transform.position);
-                anim.SetBool("EmpezarBatalla", true);
+                anm.SetBool("EmpezarBatalla", true);
             }
             else
             {
-                anim.SetBool("EmpezarBatalla", false);
+                anm.SetBool("EmpezarBatalla", false);
             }
         }
         private void SetAnimatorFloat(Vector2 vector)
         {
-            anim.SetFloat("movX", vector.x);
-            anim.SetFloat("movY", vector.y);
+            anm.SetFloat("movX", vector.x);
+            anm.SetFloat("movY", vector.y);
         }
         private void chanageAnimation(Vector2 direccion)
         {
@@ -70,4 +70,4 @@ public class PokemonEnemigosDatos : MonoBehaviour
             }
         }
     }
-}
+

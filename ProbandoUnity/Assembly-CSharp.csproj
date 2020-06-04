@@ -106,6 +106,7 @@
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\ActivadoMisiones.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\AsignadorPokemons.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\AsignarMonedas.cs" />
+    <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\AsignarPokemonEnemigo.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\CofreLlave.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\ControladorDialogoPersonaje.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\DialogoPersonajes.cs" />

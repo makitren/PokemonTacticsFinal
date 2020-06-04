@@ -128,3 +128,39 @@ MonoBehaviour:
       index: 1
     task: Crear capa para dar fondo
     isComplete: 1
+  - owner:
+      name: Urgent
+      color: {r: 1, g: 0, b: 0, a: 1}
+      index: 1
+    task: Frame de invencibilidad
+    isComplete: 0
+  - owner:
+      name: Urgent
+      color: {r: 1, g: 0, b: 0, a: 1}
+      index: 1
+    task: "A\xF1adir tipos a los pokemons"
+    isComplete: 1
+  - owner:
+      name: Urgent
+      color: {r: 1, g: 0, b: 0, a: 1}
+      index: 1
+    task: "A\xF1adir tabla con bonificaciones de tipos"
+    isComplete: 1
+  - owner:
+      name: Urgent
+      color: {r: 1, g: 0, b: 0, a: 1}
+      index: 1
+    task: Cuando comienze el combate que desaparezca la tabla
+    isComplete: 1
+  - owner:
+      name: Urgent
+      color: {r: 1, g: 0, b: 0, a: 1}
+      index: 1
+    task: Que mueran los pokemons
+    isComplete: 0
+  - owner:
+      name: Normal
+      color: {r: 1, g: 1, b: 1, a: 1}
+      index: 0
+    task: Hacer transicion entre escena y combate
+    isComplete: 0

@@ -17,4 +17,5 @@ MonoBehaviour:
   "da\xF1o": 10
   precio: 1
   sprite: {fileID: 21300000, guid: c52ad413975f2434b822a77732201731, type: 3}
-  tipo: Siniestra
+  tipo: Electrico
+  anmin: {fileID: 0}

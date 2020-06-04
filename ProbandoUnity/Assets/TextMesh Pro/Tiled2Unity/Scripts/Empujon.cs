@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class Empujon : MonoBehaviour
 {
+    [Header("FrameDño")]
+    public Color flashcolor;
+    public Color regularColor;
+    public float flashDuration;
+    public int numberOfFlashes;
+    public Collider2D collision2D;
+    public SpriteRenderer mySprite;
+
     public float thrust;
     public float empujon;
     public string target;
@@ -31,9 +39,24 @@ public class Empujon : MonoBehaviour
     {
         if (enemigo != null)
         {
+            StartCoroutine(FlashCo());
             yield return new WaitForSeconds(empujon);
             enemigo.velocity = Vector2.zero;
             enemigo.isKinematic = true;
         }
+    }
+    private IEnumerator FlashCo()
+    {
+        int tem = 0;
+        collision2D.enabled = false;
+        while (tem < numberOfFlashes)
+        {
+            mySprite.color = flashcolor;
+            yield return new WaitForSeconds(flashDuration);
+            mySprite.color = regularColor;
+            yield return new WaitForSeconds(flashDuration);
+            tem++;
+        }
+        collision2D.enabled = true;
     }
 }

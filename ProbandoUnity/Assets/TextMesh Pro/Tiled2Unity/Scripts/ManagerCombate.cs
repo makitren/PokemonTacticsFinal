@@ -39,7 +39,7 @@ public class ManagerCombate : MonoBehaviour
             Moneda.moneda = Moneda.moneda - pokemons.precio;
             pokemonJugador.misPokemons.Add(pokemons);
             manager.MisPokemons();
-            Destroy(boton);
+            gameObject.SetActive(false);
         }
         else
         {

@@ -20,7 +20,7 @@ public class AsignarPokemonEnemigo : MonoBehaviour
     }
     public void AparecerPokemon()
     {
-        if (pokemonsEnemigo.pokemons.Count == pokemonJugador.nivel)
+        if (pokemonsEnemigo.pokemons.Count <= pokemonJugador.nivel)
         {
             for (int c = 0; c < pokemonsEnemigo.pokemons.Count; c++)
             {

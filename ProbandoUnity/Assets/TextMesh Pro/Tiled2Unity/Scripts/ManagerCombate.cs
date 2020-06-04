@@ -48,4 +48,5 @@ public class ManagerCombate : MonoBehaviour
 
 
     }
+    public void a
 }

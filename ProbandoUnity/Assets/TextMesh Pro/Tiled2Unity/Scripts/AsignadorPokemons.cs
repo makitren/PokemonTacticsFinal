@@ -29,7 +29,7 @@ public class AsignadorPokemons : MonoBehaviour
     public void EmpezarBatalla()
     {
         tiendaDesaparece.SetActive(false);
-        if (pokemonJugador.misPokemons.Count == pokemonJugador.nivel)
+        if (pokemonJugador.misPokemons.Count <= pokemonJugador.nivel)
         {
             for (int c = 0; c < pokemonJugador.misPokemons.Count; c++)
             {

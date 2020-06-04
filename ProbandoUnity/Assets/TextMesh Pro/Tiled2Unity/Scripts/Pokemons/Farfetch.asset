@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710c0e00ff4a9c43a7498afa676baf9, type: 3}
+  m_Name: Farfetch
+  m_EditorClassIdentifier: 
+  nombre: Farfetch
+  vida: 100
+  "da\xF1o": 10
+  precio: 2
+  sprite: {fileID: 21300000, guid: ebf6b137d10ff2147b8906ffc3ac7b8f, type: 3}
+  tipo: Planta
+  anmin: {fileID: 3914918152294954809, guid: 730498c936e184a4d91ef7b2eb05b8e1, type: 3}

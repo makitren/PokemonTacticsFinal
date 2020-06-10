@@ -20,21 +20,17 @@ public class AsignarPokemonEnemigo : MonoBehaviour
     }
     public void AparecerPokemon()
     {
-        if (pokemonsEnemigo.pokemons.Count <= pokemonJugador.nivel)
-        {
-            for (int c = 0; c < pokemonsEnemigo.pokemons.Count; c++)
-            {
-
+         for (int c = 0; c < pokemonsEnemigo.pokemons.Count; c++)
+         {
+                Debug.Log(c);
                 pokemonEnemigosList[c].ataque = pokemonsEnemigo.pokemons[c].daño;
                 pokemonEnemigosList[c].vida = pokemonsEnemigo.pokemons[c].vida;
                 pokemonEnemigosList[c].anm = pokemonsEnemigo.pokemons[c].anmin.GetComponent<Animator>();
                 pokemonEnemigosList[c].sprite = pokemonsEnemigo.pokemons[c].sprite;
-            }
-
-
-        }
-        Debug.Log("Entro");
-        for (int c = 0; c < pokemonsEnemigo.pokemons.Count; c++)
+            pokemonEnemigosList[c].name = pokemonsEnemigo.pokemons[c].name;
+           
+         }
+        for (int c = 0; c < pokemonJugador.nivel; c++)
         {
 
             pokemonEnemigoPlantilla[c].SetActive(true);

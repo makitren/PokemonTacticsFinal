@@ -48,5 +48,13 @@ public class ManagerCombate : MonoBehaviour
 
 
     }
-    public void a
+    public void Actualizar()
+    {
+        int numRndom = UnityEngine.Random.Range(0, tiendaPokemon.Count);
+        image.sprite = tiendaPokemon[numRndom].sprite;
+        text.text = tiendaPokemon[numRndom].nombre;
+        precio.text = tiendaPokemon[numRndom].precio.ToString();
+        pokemons = tiendaPokemon[numRndom];
+        Debug.Log(pokemons.name);
+    }
 }

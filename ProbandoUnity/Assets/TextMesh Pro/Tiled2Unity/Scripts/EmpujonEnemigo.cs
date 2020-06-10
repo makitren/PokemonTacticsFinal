@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Empujon : MonoBehaviour
+public class EmpujonEnemigo : MonoBehaviour
 {
-    [Header("FrameDño")]
     public Color flashcolor;
     public Color regularColor;
     public float flashDuration;
@@ -18,7 +17,7 @@ public class Empujon : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -27,19 +26,19 @@ public class Empujon : MonoBehaviour
             Rigidbody2D enemy = collision.GetComponent<Rigidbody2D>();
             if (enemy != null)
             {
-                Debug.Log(collision.GetComponent<PokemonEnemigosDatos>().name+":"+ collision.GetComponent<PokemonEnemigosDatos>().vida);
-                collision.GetComponent<PokemonEnemigosDatos>().vida = collision.GetComponent<PokemonEnemigosDatos>().vida - this.GetComponent<PokemonsMios>().ataque;
-                if (collision.GetComponent<PokemonEnemigosDatos>().vida <= 0)
+                Debug.Log(collision.GetComponent<PokemonsMios>().name + ":" + collision.GetComponent<PokemonsMios>().vida);
+                collision.GetComponent<PokemonsMios>().vida = collision.GetComponent<PokemonsMios>().vida - this.GetComponent<PokemonEnemigosDatos>().ataque;
+                if (collision.GetComponent<PokemonsMios>().vida <= 0)
                 {
                     Destroy(collision.gameObject);
-                    
+
                 }
                 enemy.isKinematic = false;
-                Vector2 difference= enemy.transform.position-transform.position;
+                Vector2 difference = enemy.transform.position - transform.position;
                 difference = difference.normalized * thrust;
                 enemy.AddForce(difference, ForceMode2D.Impulse);
                 StartCoroutine(EmpujonBicho(enemy));
-                
+
             }
         }
     }

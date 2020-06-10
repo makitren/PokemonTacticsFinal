@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6242deedaf1ef444b94ccb5518565089, type: 3}
   m_Name: InventarioJugador
   m_EditorClassIdentifier: 
+  objetoActual: {fileID: 0}
   miInventario:
-  - {fileID: 11400000, guid: cbcc6fc49141677468795d2011377a7f, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: e95d1314d5c3c8c4d9fca37feda00fe7, type: 2}
+  numeroLlaves: 3

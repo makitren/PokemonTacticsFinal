@@ -7,17 +7,9 @@ using UnityEngine;
 public class GameSaveManager : MonoBehaviour
 {
     public static GameSaveManager saveManager;
-    public List<ScriptableObject> objets = new List<ScriptableObject>();
+    public List<GameObject> objets = new List<GameObject>();
     private void Awake()
     {
-        if (saveManager == null)
-        {
-            saveManager = this;
-        }
-        else
-        {
-            Destroy(this.gameObject);
-        }
-        DontDestroyOnLoad(this);
+        DontDestroyOnLoad(objets[0]);
     }
 }

@@ -110,11 +110,13 @@
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\BotonAleatorio.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\CofreLlave.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\ControladorDialogoPersonaje.cs" />
+    <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Data.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\DialogoPersonajes.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Empujon.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\EmpujonEnemigo.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\EscuchadorSenial.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\GameSaveManager.cs" />
+    <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\GuardarPartida.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Interrogacion.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Inventario\BooleanMonedas.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Inventario\FisicasObjetosSuelo.cs" />

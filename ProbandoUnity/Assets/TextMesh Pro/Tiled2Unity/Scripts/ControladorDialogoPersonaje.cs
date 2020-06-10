@@ -59,6 +59,10 @@ public class ControladorDialogoPersonaje : MonoBehaviour
     
     void Update()
     {
+        if (Quest.completada)
+        {
+            Destroy(this.gameObject);
+        }
         if (Input.GetKeyDown(KeyCode.E) && jugadorEnRango)
         {
             if (panelDialogo.activeInHierarchy)

@@ -38,6 +38,13 @@ public class Puerta : MonoBehaviour
                 {
                     inventarioJugador.numeroLlaves--;
                     Abrir();
+                    for (int c = 0; c <= inventarioJugador.miInventario.Count; c++)
+                    {
+                        if (inventarioJugador.miInventario[c].esLlave)
+                        {
+                            inventarioJugador.miInventario.RemoveAt(c);
+                        }
+                    }
                 }
             }
         }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ControladorDialogoPersonaje : MonoBehaviour
@@ -43,6 +44,7 @@ public class ControladorDialogoPersonaje : MonoBehaviour
 
         StopAllCoroutines();
         StartCoroutine(SonidoFrase(fraseActiva));
+       
     }
 
     IEnumerator SonidoFrase(string frase)
@@ -68,6 +70,10 @@ public class ControladorDialogoPersonaje : MonoBehaviour
             if (panelDialogo.activeInHierarchy)
             {
                 panelDialogo.SetActive(false);
+                if (this.gameObject.GetComponent<ComenzarCombate>() != null&&!ComenzarCombate.derrotado)
+                {
+                    this.gameObject.GetComponent<ComenzarCombate>().EmpezarCombate();
+                }
             }
             else
             {
@@ -98,6 +104,7 @@ public class ControladorDialogoPersonaje : MonoBehaviour
             jugadorEnRango = false;
             panelDialogo.SetActive(false);
             StopAllCoroutines();
+            
         }
     }
     private void OnTriggerStay2D(Collider2D otro)
@@ -124,5 +131,9 @@ public class ControladorDialogoPersonaje : MonoBehaviour
             }
         }
 
+    }
+    public void EmpezarCombate()
+    {
+        SceneManager.LoadScene("Combate");
     }
 }

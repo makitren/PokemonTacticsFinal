@@ -63,11 +63,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BorrarBrrera.cs" />
     <Compile Include="Assets\Cartel.cs" />
     <Compile Include="Assets\MainCamera.cs" />
     <Compile Include="Assets\MenuPrincipal.cs" />
     <Compile Include="Assets\MostrarArea.cs" />
     <Compile Include="Assets\Mover.cs" />
+    <Compile Include="Assets\NoDestruir.cs" />
     <Compile Include="Assets\QuestGiver.cs" />
     <Compile Include="Assets\QuestGoal.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
@@ -109,6 +111,7 @@
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\AsignarPokemonEnemigo.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\BotonAleatorio.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\CofreLlave.cs" />
+    <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\ComenzarCombate.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\ControladorDialogoPersonaje.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Data.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\DialogoPersonajes.cs" />

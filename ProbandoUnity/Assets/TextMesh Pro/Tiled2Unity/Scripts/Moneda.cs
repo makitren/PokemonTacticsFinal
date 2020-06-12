@@ -12,9 +12,10 @@ public class Moneda : MonoBehaviour
     public GameObject mision;
     public MoverPersonaje moverPersonaje;
 
+
     private void Update()
     {
-       
+        textoMonedas.text ="Monedas: "+ moneda.ToString();
     }
 
     IEnumerator OnTriggerEnter2D(Collider2D otro)

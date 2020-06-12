@@ -38,8 +38,7 @@ public class MenuPausa : MonoBehaviour
     }
     public void SalirAMenu()
     {
-        SceneManager.LoadScene(menuPrincipal);
-        Time.timeScale = 1f;
+        Application.Quit();
     }
     public void Inventario()
     {

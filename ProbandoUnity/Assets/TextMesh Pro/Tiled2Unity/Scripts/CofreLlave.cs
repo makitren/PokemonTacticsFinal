@@ -10,7 +10,7 @@ public class CofreLlave : MonoBehaviour
     public InventarioJugador inventarioJugador;
     public bool jugadorEnRango;
     public Objeto contenido;
-    public bool estaAbierto;
+    public static bool estaAbierto;
     public GameObject cajaDialogo;
     public Text dialogoTexto;
     private Animator animacion;
@@ -22,11 +22,16 @@ public class CofreLlave : MonoBehaviour
     void Start()
     {
         animacion = GetComponent<Animator>();
-    }
 
-    // Update is called once per frame
+        // Update is called once per frame
+       
+    }
     void Update()
     {
+        if (estaAbierto)
+        {
+            animacion.SetBool("abierto", true);
+        }
         if (Input.GetKeyDown(KeyCode.E) && jugadorEnRango)
         {
             if (!estaAbierto)

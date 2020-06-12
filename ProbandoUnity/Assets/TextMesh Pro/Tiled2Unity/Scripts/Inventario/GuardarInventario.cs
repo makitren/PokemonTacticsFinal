@@ -16,7 +16,7 @@ public class GuardarInventario : MonoBehaviour
     }
     private void OnDisable()
     {
-        SaveScriptable();
+        
     }
     public void ResetScriptable()
     {

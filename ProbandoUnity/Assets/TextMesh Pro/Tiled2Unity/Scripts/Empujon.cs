@@ -31,14 +31,26 @@ public class Empujon : MonoBehaviour
                 collision.GetComponent<PokemonEnemigosDatos>().vida = collision.GetComponent<PokemonEnemigosDatos>().vida - this.GetComponent<PokemonsMios>().ataque;
                 if (collision.GetComponent<PokemonEnemigosDatos>().vida <= 0)
                 {
+                    for(int c = 0; c < collision.GetComponent<PokemonEnemigosDatos>().pokemonsEnemigo.pokemons.Count; c++)
+                    {
+                        if (collision.GetComponent<PokemonEnemigosDatos>().pokemonsEnemigo.pokemons[c].nombre == collision.GetComponent<PokemonEnemigosDatos>().nombre)
+                        {
+                            HasGanado();
+                            collision.GetComponent<PokemonEnemigosDatos>().pokemonsEnemigo.pokemons.RemoveAt(c);
+                        }
+                    }
                     Destroy(collision.gameObject);
-                    
+
                 }
-                enemy.isKinematic = false;
-                Vector2 difference= enemy.transform.position-transform.position;
-                difference = difference.normalized * thrust;
-                enemy.AddForce(difference, ForceMode2D.Impulse);
-                StartCoroutine(EmpujonBicho(enemy));
+                else
+                {
+                    enemy.isKinematic = false;
+                    Vector2 difference = enemy.transform.position - transform.position;
+                    difference = difference.normalized * thrust;
+                    enemy.AddForce(difference, ForceMode2D.Impulse);
+                    StartCoroutine(EmpujonBicho(enemy));
+                }
+
                 
             }
         }
@@ -67,4 +79,10 @@ public class Empujon : MonoBehaviour
         }
         collision2D.enabled = true;
     }
+    private IEnumerator HasGanado()
+    {
+        yield return new WaitForSeconds(3f);
+        
+    }
 }
+

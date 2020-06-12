@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class AsignadorPokemons : MonoBehaviour
@@ -15,6 +16,7 @@ public class AsignadorPokemons : MonoBehaviour
     private int fuego, agua, planta, electrico;
     public Text nombreTipo;
     public Text descTipo;
+    public bool combateEmpezado;
     public GameObject tiendaDesaparece;
     void Start()
     {
@@ -24,10 +26,14 @@ public class AsignadorPokemons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (pokemonJugador.misPokemons.Count == 0&&combateEmpezado)
+        {
+            SceneManager.LoadScene("PrimerMapaUnity");
+        }
     }
     public void EmpezarBatalla()
     {
+        combateEmpezado = true;
         tiendaDesaparece.SetActive(false);
         if (pokemonJugador.misPokemons.Count <= pokemonJugador.nivel)
         {

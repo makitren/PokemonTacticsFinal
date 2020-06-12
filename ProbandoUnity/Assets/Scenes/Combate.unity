@@ -20457,10 +20457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6254a2122091f14ca05cb460b4b2afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pokemons:
-  - {fileID: 11400000, guid: c032d37d355c94741b3b0431ed2ddb0e, type: 2}
-  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
-  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
+  pokemons: []
 --- !u!1 &1128184075
 GameObject:
   m_ObjectHideFlags: 0
@@ -20638,6 +20635,7 @@ MonoBehaviour:
   "da\xF1oAdicional": 0
   nombreTipo: {fileID: 1124342660}
   descTipo: {fileID: 802518119}
+  combateEmpezado: 0
   tiendaDesaparece: {fileID: 21804583}
 --- !u!4 &1144201628
 Transform:
@@ -30002,6 +30000,7 @@ MonoBehaviour:
   ataque: 0
   movimiento: 0.75
   target: {fileID: 0}
+  pokemonsEnemigo: {fileID: 0}
   enemigo: PokemonMios
   chaseRadius: 5
   attackRadius: 0.25
@@ -30354,6 +30353,7 @@ MonoBehaviour:
   ataque: 0
   movimiento: 0.75
   target: {fileID: 0}
+  pokemonsEnemigo: {fileID: 0}
   enemigo: PokemonMios
   chaseRadius: 5
   attackRadius: 0.25
@@ -30757,7 +30757,7 @@ MonoBehaviour:
   target: {fileID: 0}
   enemigo: PokemonEnemigo
   chaseRadius: 5
-  attackRadius: 0.25
+  attackRadius: 0.3
   homePositions: {fileID: 0}
   anim: {fileID: 0}
   sprite: {fileID: 0}
@@ -31945,10 +31945,10 @@ GameObject:
   - component: {fileID: 1977934794}
   - component: {fileID: 1977934792}
   - component: {fileID: 1977934791}
-  - component: {fileID: 1977934796}
   - component: {fileID: 1977934797}
   - component: {fileID: 1977934793}
   - component: {fileID: 1977934798}
+  - component: {fileID: 1977934796}
   m_Layer: 8
   m_Name: EnemigoPikachu
   m_TagString: PokemonEnemigo
@@ -32020,6 +32020,7 @@ MonoBehaviour:
   ataque: 0
   movimiento: 0.75
   target: {fileID: 0}
+  pokemonsEnemigo: {fileID: 1125086374}
   enemigo: PokemonMios
   chaseRadius: 5
   attackRadius: 0.25
@@ -32099,17 +32100,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1977934790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54c327ee9b305f945af24d1b1fb920d2, type: 3}
+  m_Script: {fileID: 11500000, guid: ea8c506027bc8ba4cb590e6b5379eed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flashcolor: {r: 1, g: 0, b: 0, a: 0.6}
+  flashcolor: {r: 1, g: 0, b: 0, a: 0.3647059}
   regularColor: {r: 1, g: 1, b: 1, a: 1}
   flashDuration: 0.07
   numberOfFlashes: 4
-  collision2D: {fileID: 1977934791}
+  collision2D: {fileID: 1977934798}
   mySprite: {fileID: 1977934794}
   thrust: 2
-  empujon: 1
+  empujon: 0.2
   target: PokemonMios
 --- !u!95 &1977934797
 Animator:

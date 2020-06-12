@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AsignarPokemonEnemigo : MonoBehaviour
 {
@@ -16,24 +17,25 @@ public class AsignarPokemonEnemigo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (pokemonsEnemigo.pokemons.Count == 0)
+        {
+            ComenzarCombate.derrotado = true;
+            SceneManager.LoadScene(ComenzarCombate.escena);
+        }
     }
     public void AparecerPokemon()
     {
          for (int c = 0; c < pokemonsEnemigo.pokemons.Count; c++)
          {
-                Debug.Log(c);
+                Debug.Log(pokemonsEnemigo.pokemons[c].name);
+                pokemonEnemigosList[c].nombre = pokemonsEnemigo.pokemons[c].name;
                 pokemonEnemigosList[c].ataque = pokemonsEnemigo.pokemons[c].daño;
                 pokemonEnemigosList[c].vida = pokemonsEnemigo.pokemons[c].vida;
                 pokemonEnemigosList[c].anm = pokemonsEnemigo.pokemons[c].anmin.GetComponent<Animator>();
                 pokemonEnemigosList[c].sprite = pokemonsEnemigo.pokemons[c].sprite;
-            pokemonEnemigosList[c].name = pokemonsEnemigo.pokemons[c].name;
-           
-         }
-        for (int c = 0; c < pokemonJugador.nivel; c++)
-        {
+                pokemonEnemigoPlantilla[c].SetActive(true);
+                Debug.Log(pokemonEnemigosList[c].name);
 
-            pokemonEnemigoPlantilla[c].SetActive(true);
         }
     }
 }

@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MapaTres.unity
     guid: fc606f73685d4194a8fef715dd039b21
+  - enabled: 1
+    path: Assets/Scenes/Combate.unity
+    guid: bdf592a25ac09ac458c128d3d9a8ce1c
   m_configObjects: {}

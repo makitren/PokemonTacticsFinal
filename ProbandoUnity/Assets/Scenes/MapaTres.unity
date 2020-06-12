@@ -291,7 +291,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &240984345
 GameObject:
@@ -14841,7 +14841,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &349040098
 MonoBehaviour:
@@ -14980,6 +14980,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoMonedas: {fileID: 1249824456}
+  mision: {fileID: 0}
+  moverPersonaje: {fileID: 0}
 --- !u!114 &506630327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15125,9 +15127,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff44d7c4bb67dd843ad637df76228fef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  estadoActual: 0
   velMovimiento: 0.5
   monedas: 0
+  quest:
+    activada: 0
+    titulo: 
+    desc: 
+    oroRecibido: 0
+    questGoal:
+      goalType: 0
+      requisitoMision: 0
+      currentAmount: 0
+      objetoBorrar: {fileID: 0}
+  animacion: {fileID: 0}
+  moneda: {fileID: 0}
   posicionComienzo: {fileID: 11400000, guid: 64869272ded1c874c89f712906ef4cad, type: 2}
+  inventarioJugador: {fileID: 0}
+  objetoRecibidoSprite: {fileID: 0}
+  movimientoPersonaje: 0
 --- !u!212 &506630334
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15186,7 +15204,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 506630325}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.409, y: -4.385, z: 0}
+  m_LocalPosition: {x: -0.403, y: -0.457, z: 0}
   m_LocalScale: {x: 1.0798, y: 1, z: 1}
   m_Children:
   - {fileID: 566282962}
@@ -16833,6 +16851,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoMonedas: {fileID: 1249824456}
+  mision: {fileID: 0}
+  moverPersonaje: {fileID: 0}
 --- !u!1 &944747666
 GameObject:
   m_ObjectHideFlags: 0
@@ -17802,12 +17822,12 @@ PrefabInstance:
     - target: {fileID: 2393595489757114017, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.6306683
+      value: -1.658
       objectReference: {fileID: 0}
     - target: {fileID: 2393595489757114017, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.20066711
+      value: 1.867
       objectReference: {fileID: 0}
     - target: {fileID: 2393595489757114017, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
@@ -17874,8 +17894,34 @@ PrefabInstance:
       propertyPath: panelDialogo
       value: 
       objectReference: {fileID: 1550857159}
+    - target: {fileID: 2393595489757114019, guid: 00bb268756fd2004096371794b75ea77,
+        type: 3}
+      propertyPath: moverPersonaje
+      value: 
+      objectReference: {fileID: 506630333}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00bb268756fd2004096371794b75ea77, type: 3}
+--- !u!1 &1387523194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2393595489757114022, guid: 00bb268756fd2004096371794b75ea77,
+    type: 3}
+  m_PrefabInstance: {fileID: 1387523193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1387523195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387523194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefb1572d588eee4d993481a29caa493, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonsEnemigos:
+  - {fileID: 11400000, guid: 974b410e7549f1e4db14eb0b404a6526, type: 2}
+  escenaPoner: MapaTres
 --- !u!1 &1390321985
 GameObject:
   m_ObjectHideFlags: 0
@@ -18119,7 +18165,7 @@ RectTransform:
   m_Children:
   - {fileID: 1355290683}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

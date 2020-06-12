@@ -5,6 +5,7 @@ using UnityEngine;
 public class PokemonEnemigosDatos : Pokemon
 {
         public Transform target;
+        public PokemonsEnemigo pokemonsEnemigo;
         public string enemigo;
         public float chaseRadius;
         public float attackRadius;

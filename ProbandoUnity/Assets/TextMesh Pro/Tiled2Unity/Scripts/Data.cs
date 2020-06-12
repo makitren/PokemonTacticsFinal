@@ -13,4 +13,5 @@ class DataSave
 {
     public int oro;
     public bool questComp;
+    public bool cofreAbierto;
 }

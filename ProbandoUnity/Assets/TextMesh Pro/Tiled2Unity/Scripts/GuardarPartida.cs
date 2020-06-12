@@ -11,6 +11,7 @@ public class GuardarPartida : MonoBehaviour
     public Text cantidadOro;
     public int oro;
     public bool misionCompletada;
+    public bool cofreAbierto;
     //Ubicacion del archivo data
     private string filePath;
 
@@ -26,6 +27,7 @@ public class GuardarPartida : MonoBehaviour
     {
         oro = Moneda.moneda;
         misionCompletada = Quest.completada;
+        cofreAbierto = CofreLlave.estaAbierto;
         //Muestra la cantidad de oro
         if (cantidadOro != null)
         {
@@ -41,6 +43,7 @@ public class GuardarPartida : MonoBehaviour
             //Datos a guardar
             data.oro = oro;
             data.questComp = misionCompletada;
+            data.cofreAbierto = cofreAbierto;
             bf.Serialize(file, data);
             file.Close();
             Cargar();
@@ -53,9 +56,11 @@ public class GuardarPartida : MonoBehaviour
             FileStream file = File.Open(filePath, FileMode.Open);
             DataSave data = (DataSave)bf.Deserialize(file);
             oro = data.oro;
+            cofreAbierto = data.cofreAbierto;
             misionCompletada = data.questComp;
             Moneda.moneda = oro;
             Quest.completada = misionCompletada;
+            CofreLlave.estaAbierto = cofreAbierto;
             file.Close();
         }
     }
@@ -63,6 +68,8 @@ public class GuardarPartida : MonoBehaviour
     {
         Debug.Log(filePath);
         File.Delete(filePath);
-        gameObject.GetComponent<MenuPausa>().SalirAMenu();
+        Moneda.moneda = 0;
+        Quest.completada = false;
+        CofreLlave.estaAbierto = false;
     }
 }

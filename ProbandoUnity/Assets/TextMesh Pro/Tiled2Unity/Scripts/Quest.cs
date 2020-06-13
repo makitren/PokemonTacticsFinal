@@ -8,7 +8,7 @@ public class Quest
     public string titulo;
     public string desc;
     public int oroRecibido;
-    public static bool completada;
+    public bool completada;
     
 
     public QuestGoal questGoal;

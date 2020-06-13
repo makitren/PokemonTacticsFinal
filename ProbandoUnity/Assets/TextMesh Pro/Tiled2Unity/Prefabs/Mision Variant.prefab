@@ -15,6 +15,12 @@ MonoBehaviour:
   interrogacionOn: {fileID: 11400000, guid: 1d727a427ee095c49a9c89ac636a6c7e, type: 2}
   interrogacionOff: {fileID: 11400000, guid: 12a06cb87275b0f4aade9920f81c06db, type: 2}
   jugadorEnRango: 0
+  panelDialogo: {fileID: 0}
+  dialogo:
+    nombrePersonaje: 
+    listaFrases: []
+  salidaTexto: {fileID: 0}
+  velocidadFrase: 0
   questGiver: {fileID: 0}
 --- !u!1001 &4132854667221147546
 PrefabInstance:
@@ -26,7 +32,7 @@ PrefabInstance:
     - target: {fileID: 2393595489757114022, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_Name
-      value: Mision
+      value: Mision Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2393595489757114017, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
@@ -119,12 +125,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5787541188086251324, guid: e18995e53016d3e47ae384fd67a84b20,
         type: 3}
-    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.42
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.42

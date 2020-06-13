@@ -13684,6 +13684,7 @@ MonoBehaviour:
     titulo: 
     desc: 
     oroRecibido: 0
+    completada: 0
     questGoal:
       goalType: 0
       requisitoMision: 0
@@ -14406,6 +14407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4628e43049861fc429b1665bda1bc82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quest: {fileID: 562756119}
 --- !u!1 &351896272
 GameObject:
   m_ObjectHideFlags: 0
@@ -14896,6 +14898,7 @@ MonoBehaviour:
     desc: "Tienes que encontrar las monedas que est\xE1n al sur del pueblo. Te dar\xE9
       una moneda de regalo si las encuentras todas."
     oroRecibido: 1
+    completada: 0
     questGoal:
       goalType: 0
       requisitoMision: 4
@@ -15577,6 +15580,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 991307059}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &907675531 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4604081514566519005, guid: ee5d3b5c531578c42af6bcdf5c61bf3e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4604081513431547318}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c722a74978220046a6aeac98d288978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &917308797
 GameObject:
   m_ObjectHideFlags: 0
@@ -15963,6 +15978,11 @@ PrefabInstance:
       propertyPath: dialogo.listaFrases.Array.data[0]
       value: "\xBFNo crees que tienes que hacer algo antes de pasar por aqu\xED?\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 2393595489757114019, guid: 00bb268756fd2004096371794b75ea77,
+        type: 3}
+      propertyPath: questGiver
+      value: 
+      objectReference: {fileID: 562756119}
     - target: {fileID: 2393595489757114018, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_Sprite
@@ -33221,7 +33241,7 @@ PrefabInstance:
     - target: {fileID: 1674047243144600008, guid: ba98ed9a564014d44813b3f94790f903,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
         type: 3}
@@ -33258,10 +33278,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d89a3fc7a2fd9d42a9ad3a37d945199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidadOro: {fileID: 0}
+  questGiver: {fileID: 562756119}
   oro: 0
-  misionCompletada: 0
-  cofreAbierto: 0
+  cofreLlave: {fileID: 907675531}
+  keyMisiones: mision1
+  keyCofres: cofre1
+  keyPuertas: puerta1
 --- !u!114 &2104777725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33520,6 +33542,11 @@ PrefabInstance:
       propertyPath: moverPersonaje
       value: 
       objectReference: {fileID: 234330054}
+    - target: {fileID: 2393595489757114019, guid: 00bb268756fd2004096371794b75ea77,
+        type: 3}
+      propertyPath: questGiver
+      value: 
+      objectReference: {fileID: 562756119}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00bb268756fd2004096371794b75ea77, type: 3}
 --- !u!4 &2393595491023530728 stripped

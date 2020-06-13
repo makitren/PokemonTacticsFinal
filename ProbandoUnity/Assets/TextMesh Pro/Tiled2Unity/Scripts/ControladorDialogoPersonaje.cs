@@ -16,6 +16,7 @@ public class ControladorDialogoPersonaje : MonoBehaviour
     public float velocidadFrase;
     public bool jugadorEnRango;
     public MoverPersonaje moverPersonaje;
+    public QuestGiver questGiver;
     void Start()
     {
         frases = new Queue<string>();
@@ -61,7 +62,7 @@ public class ControladorDialogoPersonaje : MonoBehaviour
     
     void Update()
     {
-        if (Quest.completada)
+        if (questGiver.quest.completada)
         {
             Destroy(this.gameObject);
         }
@@ -70,7 +71,7 @@ public class ControladorDialogoPersonaje : MonoBehaviour
             if (panelDialogo.activeInHierarchy)
             {
                 panelDialogo.SetActive(false);
-                if (this.gameObject.GetComponent<ComenzarCombate>() != null&&!ComenzarCombate.derrotado)
+                if (this.gameObject.GetComponent<ComenzarCombate>() != null&&! ComenzarCombate.derrotado)
                 {
                     this.gameObject.GetComponent<ComenzarCombate>().EmpezarCombate();
                 }

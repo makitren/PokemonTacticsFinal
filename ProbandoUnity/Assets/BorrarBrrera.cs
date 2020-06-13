@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BorrarBrrera : MonoBehaviour
 {
+    public QuestGiver quest;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,7 +14,7 @@ public class BorrarBrrera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Quest.completada)
+        if (quest.quest.completada)
         {
             gameObject.SetActive(false);
         }

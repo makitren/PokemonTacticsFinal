@@ -10,7 +10,7 @@ public class CofreLlave : MonoBehaviour
     public InventarioJugador inventarioJugador;
     public bool jugadorEnRango;
     public Objeto contenido;
-    public static bool estaAbierto;
+    public bool estaAbierto;
     public GameObject cajaDialogo;
     public Text dialogoTexto;
     private Animator animacion;

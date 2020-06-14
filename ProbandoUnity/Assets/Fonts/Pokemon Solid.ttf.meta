@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: c090bc414d1a6524c8f2b82705de6b5e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pokemon Solid
+  fontNames:
+  - Pokemon Solid
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6d0f057941e6e334f88c585c99621aaf, type: 3}
+  - {fileID: 12800000, guid: 0516eb1e4a3f2934b902e0b8692a65ab, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,11 +5,12 @@ using UnityEngine.UI;
 using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using UnityEditor.Build.Content;
+using UnityEngine.SceneManagement;
 
 public class GuardarPartida : MonoBehaviour
 {
     public QuestGiver questGiver;
-    public int oro;
     public CofreLlave cofreLlave;
     public Puerta puerta;
     //Ubicacion del archivo data
@@ -17,50 +18,59 @@ public class GuardarPartida : MonoBehaviour
     public string keyCofres;
     public string keyPuertas;
     public InventarioJugador inventarioJugador;
-
+    public GameObject mensajeGuardado;
+    public string escenaGuardar;
     private void Start()
     {
-        Debug.Log(questGiver.quest.activada);
         Cargar();
     }
     private void Update()
     {
-        oro = Moneda.moneda;
     }
     public void Guardar()
     {
-        PlayerPrefs.SetInt("monedas", oro);
+        PlayerPrefs.SetString("escena", escenaGuardar);   
+        PlayerPrefs.SetInt("monedas", Moneda.moneda);
         PlayerPrefs.SetInt("llaves", inventarioJugador.numeroLlaves);
-        if (questGiver.quest.completada)
+        if (questGiver != null)
         {
-            PlayerPrefs.SetInt(keyMisiones, 1);
+            if (questGiver.quest.completada)
+            {
+                PlayerPrefs.SetInt(keyMisiones, 1);
+            }
+            else
+            {
+                PlayerPrefs.SetInt(keyMisiones, 0);
+            }
         }
-        else
+        if (cofreLlave != null)
         {
-            PlayerPrefs.SetInt(keyMisiones, 0);
+            if (cofreLlave.estaAbierto)
+            {
+                PlayerPrefs.SetInt(keyCofres, 1);
+            }
+            else
+            {
+                PlayerPrefs.SetInt(keyCofres, 0);
+            }
         }
-        if (cofreLlave.estaAbierto)
+        if (puerta != null)
         {
-            PlayerPrefs.SetInt(keyCofres, 1);
-        }
-        else
-        {
-            PlayerPrefs.SetInt(keyCofres, 0);
-        }
-        if (puerta.abierta)
-        {
-            PlayerPrefs.SetInt(keyPuertas, 1);
-        }
-        else
-        {
-            PlayerPrefs.SetInt(keyPuertas, 0);
+            if (puerta.abierta)
+            {
+                PlayerPrefs.SetInt(keyPuertas, 1);
+            }
+            else
+            {
+                PlayerPrefs.SetInt(keyPuertas, 0);
+            }
         }
         PlayerPrefs.Save();
+        StartCoroutine(mensajeGuardar());
 
     }
     public void Cargar()
     {
-        oro = PlayerPrefs.GetInt("monedas");
         if (PlayerPrefs.GetInt(keyMisiones) == 1)
         {
             questGiver.quest.completada = true;
@@ -85,12 +95,18 @@ public class GuardarPartida : MonoBehaviour
         {
             puerta.abierta = false;
         }
-        Moneda.moneda = oro;
         inventarioJugador.numeroLlaves = PlayerPrefs.GetInt("llaves");
     }
     public void BorrarDatos()
     {
         PlayerPrefs.DeleteAll();
 
+    }
+    IEnumerator mensajeGuardar()
+    {
+        Debug.Log("entro");
+        mensajeGuardado.SetActive(true);
+        yield return new WaitForSeconds(2.0f);
+        mensajeGuardado.SetActive(false);
     }
 }

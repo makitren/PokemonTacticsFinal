@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Menu Game.unity
-=======
-- path: Assets/Scenes/Combate.unity
->>>>>>> master
   isLoaded: 1
   isActive: 1
   isSubScene: 0

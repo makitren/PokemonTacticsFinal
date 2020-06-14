@@ -4,6 +4,7 @@ using TMPro;
 using System.Data.Common;
 using System.Threading;
 using System.Collections;
+using System.Data.Odbc;
 
 public class Moneda : MonoBehaviour
 {
@@ -12,7 +13,10 @@ public class Moneda : MonoBehaviour
     public GameObject mision;
     public MoverPersonaje moverPersonaje;
 
-
+    private void Awake()
+    {
+        moneda = PlayerPrefs.GetInt("monedas");
+    }
     private void Update()
     {
         textoMonedas.text ="Monedas: "+ moneda.ToString();

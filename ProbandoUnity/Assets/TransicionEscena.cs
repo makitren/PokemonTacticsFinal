@@ -8,6 +8,7 @@ public class TransicionEscena : MonoBehaviour
     public string escenaCargar;
     public Vector2 posicionJugador;
     public ValorVector memoriaJugador;
+    public GuardarPartida guardarPartida;
    
     bool start = false;
     bool isFadeIn = false;
@@ -30,7 +31,7 @@ public class TransicionEscena : MonoBehaviour
             otro.GetComponent<MoverPersonaje>().enabled = false;
             FadeIn();
             yield return new WaitForSecondsRealtime(fadeTime);
-            
+            guardarPartida.Guardar();
             memoriaJugador.valorInicial = posicionJugador;
            
             SceneManager.LoadScene(escenaCargar);

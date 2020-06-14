@@ -7,7 +7,15 @@ public class MenuPrincipal : MonoBehaviour
     public GameObject gameObject;
    public void Jugar()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (PlayerPrefs.GetString("escena").Length!=0)
+        {
+            SceneManager.LoadScene(PlayerPrefs.GetString("escena"));
+        }
+        else
+        {
+            SceneManager.LoadScene("PrimerMapaUnity");
+        }
+        
     }
     public void Salir()
     {

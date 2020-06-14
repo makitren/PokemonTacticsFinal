@@ -24,10 +24,12 @@ public class GuardarInventario : MonoBehaviour
         while(File.Exists(Application.persistentDataPath + string.Format("/{0}.inv",i)))
             if (File.Exists(Application.persistentDataPath + string.Format("/{0}.inv", i)))
             {
+                
                 File.Delete(Application.persistentDataPath + string.Format("/{0}.inv", i));
                 i++;
             }
-        
+        inventarioJugador.numeroLlaves = 0;
+
     }
     public void SaveScriptable()
     {

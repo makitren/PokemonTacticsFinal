@@ -30,6 +30,10 @@ public class Puerta : MonoBehaviour
    
     public void Update()
     {
+        if (abierta)
+        {
+            Abrir();
+        }
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (jugadorEnRango&& tipoPuerta == TipoPuerta.llave)

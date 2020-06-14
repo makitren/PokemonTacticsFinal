@@ -32818,6 +32818,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1898452637 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2329169234797262933, guid: 48534f70b1569a040902e187914ed2ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 2329169235939806665}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59f58f8e376d2a40990916fbccc3c81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1913297392
 GameObject:
   m_ObjectHideFlags: 0
@@ -33281,9 +33293,11 @@ MonoBehaviour:
   questGiver: {fileID: 562756119}
   oro: 0
   cofreLlave: {fileID: 907675531}
+  puerta: {fileID: 1898452637}
   keyMisiones: mision1
   keyCofres: cofre1
   keyPuertas: puerta1
+  inventarioJugador: {fileID: 11400000, guid: fee4ef020e5f86646a240f3caf4c922d, type: 2}
 --- !u!114 &2104777725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33664,6 +33678,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cofre Llave
       objectReference: {fileID: 0}
+    - target: {fileID: 4604081514566519005, guid: ee5d3b5c531578c42af6bcdf5c61bf3e,
+        type: 3}
+      propertyPath: cajaDialogo
+      value: 
+      objectReference: {fileID: 1175872128}
+    - target: {fileID: 4604081514566519005, guid: ee5d3b5c531578c42af6bcdf5c61bf3e,
+        type: 3}
+      propertyPath: dialogoTexto
+      value: 
+      objectReference: {fileID: 473531842}
+    - target: {fileID: 4604081514566519005, guid: ee5d3b5c531578c42af6bcdf5c61bf3e,
+        type: 3}
+      propertyPath: moverPersonaje
+      value: 
+      objectReference: {fileID: 234330054}
+    - target: {fileID: 4604081514566519005, guid: ee5d3b5c531578c42af6bcdf5c61bf3e,
+        type: 3}
+      propertyPath: fisicaObjetosSuelo
+      value: 
+      objectReference: {fileID: 940925022}
     - target: {fileID: 4604081514566518982, guid: ee5d3b5c531578c42af6bcdf5c61bf3e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33719,26 +33753,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4604081514566519005, guid: ee5d3b5c531578c42af6bcdf5c61bf3e,
-        type: 3}
-      propertyPath: cajaDialogo
-      value: 
-      objectReference: {fileID: 1175872128}
-    - target: {fileID: 4604081514566519005, guid: ee5d3b5c531578c42af6bcdf5c61bf3e,
-        type: 3}
-      propertyPath: dialogoTexto
-      value: 
-      objectReference: {fileID: 473531842}
-    - target: {fileID: 4604081514566519005, guid: ee5d3b5c531578c42af6bcdf5c61bf3e,
-        type: 3}
-      propertyPath: moverPersonaje
-      value: 
-      objectReference: {fileID: 234330054}
-    - target: {fileID: 4604081514566519005, guid: ee5d3b5c531578c42af6bcdf5c61bf3e,
-        type: 3}
-      propertyPath: fisicaObjetosSuelo
-      value: 
-      objectReference: {fileID: 940925022}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee5d3b5c531578c42af6bcdf5c61bf3e, type: 3}
 --- !u!1001 &6446188488695606403

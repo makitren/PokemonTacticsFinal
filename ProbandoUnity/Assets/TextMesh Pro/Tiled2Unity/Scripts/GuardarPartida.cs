@@ -11,11 +11,12 @@ public class GuardarPartida : MonoBehaviour
     public QuestGiver questGiver;
     public int oro;
     public CofreLlave cofreLlave;
+    public Puerta puerta;
     //Ubicacion del archivo data
-    private string filePath;
     public string keyMisiones;
     public string keyCofres;
     public string keyPuertas;
+    public InventarioJugador inventarioJugador;
 
     private void Start()
     {
@@ -28,7 +29,8 @@ public class GuardarPartida : MonoBehaviour
     }
     public void Guardar()
     {
-            PlayerPrefs.SetInt("monedas", oro);
+        PlayerPrefs.SetInt("monedas", oro);
+        PlayerPrefs.SetInt("llaves", inventarioJugador.numeroLlaves);
         if (questGiver.quest.completada)
         {
             PlayerPrefs.SetInt(keyMisiones, 1);
@@ -44,6 +46,14 @@ public class GuardarPartida : MonoBehaviour
         else
         {
             PlayerPrefs.SetInt(keyCofres, 0);
+        }
+        if (puerta.abierta)
+        {
+            PlayerPrefs.SetInt(keyPuertas, 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt(keyPuertas, 0);
         }
         PlayerPrefs.Save();
 
@@ -67,14 +77,20 @@ public class GuardarPartida : MonoBehaviour
         {
             cofreLlave.estaAbierto = false;
         }
+        if (PlayerPrefs.GetInt(keyPuertas) == 1)
+        {
+            puerta.abierta = true;
+        }
+        else
+        {
+            puerta.abierta = false;
+        }
         Moneda.moneda = oro;
+        inventarioJugador.numeroLlaves = PlayerPrefs.GetInt("llaves");
     }
     public void BorrarDatos()
     {
-        Debug.Log(filePath);
-        File.Delete(filePath);
-        Moneda.moneda = 0;
-        questGiver.quest.completada = false;
-        cofreLlave.estaAbierto = false;
+        PlayerPrefs.DeleteAll();
+
     }
 }

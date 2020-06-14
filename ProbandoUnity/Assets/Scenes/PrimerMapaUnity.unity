@@ -33110,6 +33110,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menu Pausa
       objectReference: {fileID: 0}
+    - target: {fileID: 1674047244423644970, guid: ba98ed9a564014d44813b3f94790f903,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1674047244423644974, guid: ba98ed9a564014d44813b3f94790f903,
         type: 3}
       propertyPath: m_LocalPosition.x

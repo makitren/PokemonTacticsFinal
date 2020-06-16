@@ -19,9 +19,12 @@ public class GuardarPartida : MonoBehaviour
     public string keyPuertas;
     public InventarioJugador inventarioJugador;
     public GameObject mensajeGuardado;
+    public ComenzarCombate comenzarCombate;
     public string escenaGuardar;
+    public string keyCombate;
     private void Start()
     {
+        Guardar();
         Cargar();
     }
     private void Update()
@@ -65,35 +68,74 @@ public class GuardarPartida : MonoBehaviour
                 PlayerPrefs.SetInt(keyPuertas, 0);
             }
         }
+        if (comenzarCombate != null)
+        {
+            if (comenzarCombate.combt)
+            {
+                Debug.Log("Guardo");
+                PlayerPrefs.SetInt(keyCombate, 1);
+            }
+            else
+            {
+                PlayerPrefs.SetInt(keyCombate, 0);
+            }
+        }
+            
+        
         PlayerPrefs.Save();
-        StartCoroutine(mensajeGuardar());
+        if (mensajeGuardado != null)
+        {
+            StartCoroutine(mensajeGuardar());
+        }
 
     }
     public void Cargar()
     {
-        if (PlayerPrefs.GetInt(keyMisiones) == 1)
+        if (questGiver != null)
         {
-            questGiver.quest.completada = true;
+            if (PlayerPrefs.GetInt(keyMisiones) == 1)
+            {
+                questGiver.quest.completada = true;
+            }
+            else
+            {
+                questGiver.quest.completada = false;
+            }
         }
-        else
+        if (cofreLlave != null)
         {
-            questGiver.quest.completada = false;
+            if (PlayerPrefs.GetInt(keyCofres) == 1)
+            {
+                cofreLlave.estaAbierto = true;
+            }
+            else
+            {
+                cofreLlave.estaAbierto = false;
+            }
         }
-        if(PlayerPrefs.GetInt(keyCofres) == 1)
+        if (puerta != null)
         {
-            cofreLlave.estaAbierto = true;
+            if (PlayerPrefs.GetInt(keyPuertas) == 1)
+            {
+                puerta.abierta = true;
+            }
+            else
+            {
+                puerta.abierta = false;
+            }
         }
-        else
+        if (comenzarCombate!=null)
         {
-            cofreLlave.estaAbierto = false;
-        }
-        if (PlayerPrefs.GetInt(keyPuertas) == 1)
-        {
-            puerta.abierta = true;
-        }
-        else
-        {
-            puerta.abierta = false;
+            if (PlayerPrefs.GetInt(keyCombate) == 1)
+            {
+                Debug.Log("Guardo Combate");
+                comenzarCombate.combt = true;
+            }
+            else if(PlayerPrefs.GetInt(keyCombate)==0)
+            {
+                Debug.Log("No guarda combate");
+                comenzarCombate.combt = false;
+            }
         }
         inventarioJugador.numeroLlaves = PlayerPrefs.GetInt("llaves");
     }
@@ -104,7 +146,6 @@ public class GuardarPartida : MonoBehaviour
     }
     IEnumerator mensajeGuardar()
     {
-        Debug.Log("entro");
         mensajeGuardado.SetActive(true);
         yield return new WaitForSeconds(2.0f);
         mensajeGuardado.SetActive(false);

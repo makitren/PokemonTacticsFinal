@@ -28,7 +28,7 @@ public class AsignadorPokemons : MonoBehaviour
     {
         if (pokemonJugador.misPokemons.Count == 0&&combateEmpezado)
         {
-            SceneManager.LoadScene("PrimerMapaUnity");
+            SceneManager.LoadScene(PlayerPrefs.GetString("escena"));
         }
     }
     public void EmpezarBatalla()

@@ -7,6 +7,7 @@ public class AsignarPokemonEnemigo : MonoBehaviour
 {
     public PokemonsEnemigo pokemonsEnemigo;
     public PokemonJugador pokemonJugador;
+    public GuardarPartida guardarPartida;
     public List<GameObject> pokemonEnemigoPlantilla = new List<GameObject>();
     public List<PokemonEnemigosDatos> pokemonEnemigosList = new List<PokemonEnemigosDatos>();
     void Start()
@@ -20,6 +21,8 @@ public class AsignarPokemonEnemigo : MonoBehaviour
         if (pokemonsEnemigo.pokemons.Count == 0)
         {
             ComenzarCombate.derrotado = true;
+            pokemonJugador.nivel++;
+            guardarPartida.Guardar();
             SceneManager.LoadScene(ComenzarCombate.escena);
         }
     }

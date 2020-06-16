@@ -113,7 +113,6 @@
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\CofreLlave.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\ComenzarCombate.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\ControladorDialogoPersonaje.cs" />
-    <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Data.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\DialogoPersonajes.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\Empujon.cs" />
     <Compile Include="Assets\TextMesh Pro\Tiled2Unity\Scripts\EmpujonEnemigo.cs" />

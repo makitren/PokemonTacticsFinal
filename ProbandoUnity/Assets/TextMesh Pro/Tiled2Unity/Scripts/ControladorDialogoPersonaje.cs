@@ -62,16 +62,20 @@ public class ControladorDialogoPersonaje : MonoBehaviour
     
     void Update()
     {
-        if (questGiver.quest.completada)
+        if (questGiver != null)
         {
-            Destroy(this.gameObject);
+            if (questGiver.quest.completada)
+            {
+                Destroy(this.gameObject);
+            }
         }
+        
         if (Input.GetKeyDown(KeyCode.E) && jugadorEnRango)
         {
             if (panelDialogo.activeInHierarchy)
             {
                 panelDialogo.SetActive(false);
-                if (this.gameObject.GetComponent<ComenzarCombate>() != null&&! ComenzarCombate.derrotado)
+                if (this.gameObject.GetComponent<ComenzarCombate>() != null&&!this.gameObject.GetComponent<ComenzarCombate>().combt)
                 {
                     this.gameObject.GetComponent<ComenzarCombate>().EmpezarCombate();
                 }

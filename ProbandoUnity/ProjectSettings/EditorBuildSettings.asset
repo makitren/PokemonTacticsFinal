@@ -20,4 +20,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Combate.unity
     guid: bdf592a25ac09ac458c128d3d9a8ce1c
+  - enabled: 1
+    path: Assets/Scenes/Casa 1.unity
+    guid: ab6cfb1de8707424d9e4cbfc196f6565
+  - enabled: 1
+    path: Assets/Scenes/Casa 2.unity
+    guid: 8d6cd736fecb8814b91513aac7a606b8
+  - enabled: 1
+    path: Assets/Scenes/Castillo.unity
+    guid: 2e8fff4d22c95074499226ac38ca8cbe
+  - enabled: 1
+    path: Assets/Scenes/MapaCinco.unity
+    guid: 71b37044ccacde649be32595ce5a75ce
+  - enabled: 1
+    path: Assets/Scenes/MapaCuatro.unity
+    guid: f3a4831c40c6b884ba9deea54dbca76e
+  - enabled: 1
+    path: Assets/Scenes/Novac.unity
+    guid: 661826eb06450e14fbd151b36cf551e8
   m_configObjects: {}

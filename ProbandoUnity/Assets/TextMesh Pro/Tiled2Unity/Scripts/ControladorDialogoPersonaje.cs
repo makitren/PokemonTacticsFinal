@@ -8,6 +8,7 @@ public class ControladorDialogoPersonaje : MonoBehaviour
 {
     public DialogoPersonajes dialogo;
     public Senial interrogacionOn;
+    public string personajeMision;
     public Senial interrogacionOff;
     Queue<string> frases;
     public GameObject panelDialogo;
@@ -78,6 +79,14 @@ public class ControladorDialogoPersonaje : MonoBehaviour
                 if (this.gameObject.GetComponent<ComenzarCombate>() != null&&!this.gameObject.GetComponent<ComenzarCombate>().combt)
                 {
                     this.gameObject.GetComponent<ComenzarCombate>().EmpezarCombate();
+                }
+                if (personajeMision.Length>0&&moverPersonaje.quest.activada)
+                {
+                    moverPersonaje.quest.questGoal.Hablar();
+                    if (moverPersonaje.quest.questGoal.IsReached())
+                    {
+                        moverPersonaje.quest.Completada();
+                    }
                 }
             }
             else

@@ -20,6 +20,13 @@ public class QuestGoal
             currentAmount++;
         }
     }
+    public void Hablar()
+    {
+        if (goalType == GoalType.Hablar)
+        {
+            currentAmount++;
+        }
+    }
 }
 public enum GoalType
 {

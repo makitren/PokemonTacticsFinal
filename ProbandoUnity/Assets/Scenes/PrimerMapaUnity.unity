@@ -14894,7 +14894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quest:
     activada: 0
-    titulo: "\xA1En busca de las monedas!"
+    titulo: En busca de las monedas
     desc: "Tienes que encontrar las monedas que est\xE1n al sur del pueblo. Te dar\xE9
       una moneda de regalo si las encuentras todas."
     oroRecibido: 1
@@ -16093,6 +16093,11 @@ PrefabInstance:
       propertyPath: questGiver
       value: 
       objectReference: {fileID: 562756119}
+    - target: {fileID: 2393595489757114019, guid: 00bb268756fd2004096371794b75ea77,
+        type: 3}
+      propertyPath: velocidadFrase
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 2393595489757114018, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_Sprite
@@ -33394,7 +33399,9 @@ MonoBehaviour:
   keyPuertas: puerta1
   inventarioJugador: {fileID: 11400000, guid: fee4ef020e5f86646a240f3caf4c922d, type: 2}
   mensajeGuardado: {fileID: 683256251}
+  comenzarCombate: {fileID: 0}
   escenaGuardar: PrimerMapaUnity
+  keyCombate: 
 --- !u!114 &2104777725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33657,7 +33664,7 @@ PrefabInstance:
         type: 3}
       propertyPath: questGiver
       value: 
-      objectReference: {fileID: 562756119}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00bb268756fd2004096371794b75ea77, type: 3}
 --- !u!4 &2393595491023530728 stripped

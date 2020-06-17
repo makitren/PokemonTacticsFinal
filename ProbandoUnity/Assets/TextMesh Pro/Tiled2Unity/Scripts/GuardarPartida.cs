@@ -24,7 +24,11 @@ public class GuardarPartida : MonoBehaviour
     public string keyCombate;
     private void Start()
     {
-        Guardar();
+        if (ComenzarCombate.derrotado == true)
+        {
+            Guardar();
+            ComenzarCombate.derrotado = false;
+        }
         Cargar();
     }
     private void Update()

@@ -29,6 +29,7 @@ public class QuestGiver : MonoBehaviour
         questWindows.SetActive(false);
         quest.activada = true;
         moverPersonaje.quest = quest;
+        moverPersonaje.movimientoPersonaje = false;
         if (barreraBorrar)
         {
             Destroy(barreraBorrar);

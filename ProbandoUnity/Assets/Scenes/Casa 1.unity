@@ -2748,7 +2748,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234330053}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.73, y: 1.34, z: 0}
+  m_LocalPosition: {x: -0.884, y: 1.077, z: 0}
   m_LocalScale: {x: 1.0798, y: 1, z: 1}
   m_Children:
   - {fileID: 152657678}
@@ -3436,9 +3436,9 @@ MonoBehaviour:
   keyCofres: 
   keyPuertas: 
   inventarioJugador: {fileID: 11400000, guid: fee4ef020e5f86646a240f3caf4c922d, type: 2}
-  mensajeGuardado: {fileID: 0}
+  mensajeGuardado: {fileID: 683256251}
   comenzarCombate: {fileID: 0}
-  escenaGuardar: ProbandoUnity1
+  escenaGuardar: Casa 1
   keyCombate: 
 --- !u!114 &811934958
 MonoBehaviour:
@@ -3976,7 +3976,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04223165, y: 0.012066364}
+  m_Offset: {x: 0.04223165, y: -0.026500285}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3987,7 +3987,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6380145, y: 0.14330053}
+  m_Size: {x: 0.6380145, y: 0.10770047}
   m_EdgeRadius: 0
 --- !u!4 &1191910553
 Transform:
@@ -3997,7 +3997,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191910551}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.196, y: 2.844, z: -18.694439}
+  m_LocalPosition: {x: -0.928, y: 0.82, z: -18.694439}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4015,8 +4015,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d0e1f625fec1cd43b745dd5f29aa177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escenaCargar: ProbandoUnity1
-  posicionJugador: {x: 0.0197, y: -0.4648}
+  escenaCargar: PrimerMapaUnity
+  posicionJugador: {x: -1.661, y: 1.547}
   memoriaJugador: {fileID: 11400000, guid: 64869272ded1c874c89f712906ef4cad, type: 2}
   guardarPartida: {fileID: 2104777724}
 --- !u!1 &1355501391

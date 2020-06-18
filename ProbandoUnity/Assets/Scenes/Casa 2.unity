@@ -3061,96 +3061,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248840723}
   m_CullTransparentMesh: 0
---- !u!1 &345210394
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 345210398}
-  - component: {fileID: 345210397}
-  - component: {fileID: 345210396}
-  - component: {fileID: 345210395}
-  m_Layer: 0
-  m_Name: EventSystem (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &345210395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 345210394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d89a3fc7a2fd9d42a9ad3a37d945199, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  questGiver: {fileID: 0}
-  cofreLlave: {fileID: 0}
-  puerta: {fileID: 0}
-  keyMisiones: mision2
-  keyCofres: 
-  keyPuertas: 
-  inventarioJugador: {fileID: 11400000, guid: fee4ef020e5f86646a240f3caf4c922d, type: 2}
-  mensajeGuardado: {fileID: 0}
-  comenzarCombate: {fileID: 0}
-  escenaGuardar: ProbandoUnity1
-  keyCombate: 
---- !u!114 &345210396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 345210394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &345210397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 345210394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &345210398
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 345210394}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &351896272
 GameObject:
   m_ObjectHideFlags: 0
@@ -3976,7 +3886,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04223165, y: 0.012066364}
+  m_Offset: {x: 0.079615206, y: 0.012066364}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3987,7 +3897,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6380145, y: 0.14330053}
+  m_Size: {x: 0.7127816, y: 0.14330053}
   m_EdgeRadius: 0
 --- !u!4 &1191910553
 Transform:
@@ -3997,7 +3907,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191910551}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.196, y: 2.844, z: -18.694439}
+  m_LocalPosition: {x: -0.958, y: 0.758, z: -18.694439}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4015,8 +3925,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d0e1f625fec1cd43b745dd5f29aa177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escenaCargar: ProbandoUnity1
-  posicionJugador: {x: 0.0197, y: -0.4648}
+  escenaCargar: PrimerMapaUnity
+  posicionJugador: {x: 1.39, y: 1.543}
   memoriaJugador: {fileID: 11400000, guid: 64869272ded1c874c89f712906ef4cad, type: 2}
   guardarPartida: {fileID: 2104777724}
 --- !u!1 &1355501391

@@ -278,9 +278,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escenaCargar: Novac
-  posicionJugador: {x: -0.999, y: 0.36}
+  posicionJugador: {x: -1, y: 0.36}
   memoriaJugador: {fileID: 11400000, guid: 64869272ded1c874c89f712906ef4cad, type: 2}
-  guardarPartida: {fileID: 0}
+  guardarPartida: {fileID: 1814396568}
 --- !u!4 &44553566
 Transform:
   m_ObjectHideFlags: 0
@@ -17137,7 +17137,7 @@ MonoBehaviour:
   escenaCargar: ProbandoUnity1
   posicionJugador: {x: 2.802, y: 2.109}
   memoriaJugador: {fileID: 11400000, guid: 64869272ded1c874c89f712906ef4cad, type: 2}
-  guardarPartida: {fileID: 0}
+  guardarPartida: {fileID: 1814396568}
 --- !u!4 &944747669
 Transform:
   m_ObjectHideFlags: 0
@@ -17894,12 +17894,12 @@ PrefabInstance:
     - target: {fileID: 2393595489757114017, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.496
+      value: 0.831
       objectReference: {fileID: 0}
     - target: {fileID: 2393595489757114017, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.836
+      value: -0.183
       objectReference: {fileID: 0}
     - target: {fileID: 2393595489757114017, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}

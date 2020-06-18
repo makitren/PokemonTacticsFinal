@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710c0e00ff4a9c43a7498afa676baf9, type: 3}
+  m_Name: Regieleki
+  m_EditorClassIdentifier: 
+  nombre: Regieleki
+  vida: 150
+  "da\xF1o": 15
+  precio: 5
+  sprite: {fileID: 21300000, guid: e35aebbc916a7d84798c2d4d0fd7cd14, type: 3}
+  tipo: Electrico
+  anmin: {fileID: 1297880682738241182, guid: 3c9579851c3289542b2781ee750e06b4, type: 3}

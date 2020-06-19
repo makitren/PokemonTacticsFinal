@@ -14,6 +14,7 @@ public class ControladorDialogoPersonaje : MonoBehaviour
     public GameObject panelDialogo;
     public Text salidaTexto;
     string fraseActiva;
+    public GameObject mision;
     public float velocidadFrase;
     public bool jugadorEnRango;
     public MoverPersonaje moverPersonaje;
@@ -23,6 +24,7 @@ public class ControladorDialogoPersonaje : MonoBehaviour
         frases = new Queue<string>();
 
     }
+   
     void ComenzarDialogo()
     {
         frases.Clear();
@@ -86,6 +88,7 @@ public class ControladorDialogoPersonaje : MonoBehaviour
                     if (moverPersonaje.quest.questGoal.IsReached())
                     {
                         moverPersonaje.quest.Completada();
+                        
                     }
                 }
             }

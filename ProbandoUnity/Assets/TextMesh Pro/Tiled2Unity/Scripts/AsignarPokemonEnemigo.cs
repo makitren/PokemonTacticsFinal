@@ -12,6 +12,7 @@ public class AsignarPokemonEnemigo : MonoBehaviour
     public List<PokemonEnemigosDatos> pokemonEnemigosList = new List<PokemonEnemigosDatos>();
     public GameObject cartelGanado;
     public bool cartel;
+    public bool victoria;
     void Start()
     {
         
@@ -22,11 +23,19 @@ public class AsignarPokemonEnemigo : MonoBehaviour
     {
         if (pokemonsEnemigo.pokemons.Count == 0)
         {
+            if (victoria == false)
+            {
+                
                 StartCoroutine(HasGanado());
                 ComenzarCombate.derrotado = true;
                 pokemonJugador.nivel++;
                 guardarPartida.Guardar();
+                victoria = true;
                 SceneManager.LoadScene(ComenzarCombate.escena);
+            }
+            
+                
+
         }
     }
     public void AparecerPokemon()
@@ -47,7 +56,7 @@ public class AsignarPokemonEnemigo : MonoBehaviour
     private IEnumerator HasGanado()
     {
         cartelGanado.SetActive(true);
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(5);
         cartelGanado.SetActive(false);
         cartel = false;
     }

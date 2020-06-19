@@ -14,6 +14,7 @@ public class ComenzarCombate : MonoBehaviour
     public static string escena;
     public bool combt;
     public static string key;
+    public MoverPersonaje personaje;
     void Start()
     {
         if (derrotado == true)
@@ -38,7 +39,15 @@ public class ComenzarCombate : MonoBehaviour
     }
     public void EmpezarCombate()
     {
-        pokemonsElegidos = pokemonsEnemigos;
-        this.gameObject.GetComponent<ControladorDialogoPersonaje>().EmpezarCombate();
+        if (personaje.quest.activada)
+        {
+
+        }
+        else
+        {
+            pokemonsElegidos = pokemonsEnemigos;
+            this.gameObject.GetComponent<ControladorDialogoPersonaje>().EmpezarCombate();
+        }
+        
     }
 }

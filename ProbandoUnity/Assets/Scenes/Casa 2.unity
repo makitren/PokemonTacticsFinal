@@ -5523,9 +5523,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 08dc8a72d90e42d4d8c8af5db4663db5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.213
+  m_Volume: 0.644
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -5848,6 +5848,8 @@ MonoBehaviour:
   comenzarCombate: {fileID: 0}
   escenaGuardar: PrimerMapaUnity
   keyCombate: 
+  pokemonJugador: {fileID: 0}
+  guardarInventario: {fileID: 0}
 --- !u!114 &2104777725
 MonoBehaviour:
   m_ObjectHideFlags: 0

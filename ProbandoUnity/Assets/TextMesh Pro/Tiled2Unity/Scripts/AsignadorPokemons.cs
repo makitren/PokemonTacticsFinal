@@ -28,6 +28,7 @@ public class AsignadorPokemons : MonoBehaviour
     {
         if (pokemonJugador.misPokemons.Count == 0&&combateEmpezado)
         {
+
             SceneManager.LoadScene(PlayerPrefs.GetString("escena"));
         }
     }
@@ -85,6 +86,7 @@ public class AsignadorPokemons : MonoBehaviour
             for (int c = 0; c < pokemonJugador.misPokemons.Count; c++)
             {
                 Debug.Log(c);
+                pokemonsMios[c].nombre = pokemonJugador.misPokemons[c].nombre;
                 pokemonsMios[c].ataque = pokemonJugador.misPokemons[c].daño+dañoAdicional;
                 pokemonsMios[c].vida = pokemonJugador.misPokemons[c].vida+vidaAdicional;
                 pokemonsMios[c].anim = pokemonJugador.misPokemons[c].anmin.GetComponent<Animator>();

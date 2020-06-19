@@ -31,7 +31,7 @@ public class ManagerCombate : MonoBehaviour
     }
      public void Comprar()
     {
-        if (pokemonJugador.nivel > pokemonJugador.misPokemons.Count)
+        if (pokemonJugador.nivel > pokemonJugador.misPokemons.Count&&Moneda.moneda>=0&&Moneda.moneda-pokemons.precio>=0)
         {
             Moneda.moneda = Moneda.moneda - pokemons.precio;
             pokemonJugador.misPokemons.Add(pokemons);

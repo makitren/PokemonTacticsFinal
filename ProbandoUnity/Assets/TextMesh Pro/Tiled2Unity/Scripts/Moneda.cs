@@ -29,7 +29,7 @@ public class Moneda : MonoBehaviour
         if (otro.CompareTag("Monedas"))
             {
             moneda++;
-            textoMonedas.text = "Monedas: "+moneda.ToString();
+            Debug.Log("Borro Moneda");
             otro.gameObject.SetActive(false);
             if (moverPersonaje.quest.activada)
             {

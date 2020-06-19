@@ -18,7 +18,7 @@ public class Empujon : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -27,31 +27,30 @@ public class Empujon : MonoBehaviour
             Rigidbody2D enemy = collision.GetComponent<Rigidbody2D>();
             if (enemy != null)
             {
-                Debug.Log(collision.GetComponent<PokemonEnemigosDatos>().name+":"+ collision.GetComponent<PokemonEnemigosDatos>().vida);
+                Debug.Log(collision.GetComponent<PokemonEnemigosDatos>().name + ":" + collision.GetComponent<PokemonEnemigosDatos>().vida);
                 collision.GetComponent<PokemonEnemigosDatos>().vida = collision.GetComponent<PokemonEnemigosDatos>().vida - this.GetComponent<PokemonsMios>().ataque;
                 if (collision.GetComponent<PokemonEnemigosDatos>().vida <= 0)
                 {
-                    for(int c = 0; c < collision.GetComponent<PokemonEnemigosDatos>().pokemonsEnemigo.pokemons.Count; c++)
+                    for (int c = 0; c < collision.GetComponent<PokemonEnemigosDatos>().pokemonsEnemigo.pokemons.Count; c++)
                     {
                         if (collision.GetComponent<PokemonEnemigosDatos>().pokemonsEnemigo.pokemons[c].nombre == collision.GetComponent<PokemonEnemigosDatos>().nombre)
                         {
-                            HasGanado();
                             collision.GetComponent<PokemonEnemigosDatos>().pokemonsEnemigo.pokemons.RemoveAt(c);
+
+                        }
+                        else
+                        {
+                            StartCoroutine(EmpujonBicho(enemy));
                         }
                     }
                     Destroy(collision.gameObject);
 
                 }
-                else
-                {
-                    enemy.isKinematic = false;
-                    Vector2 difference = enemy.transform.position - transform.position;
-                    difference = difference.normalized * thrust;
-                    enemy.AddForce(difference, ForceMode2D.Impulse);
-                    StartCoroutine(EmpujonBicho(enemy));
-                }
-
-                
+                enemy.isKinematic = false;
+                Vector2 difference = enemy.transform.position - transform.position;
+                difference = difference.normalized * thrust;
+                enemy.AddForce(difference, ForceMode2D.Impulse);
+                StartCoroutine(EmpujonBicho(enemy));
             }
         }
     }
@@ -78,11 +77,6 @@ public class Empujon : MonoBehaviour
             tem++;
         }
         collision2D.enabled = true;
-    }
-    private IEnumerator HasGanado()
-    {
-        yield return new WaitForSeconds(3f);
-        
     }
 }
 

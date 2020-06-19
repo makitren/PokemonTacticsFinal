@@ -1577,7 +1577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 359.7}
+  m_AnchoredPosition: {x: 2, y: 236}
   m_SizeDelta: {x: 1518, y: 171.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &610555212
@@ -4887,7 +4887,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questGiver: {fileID: 0}
-  oro: 0
   cofreLlave: {fileID: 0}
   puerta: {fileID: 0}
   keyMisiones: 
@@ -4895,6 +4894,10 @@ MonoBehaviour:
   keyPuertas: 
   inventarioJugador: {fileID: 0}
   mensajeGuardado: {fileID: 0}
+  comenzarCombate: {fileID: 0}
+  escenaGuardar: 
+  keyCombate: 
+  pokemonJugador: {fileID: 0}
 --- !u!114 &2134426355
 MonoBehaviour:
   m_ObjectHideFlags: 0

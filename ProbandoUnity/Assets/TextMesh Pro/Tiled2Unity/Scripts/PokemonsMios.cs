@@ -13,6 +13,7 @@ public class PokemonsMios : Pokemon
     public Transform homePositions;
     public Animator anim;
     public Sprite sprite;
+    public PokemonJugador pokemonJugador;
     // Start is called before the first frame update
     void Start()
     {

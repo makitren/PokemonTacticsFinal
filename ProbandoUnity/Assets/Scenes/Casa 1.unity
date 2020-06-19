@@ -3432,7 +3432,7 @@ MonoBehaviour:
   questGiver: {fileID: 0}
   cofreLlave: {fileID: 0}
   puerta: {fileID: 0}
-  keyMisiones: mision2
+  keyMisiones: 
   keyCofres: 
   keyPuertas: 
   inventarioJugador: {fileID: 11400000, guid: fee4ef020e5f86646a240f3caf4c922d, type: 2}
@@ -3440,6 +3440,8 @@ MonoBehaviour:
   comenzarCombate: {fileID: 0}
   escenaGuardar: Casa 1
   keyCombate: 
+  pokemonJugador: {fileID: 0}
+  guardarInventario: {fileID: 21499652}
 --- !u!114 &811934958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5938,6 +5940,8 @@ MonoBehaviour:
   comenzarCombate: {fileID: 0}
   escenaGuardar: PrimerMapaUnity
   keyCombate: 
+  pokemonJugador: {fileID: 0}
+  guardarInventario: {fileID: 0}
 --- !u!114 &2104777725
 MonoBehaviour:
   m_ObjectHideFlags: 0

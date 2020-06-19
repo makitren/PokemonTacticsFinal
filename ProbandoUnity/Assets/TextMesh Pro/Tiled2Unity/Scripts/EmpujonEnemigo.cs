@@ -26,21 +26,32 @@ public class EmpujonEnemigo : MonoBehaviour
             Rigidbody2D enemy = collision.GetComponent<Rigidbody2D>();
             if (enemy != null)
             {
-                Debug.Log(collision.GetComponent<PokemonsMios>().name + ":" + collision.GetComponent<PokemonsMios>().vida);
+
                 collision.GetComponent<PokemonsMios>().vida = collision.GetComponent<PokemonsMios>().vida - this.GetComponent<PokemonEnemigosDatos>().ataque;
                 if (collision.GetComponent<PokemonsMios>().vida <= 0)
                 {
+                    for (int c = 0; c < collision.GetComponent<PokemonsMios>().pokemonJugador.misPokemons.Count; c++)
+                    {
+                        if (collision.GetComponent<PokemonsMios>().pokemonJugador.misPokemons[c].nombre == collision.GetComponent<PokemonsMios>().nombre)
+                        {
+                            collision.GetComponent<PokemonsMios>().pokemonJugador.misPokemons.RemoveAt(c);
+                        }
+                    }
                     Destroy(collision.gameObject);
 
                 }
-                enemy.isKinematic = false;
-                Vector2 difference = enemy.transform.position - transform.position;
-                difference = difference.normalized * thrust;
-                enemy.AddForce(difference, ForceMode2D.Impulse);
-                StartCoroutine(EmpujonBicho(enemy));
-
+                if (this.gameObject.GetComponent<PokemonEnemigosDatos>().vida > 0)
+                {
+                    enemy.isKinematic = false;
+                    Vector2 difference = enemy.transform.position - transform.position;
+                    difference = difference.normalized * thrust;
+                    enemy.AddForce(difference, ForceMode2D.Impulse);
+                    StartCoroutine(EmpujonBicho(enemy));
+                }
+                
             }
         }
+           
     }
     private IEnumerator EmpujonBicho(Rigidbody2D enemigo)
     {

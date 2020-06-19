@@ -10,6 +10,8 @@ public class AsignarPokemonEnemigo : MonoBehaviour
     public GuardarPartida guardarPartida;
     public List<GameObject> pokemonEnemigoPlantilla = new List<GameObject>();
     public List<PokemonEnemigosDatos> pokemonEnemigosList = new List<PokemonEnemigosDatos>();
+    public GameObject cartelGanado;
+    public bool cartel;
     void Start()
     {
         
@@ -20,10 +22,11 @@ public class AsignarPokemonEnemigo : MonoBehaviour
     {
         if (pokemonsEnemigo.pokemons.Count == 0)
         {
-            ComenzarCombate.derrotado = true;
-            pokemonJugador.nivel++;
-            guardarPartida.Guardar();
-            SceneManager.LoadScene(ComenzarCombate.escena);
+                StartCoroutine(HasGanado());
+                ComenzarCombate.derrotado = true;
+                pokemonJugador.nivel++;
+                guardarPartida.Guardar();
+                SceneManager.LoadScene(ComenzarCombate.escena);
         }
     }
     public void AparecerPokemon()
@@ -41,4 +44,12 @@ public class AsignarPokemonEnemigo : MonoBehaviour
 
         }
     }
+    private IEnumerator HasGanado()
+    {
+        cartelGanado.SetActive(true);
+        yield return new WaitForSeconds(5f);
+        cartelGanado.SetActive(false);
+        cartel = false;
+    }
 }
+

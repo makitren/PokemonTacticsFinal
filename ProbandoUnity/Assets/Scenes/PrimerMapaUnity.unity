@@ -32758,7 +32758,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Guardado Con Extio
+  m_Text: 'Guardado Con Exito
+
+'
 --- !u!222 &1637172054
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33549,6 +33551,8 @@ MonoBehaviour:
   comenzarCombate: {fileID: 0}
   escenaGuardar: PrimerMapaUnity
   keyCombate: 
+  pokemonJugador: {fileID: 0}
+  guardarInventario: {fileID: 21499652}
 --- !u!114 &2104777725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33651,12 +33655,12 @@ PrefabInstance:
     - target: {fileID: 2329169235392775828, guid: 48534f70b1569a040902e187914ed2ad,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.681
+      value: -1.67
       objectReference: {fileID: 0}
     - target: {fileID: 2329169235392775828, guid: 48534f70b1569a040902e187914ed2ad,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.785
+      value: 1.8114
       objectReference: {fileID: 0}
     - target: {fileID: 2329169235392775828, guid: 48534f70b1569a040902e187914ed2ad,
         type: 3}
@@ -33703,6 +33707,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2329169235392775828, guid: 48534f70b1569a040902e187914ed2ad,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0573
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329169235392775828, guid: 48534f70b1569a040902e187914ed2ad,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2048
+      objectReference: {fileID: 0}
     - target: {fileID: 2329169235392775826, guid: 48534f70b1569a040902e187914ed2ad,
         type: 3}
       propertyPath: m_Offset.y
@@ -33712,6 +33726,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.1955721
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329169235392775829, guid: 48534f70b1569a040902e187914ed2ad,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329169235392775829, guid: 48534f70b1569a040902e187914ed2ad,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329169235392775829, guid: 48534f70b1569a040902e187914ed2ad,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48534f70b1569a040902e187914ed2ad, type: 3}

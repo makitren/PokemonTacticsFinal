@@ -17,7 +17,7 @@ public class BotonAleatorio : MonoBehaviour
     }
     public void ActualizarTienda()
     {
-        if (Moneda.moneda >= 0)
+        if (Moneda.moneda >= 0&&Moneda.moneda-2>=0)
         {
             Moneda.moneda = Moneda.moneda - 2;
             for (int c = 0; c < managerCombates.Count; c++)

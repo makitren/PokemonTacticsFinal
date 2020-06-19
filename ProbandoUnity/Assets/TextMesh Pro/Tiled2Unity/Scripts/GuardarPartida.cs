@@ -22,6 +22,8 @@ public class GuardarPartida : MonoBehaviour
     public ComenzarCombate comenzarCombate;
     public string escenaGuardar;
     public string keyCombate;
+    public PokemonJugador pokemonJugador;
+    public GuardarInventario guardarInventario;
     private void Start()
     {
         if (ComenzarCombate.derrotado == true)
@@ -39,6 +41,14 @@ public class GuardarPartida : MonoBehaviour
         PlayerPrefs.SetString("escena", escenaGuardar);   
         PlayerPrefs.SetInt("monedas", Moneda.moneda);
         PlayerPrefs.SetInt("llaves", inventarioJugador.numeroLlaves);
+        if (guardarInventario != null)
+        {
+            guardarInventario.SaveScriptable();
+        }
+        if (pokemonJugador!=null)
+        {
+            PlayerPrefs.SetInt("nivel", pokemonJugador.nivel);
+        }
         if (questGiver != null)
         {
             if (questGiver.quest.completada)
@@ -140,6 +150,10 @@ public class GuardarPartida : MonoBehaviour
                 Debug.Log("No guarda combate");
                 comenzarCombate.combt = false;
             }
+        }
+        if (pokemonJugador != null&&pokemonJugador.nivel!=1)
+        {
+            pokemonJugador.nivel = PlayerPrefs.GetInt("nivel");
         }
         inventarioJugador.numeroLlaves = PlayerPrefs.GetInt("llaves");
     }

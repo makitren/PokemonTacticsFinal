@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710c0e00ff4a9c43a7498afa676baf9, type: 3}
+  m_Name: Zeraora
+  m_EditorClassIdentifier: 
+  nombre: Zeraora
+  vida: 120
+  "da\xF1o": 12
+  precio: 2
+  sprite: {fileID: 21300000, guid: 228db54fb56d55747abbe684a2259888, type: 3}
+  tipo: Electrico
+  anmin: {fileID: 4382463918023973176, guid: 119c67907d9183444ae30a4a8afd552b, type: 3}

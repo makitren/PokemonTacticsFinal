@@ -30,7 +30,6 @@ public class ComenzarCombate : MonoBehaviour
         }
 
         escena = escenaPoner;
-        pokemonsElegidos = pokemonsEnemigos;
     }
 
     // Update is called once per frame
@@ -39,6 +38,7 @@ public class ComenzarCombate : MonoBehaviour
     }
     public void EmpezarCombate()
     {
+        pokemonsElegidos = pokemonsEnemigos;
         this.gameObject.GetComponent<ControladorDialogoPersonaje>().EmpezarCombate();
     }
 }

@@ -26,11 +26,12 @@ public class AsignadorPokemons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (pokemonJugador.misPokemons.Count == 0&&combateEmpezado)
         {
-
             SceneManager.LoadScene(PlayerPrefs.GetString("escena"));
         }
+       
     }
     public void EmpezarBatalla()
     {

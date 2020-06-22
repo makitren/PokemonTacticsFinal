@@ -5,7 +5,6 @@ using UnityEngine.UI;
 using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using UnityEditor.Build.Content;
 using UnityEngine.SceneManagement;
 
 public class GuardarPartida : MonoBehaviour

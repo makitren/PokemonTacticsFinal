@@ -4,7 +4,6 @@ using TMPro;
 using System.Data.Common;
 using System.Threading;
 using System.Collections;
-using System.Data.Odbc;
 
 public class Moneda : MonoBehaviour
 {

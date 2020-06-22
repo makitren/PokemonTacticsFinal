@@ -138,13 +138,21 @@ public class ControladorDialogoPersonaje : MonoBehaviour
 
             if (panelDialogo.activeInHierarchy == true)
             {
-                moverPersonaje.movimientoPersonaje = true;
-                moverPersonaje.animacion.SetBool("andando", false);
+                if (moverPersonaje != null)
+                {
+                    moverPersonaje.movimientoPersonaje = true;
+                    moverPersonaje.animacion.SetBool("andando", false);
+                }
+
             }
             else
             {
-                moverPersonaje.movimientoPersonaje = false;
-                moverPersonaje.animacion.SetBool("andando", false);
+                if (moverPersonaje != null)
+                {
+                    moverPersonaje.movimientoPersonaje = false;
+                    moverPersonaje.animacion.SetBool("andando", false);
+                }
+                
             }
         }
 

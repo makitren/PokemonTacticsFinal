@@ -17,7 +17,7 @@ public class PokemonsMios : Pokemon
     // Start is called before the first frame update
     void Start()
     {
-        target = GameObject.FindWithTag(enemigo).transform;
+       
         gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
         gameObject.GetComponent<Animator>().runtimeAnimatorController = anim.runtimeAnimatorController;
         anim = gameObject.GetComponent<Animator>();
@@ -27,6 +27,7 @@ public class PokemonsMios : Pokemon
     // Update is called once per frame
     void Update()
     {
+        target = GameObject.FindWithTag(enemigo).transform;
         checkDistance();
     }
     void checkDistance()
@@ -40,6 +41,7 @@ public class PokemonsMios : Pokemon
         }
         else
         {
+            Debug.Log("No detecto a nadie");
             anim.SetBool("EmpezarBatalla", false);
         }
     }

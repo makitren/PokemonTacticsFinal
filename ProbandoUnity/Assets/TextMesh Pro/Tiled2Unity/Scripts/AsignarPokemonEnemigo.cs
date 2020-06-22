@@ -13,6 +13,7 @@ public class AsignarPokemonEnemigo : MonoBehaviour
     public GameObject cartelGanado;
     public bool cartel;
     public bool victoria;
+    public ValorVector valorVector;
     void Start()
     {
         
@@ -31,10 +32,11 @@ public class AsignarPokemonEnemigo : MonoBehaviour
                 pokemonJugador.nivel++;
                 guardarPartida.Guardar();
                 victoria = true;
+                valorVector.valorInicial = ComenzarCombate.psjug;
                 SceneManager.LoadScene(ComenzarCombate.escena);
             }
             
-                
+              
 
         }
     }

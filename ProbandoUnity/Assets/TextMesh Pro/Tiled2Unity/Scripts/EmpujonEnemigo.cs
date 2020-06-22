@@ -37,17 +37,15 @@ public class EmpujonEnemigo : MonoBehaviour
                             collision.GetComponent<PokemonsMios>().pokemonJugador.misPokemons.RemoveAt(c);
                         }
                     }
-                    Destroy(collision.gameObject);
+                    collision.gameObject.SetActive(false);
 
                 }
-                if (this.gameObject.GetComponent<PokemonEnemigosDatos>().vida > 0)
-                {
                     enemy.isKinematic = false;
                     Vector2 difference = enemy.transform.position - transform.position;
                     difference = difference.normalized * thrust;
                     enemy.AddForce(difference, ForceMode2D.Impulse);
                     StartCoroutine(EmpujonBicho(enemy));
-                }
+                
                 
             }
         }
@@ -61,6 +59,7 @@ public class EmpujonEnemigo : MonoBehaviour
             yield return new WaitForSeconds(empujon);
             enemigo.velocity = Vector2.zero;
             enemigo.isKinematic = true;
+            StopCoroutine(EmpujonBicho(enemigo));
         }
     }
     private IEnumerator FlashCo()

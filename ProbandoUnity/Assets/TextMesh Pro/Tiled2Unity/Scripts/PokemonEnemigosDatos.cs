@@ -15,7 +15,7 @@ public class PokemonEnemigosDatos : Pokemon
         // Start is called before the first frame update
         void Start()
         {
-            target = GameObject.FindWithTag(enemigo).transform;
+           
             gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
             gameObject.GetComponent<Animator>().runtimeAnimatorController = anm.runtimeAnimatorController;
             anm = gameObject.GetComponent<Animator>();
@@ -24,7 +24,8 @@ public class PokemonEnemigosDatos : Pokemon
         // Update is called once per frame
         void Update()
         {
-            checkDistance();
+        target = GameObject.FindWithTag(enemigo).transform;
+        checkDistance();
         }
         void checkDistance()
         {

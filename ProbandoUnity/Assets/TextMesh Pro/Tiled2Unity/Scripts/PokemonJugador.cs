@@ -10,7 +10,10 @@ public class PokemonJugador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (PlayerPrefs.GetInt("nivel") + nivel > 1)
+        {
+            nivel = PlayerPrefs.GetInt("nivel");
+        }
     }
 
     // Update is called once per frame

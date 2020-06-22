@@ -15,8 +15,11 @@ public class ComenzarCombate : MonoBehaviour
     public bool combt;
     public static string key;
     public MoverPersonaje personaje;
+    public Vector2 pocJug;
+    public static Vector2 psjug;
     void Start()
     {
+        psjug = pocJug;
         if (derrotado == true)
         {
             Debug.Log("GUARDO BIEN");
@@ -39,12 +42,20 @@ public class ComenzarCombate : MonoBehaviour
     }
     public void EmpezarCombate()
     {
+        if (personaje != null)
+        {
+            Debug.Log("Entro Aqui");
+            guardarPartida.Guardar();
+            pokemonsElegidos = pokemonsEnemigos;
+            this.gameObject.GetComponent<ControladorDialogoPersonaje>().EmpezarCombate();
+        }
         if (personaje.quest.activada)
         {
 
         }
         else
         {
+            guardarPartida.Guardar();
             pokemonsElegidos = pokemonsEnemigos;
             this.gameObject.GetComponent<ControladorDialogoPersonaje>().EmpezarCombate();
         }

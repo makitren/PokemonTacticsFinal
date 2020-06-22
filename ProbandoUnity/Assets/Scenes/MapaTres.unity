@@ -469,6 +469,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1674047243144600008, guid: ba98ed9a564014d44813b3f94790f903,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -150.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1674047243144600015, guid: ba98ed9a564014d44813b3f94790f903,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -488,21 +503,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0.000061035
-      objectReference: {fileID: 0}
-    - target: {fileID: 1674047243144600008, guid: ba98ed9a564014d44813b3f94790f903,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -150.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1674047242855020717, guid: ba98ed9a564014d44813b3f94790f903,
         type: 3}
@@ -15587,9 +15587,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fee9671cc18274d4bbcd910eba96d9a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textoMonedas: {fileID: 0}
+  textoMonedas: {fileID: 1406141764}
   mision: {fileID: 0}
-  moverPersonaje: {fileID: 0}
+  moverPersonaje: {fileID: 506630333}
 --- !u!114 &506630327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15813,7 +15813,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 506630325}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.403, y: -0.457, z: 0}
+  m_LocalPosition: {x: -2.343, y: -0.993, z: 0}
   m_LocalScale: {x: 1.0798, y: 1, z: 1}
   m_Children:
   - {fileID: 566282962}
@@ -15854,7 +15854,7 @@ MonoBehaviour:
   mensajeGuardado: {fileID: 1819160190}
   comenzarCombate: {fileID: 1387523195}
   escenaGuardar: MapaTres
-  keyCombate: 
+  keyCombate: comb10
   pokemonJugador: {fileID: 0}
   guardarInventario: {fileID: 1814396568}
 --- !u!1 &566282960
@@ -17864,7 +17864,7 @@ MonoBehaviour:
   escenaCargar: ProbandoUnity1
   posicionJugador: {x: 2.802, y: 2.109}
   memoriaJugador: {fileID: 11400000, guid: 64869272ded1c874c89f712906ef4cad, type: 2}
-  guardarPartida: {fileID: 0}
+  guardarPartida: {fileID: 507020049}
 --- !u!4 &944747669
 Transform:
   m_ObjectHideFlags: 0
@@ -19016,6 +19016,8 @@ MonoBehaviour:
   guardarPartida: {fileID: 507020049}
   escenaPoner: MapaTres
   combt: 0
+  personaje: {fileID: 506630333}
+  pocJug: {x: -2.343, y: -0.993}
 --- !u!1 &1406141762
 GameObject:
   m_ObjectHideFlags: 0

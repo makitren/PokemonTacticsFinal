@@ -20564,7 +20564,7 @@ MonoBehaviour:
   escenaCargar: PrimerMapaUnity
   posicionJugador: {x: -0.131, y: 2.665}
   memoriaJugador: {fileID: 11400000, guid: 64869272ded1c874c89f712906ef4cad, type: 2}
-  guardarPartida: {fileID: 0}
+  guardarPartida: {fileID: 1474871755}
 --- !u!4 &582589824
 Transform:
   m_ObjectHideFlags: 0
@@ -24870,6 +24870,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1674047243144600008, guid: ba98ed9a564014d44813b3f94790f903,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -150.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1674047243144600015, guid: ba98ed9a564014d44813b3f94790f903,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -24889,21 +24904,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0.000061035
-      objectReference: {fileID: 0}
-    - target: {fileID: 1674047243144600008, guid: ba98ed9a564014d44813b3f94790f903,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -150.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1674047242855020717, guid: ba98ed9a564014d44813b3f94790f903,
         type: 3}
@@ -51630,10 +51630,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d89a3fc7a2fd9d42a9ad3a37d945199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questGiver: {fileID: 0}
+  questGiver: {fileID: 1596770991}
   cofreLlave: {fileID: 0}
   puerta: {fileID: 0}
-  keyMisiones: mision2
+  keyMisiones: mision7
   keyCofres: 
   keyPuertas: 
   inventarioJugador: {fileID: 11400000, guid: fee4ef020e5f86646a240f3caf4c922d, type: 2}
@@ -51702,7 +51702,7 @@ MonoBehaviour:
   escenaCargar: Castillo
   posicionJugador: {x: -0.985, y: 1.101}
   memoriaJugador: {fileID: 11400000, guid: 64869272ded1c874c89f712906ef4cad, type: 2}
-  guardarPartida: {fileID: 0}
+  guardarPartida: {fileID: 1474871755}
 --- !u!4 &1484631952
 Transform:
   m_ObjectHideFlags: 0
@@ -52894,7 +52894,7 @@ MonoBehaviour:
   escenaCargar: MapaTres
   posicionJugador: {x: -2.365, y: -0.994}
   memoriaJugador: {fileID: 11400000, guid: 64869272ded1c874c89f712906ef4cad, type: 2}
-  guardarPartida: {fileID: 0}
+  guardarPartida: {fileID: 1474871755}
 --- !u!4 &1686852006
 Transform:
   m_ObjectHideFlags: 0
@@ -54008,9 +54008,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fee9671cc18274d4bbcd910eba96d9a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textoMonedas: {fileID: 0}
+  textoMonedas: {fileID: 648635102}
   mision: {fileID: 0}
-  moverPersonaje: {fileID: 0}
+  moverPersonaje: {fileID: 2023726453}
 --- !u!114 &2023726447
 MonoBehaviour:
   m_ObjectHideFlags: 0

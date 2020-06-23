@@ -149,8 +149,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10818}
     - Class: 114
-      Script: {instanceID: 10850}
-    - Class: 114
       Script: {instanceID: 10934}
     - Class: 114
       Script: {instanceID: 10990}
@@ -175,7 +173,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11838}
     - Class: 114
-      Script: {instanceID: 33566}
+      Script: {instanceID: 42000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -272,8 +270,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10818}
     - Class: 114
-      Script: {instanceID: 10850}
-    - Class: 114
       Script: {instanceID: 10934}
     - Class: 114
       Script: {instanceID: 10990}
@@ -298,7 +294,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11838}
     - Class: 114
-      Script: {instanceID: 33566}
+      Script: {instanceID: 42000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -429,7 +425,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11838}
     - Class: 114
-      Script: {instanceID: 33566}
+      Script: {instanceID: 42000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -519,8 +515,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10806}
     - Class: 114
       Script: {instanceID: 10818}
-    - Class: 114
-      Script: {instanceID: 10850}
     - Class: 114
       Script: {instanceID: 10864}
     - Class: 114
@@ -647,8 +641,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10818}
     - Class: 114
-      Script: {instanceID: 10850}
-    - Class: 114
       Script: {instanceID: 10934}
     - Class: 114
       Script: {instanceID: 10990}
@@ -673,7 +665,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11838}
     - Class: 114
-      Script: {instanceID: 33566}
+      Script: {instanceID: 42000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -778,8 +770,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10818}
     - Class: 114
-      Script: {instanceID: 10850}
-    - Class: 114
       Script: {instanceID: 10934}
     - Class: 114
       Script: {instanceID: 10990}
@@ -804,7 +794,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11838}
     - Class: 114
-      Script: {instanceID: 33566}
+      Script: {instanceID: 42000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1006,8 +996,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10818}
     - Class: 114
-      Script: {instanceID: 10850}
-    - Class: 114
       Script: {instanceID: 11068}
     - Class: 114
       Script: {instanceID: 11082}
@@ -1123,8 +1111,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10818}
     - Class: 114
-      Script: {instanceID: 10850}
-    - Class: 114
       Script: {instanceID: 10870}
     - Class: 114
       Script: {instanceID: 10934}
@@ -1151,7 +1137,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11838}
     - Class: 114
-      Script: {instanceID: 33566}
+      Script: {instanceID: 42000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1292,7 +1278,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11838}
     - Class: 114
-      Script: {instanceID: 33566}
+      Script: {instanceID: 42000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1400,8 +1386,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10774}
     - Class: 114
       Script: {instanceID: 10818}
-    - Class: 114
-      Script: {instanceID: 10850}
     - Class: 114
       Script: {instanceID: 10934}
     - Class: 114
@@ -2454,4 +2438,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MapaCinco.unity
   - Assets/Scenes/MapaCuatro.unity
   - Assets/Scenes/Novac.unity
-  playerPath: C:/Users/anton/Desktop/Juego/ProbandoUnity.exe
+  playerPath: C:/Users/alfre/Desktop/ProbandoUnity.exe

@@ -14968,8 +14968,8 @@ MonoBehaviour:
   quest:
     activada: 0
     titulo: En busca de las monedas
-    desc: "Tienes que encontrar las monedas que est\xE1n al sur del pueblo. Te dar\xE9
-      una moneda de regalo si las encuentras todas."
+    desc: Tienes que encontrar las monedas que estan al sur del pueblo. Te dare una
+      moneda de regalo si las encuentras todas.
     oroRecibido: 1
     completada: 0
     questGoal:
@@ -33480,6 +33480,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1674047243144600008, guid: ba98ed9a564014d44813b3f94790f903,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -150.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1674047243144600015, guid: ba98ed9a564014d44813b3f94790f903,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -33499,21 +33514,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0.000061035
-      objectReference: {fileID: 0}
-    - target: {fileID: 1674047243144600008, guid: ba98ed9a564014d44813b3f94790f903,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -150.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1674047244463323780, guid: ba98ed9a564014d44813b3f94790f903,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1674047242855020717, guid: ba98ed9a564014d44813b3f94790f903,
         type: 3}

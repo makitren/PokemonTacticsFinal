@@ -23,6 +23,7 @@ public class GuardarPartida : MonoBehaviour
     public string keyCombate;
     public PokemonJugador pokemonJugador;
     public GuardarInventario guardarInventario;
+    public guardarPosicion guardarPosicion;
     private void Start()
     {
         if (ComenzarCombate.derrotado == true)
@@ -37,6 +38,7 @@ public class GuardarPartida : MonoBehaviour
     }
     public void Guardar()
     {
+        guardarPosicion.GuardarDatos();
         PlayerPrefs.SetString("escena", escenaGuardar);   
         PlayerPrefs.SetInt("monedas", Moneda.moneda);
         PlayerPrefs.SetInt("llaves", inventarioJugador.numeroLlaves);

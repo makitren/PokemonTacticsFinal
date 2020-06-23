@@ -17,23 +17,22 @@ public class ComenzarCombate : MonoBehaviour
     public MoverPersonaje personaje;
     public Vector2 pocJug;
     public static Vector2 psjug;
-    void Start()
+     void Awake()
     {
         psjug = pocJug;
         if (derrotado == true)
         {
             Debug.Log("GUARDO BIEN");
             combt = true;
-        }
-        else if(PlayerPrefs.GetInt(guardarPartida.keyCombate) != 0 && PlayerPrefs.GetInt(guardarPartida.keyCombate) != 1)
-        {
-            Debug.Log("NO GUARDO BIEN");
+            guardarPartida.Guardar();
             derrotado = false;
-        }else{
-            Debug.Log("Aqui me quedo");
         }
 
         escena = escenaPoner;
+    }
+    void Start()
+    {
+        
     }
 
     // Update is called once per frame

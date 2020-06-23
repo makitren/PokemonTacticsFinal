@@ -10,6 +10,7 @@ public class MenuPrincipal : MonoBehaviour
         if (PlayerPrefs.GetString("escena").Length!=0)
         {
             SceneManager.LoadScene(PlayerPrefs.GetString("escena"));
+
         }
         else
         {

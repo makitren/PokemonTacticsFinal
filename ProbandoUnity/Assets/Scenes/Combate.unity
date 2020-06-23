@@ -18839,10 +18839,10 @@ MonoBehaviour:
   flashcolor: {r: 1, g: 0, b: 0, a: 0.6}
   regularColor: {r: 1, g: 1, b: 1, a: 1}
   flashDuration: 0.07
-  numberOfFlashes: 4
+  numberOfFlashes: 2
   collision2D: {fileID: 531557006}
   mySprite: {fileID: 531557003}
-  thrust: 2
+  thrust: 4
   empujon: 0.1
   target: PokemonEnemigo
 --- !u!114 &531557005
@@ -20506,7 +20506,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947105650}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.053864, y: -1.629977, z: 3.01295}
+  m_LocalPosition: {x: -0.799, y: -1.646, z: 3.01295}
   m_LocalScale: {x: 0.04539, y: 0.04992, z: 1}
   m_Children: []
   m_Father: {fileID: 277296985}
@@ -31667,7 +31667,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659387029}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.053864, y: -1.629977, z: 3.01295}
+  m_LocalPosition: {x: 0.718, y: -1.651, z: 3.01295}
   m_LocalScale: {x: 0.04539, y: 0.04992, z: 1}
   m_Children: []
   m_Father: {fileID: 277296985}
@@ -32152,7 +32152,7 @@ MonoBehaviour:
   collision2D: {fileID: 1737273515}
   mySprite: {fileID: 1737273517}
   thrust: 2
-  empujon: 0.2
+  empujon: 0.1
   target: PokemonEnemigo
 --- !u!61 &1737273521
 BoxCollider2D:
@@ -34109,7 +34109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124350718}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.053864, y: -1.629977, z: 3.01295}
+  m_LocalPosition: {x: -0.111, y: -1.604, z: 3.01295}
   m_LocalScale: {x: 0.04539, y: 0.04992, z: 1}
   m_Children: []
   m_Father: {fileID: 277296985}

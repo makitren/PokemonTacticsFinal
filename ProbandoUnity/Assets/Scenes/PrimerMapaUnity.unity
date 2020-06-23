@@ -13731,6 +13731,7 @@ GameObject:
   - component: {fileID: 234330061}
   - component: {fileID: 234330060}
   - component: {fileID: 234330063}
+  - component: {fileID: 234330064}
   m_Layer: 8
   m_Name: PersonajePrincipal
   m_TagString: Player
@@ -13984,6 +13985,21 @@ MonoBehaviour:
   textoMonedas: {fileID: 248840725}
   mision: {fileID: 1973964399}
   moverPersonaje: {fileID: 234330054}
+--- !u!114 &234330064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234330053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dae4d6abcb137409e87b5db174ceed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 0
+  y: 0
+  vector: {x: 0, y: 0}
 --- !u!1 &248840723
 GameObject:
   m_ObjectHideFlags: 0
@@ -14140,6 +14156,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248840723}
   m_CullTransparentMesh: 0
+--- !u!1 &266770238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 90484733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &266770239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266770238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda4
 --- !u!1 &303253400
 GameObject:
   m_ObjectHideFlags: 0
@@ -15449,6 +15485,26 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2077839640}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &775123499 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 569174357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &775123500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775123499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda3
 --- !u!1 &780534041
 GameObject:
   m_ObjectHideFlags: 0
@@ -32690,6 +32746,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1614649845 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 8737437650053421848}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1614649846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614649845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda1
 --- !u!1 &1637172051
 GameObject:
   m_ObjectHideFlags: 0
@@ -32769,6 +32845,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1637172051}
   m_CullTransparentMesh: 0
+--- !u!1 &1655657290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1418372981}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1655657291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655657290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda2
 --- !u!1 &1671641978
 GameObject:
   m_ObjectHideFlags: 0
@@ -33553,6 +33649,7 @@ MonoBehaviour:
   keyCombate: 
   pokemonJugador: {fileID: 0}
   guardarInventario: {fileID: 21499652}
+  guardarPosicion: {fileID: 234330064}
 --- !u!114 &2104777725
 MonoBehaviour:
   m_ObjectHideFlags: 0

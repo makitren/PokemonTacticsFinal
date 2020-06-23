@@ -35,19 +35,22 @@ public class EmpujonEnemigo : MonoBehaviour
                         if (collision.GetComponent<PokemonsMios>().pokemonJugador.misPokemons[c].nombre == collision.GetComponent<PokemonsMios>().nombre)
                         {
                             collision.GetComponent<PokemonsMios>().pokemonJugador.misPokemons.RemoveAt(c);
+                            collision.gameObject.SetActive(false);
                         }
                     }
-                    collision.gameObject.SetActive(false);
 
                 }
-                    enemy.isKinematic = false;
-                    Vector2 difference = enemy.transform.position - transform.position;
-                    difference = difference.normalized * thrust;
-                    enemy.AddForce(difference, ForceMode2D.Impulse);
-                    StartCoroutine(EmpujonBicho(enemy));
-                
-                
+
             }
+                enemy.isKinematic = false;
+                Vector2 difference = enemy.transform.position - transform.position;
+                difference = difference.normalized * thrust;
+                enemy.AddForce(difference, ForceMode2D.Impulse);
+                StartCoroutine(EmpujonBicho(enemy));
+        }
+        else
+        {
+            gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
         }
            
     }

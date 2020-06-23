@@ -4898,6 +4898,8 @@ MonoBehaviour:
   escenaGuardar: 
   keyCombate: 
   pokemonJugador: {fileID: 0}
+  guardarInventario: {fileID: 0}
+  guardarPosicion: {fileID: 0}
 --- !u!114 &2134426355
 MonoBehaviour:
   m_ObjectHideFlags: 0

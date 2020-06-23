@@ -19601,6 +19601,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &297569534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 297569533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &297569535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297569534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda7
 --- !u!1001 &303642586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21129,6 +21149,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &658962015 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 658962014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &658962016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658962015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda12
 --- !u!1 &717224942
 GameObject:
   m_ObjectHideFlags: 0
@@ -24734,6 +24774,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &1075151931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1075151930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1075151932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075151931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda8
 --- !u!1001 &1107105773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25234,6 +25294,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &1147902104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1147902103}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1147902105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147902104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda6
 --- !u!1 &1187521567
 GameObject:
   m_ObjectHideFlags: 0
@@ -51644,6 +51724,7 @@ MonoBehaviour:
   keyCombate: 
   pokemonJugador: {fileID: 0}
   guardarInventario: {fileID: 2127040583}
+  guardarPosicion: {fileID: 2023726456}
 --- !u!1 &1484631949
 GameObject:
   m_ObjectHideFlags: 0
@@ -51935,6 +52016,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &1496580811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1496580810}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1496580812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496580811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda11
 --- !u!1 &1513419509
 GameObject:
   m_ObjectHideFlags: 0
@@ -53140,6 +53241,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &1791165480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1791165479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1791165481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791165480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda10
 --- !u!1001 &1888690200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53775,6 +53896,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &1999543695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1999543694}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1999543696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999543695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda9
 --- !u!1 &2005039048
 GameObject:
   m_ObjectHideFlags: 0
@@ -53990,6 +54131,7 @@ GameObject:
   - component: {fileID: 2023726448}
   - component: {fileID: 2023726447}
   - component: {fileID: 2023726446}
+  - component: {fileID: 2023726456}
   m_Layer: 8
   m_Name: PersonajePrincipal
   m_TagString: Player
@@ -54242,6 +54384,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2023726456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023726445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dae4d6abcb137409e87b5db174ceed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 0
+  y: 0
+  vector: {x: 0, y: 0}
 --- !u!1 &2054953155
 GameObject:
   m_ObjectHideFlags: 0
@@ -54751,6 +54908,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &2121201615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 2121201614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2121201616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121201615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda5
 --- !u!1 &2127040579
 GameObject:
   m_ObjectHideFlags: 0

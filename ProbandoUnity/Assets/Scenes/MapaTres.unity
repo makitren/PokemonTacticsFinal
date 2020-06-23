@@ -310,22 +310,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5647986647669376280, guid: 2db60577603785042b7b1d3e0109b78a,
         type: 3}
-    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.42
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.6
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.42
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.6
@@ -15374,22 +15374,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5787541188086251324, guid: e18995e53016d3e47ae384fd67a84b20,
         type: 3}
-    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.45
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.6
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.45
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.6
@@ -15582,11 +15582,12 @@ MonoBehaviour:
   keyPuertas: puerta3
   inventarioJugador: {fileID: 11400000, guid: fee4ef020e5f86646a240f3caf4c922d, type: 2}
   mensajeGuardado: {fileID: 1819160190}
-  comenzarCombate: {fileID: 0}
+  comenzarCombate: {fileID: 718310450}
   escenaGuardar: MapaTres
   keyCombate: comb10
   pokemonJugador: {fileID: 0}
   guardarInventario: {fileID: 1814396568}
+  guardarPosicion: {fileID: 0}
 --- !u!1001 &604577802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15656,6 +15657,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &604577803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 604577802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &604577804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604577803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda18
 --- !u!4 &618736925 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8737437649520390075, guid: cbeb795cc3783814c86f193801a3cd72,
@@ -17174,22 +17195,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5787541188086251324, guid: e18995e53016d3e47ae384fd67a84b20,
         type: 3}
-    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.42
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.57
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.42
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.57
@@ -17220,7 +17241,7 @@ MonoBehaviour:
   guardarPartida: {fileID: 507020049}
   escenaPoner: MapaTres
   combt: 0
-  personaje: {fileID: 0}
+  personaje: {fileID: 1985382682}
   pocJug: {x: 0.8, y: -3.77}
 --- !u!1001 &720629390
 PrefabInstance:
@@ -17291,6 +17312,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &720629391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 720629390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &720629392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720629391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda19
 --- !u!1 &756692804
 GameObject:
   m_ObjectHideFlags: 0
@@ -17844,6 +17885,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &1095281349 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1095281348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1095281350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095281349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda20
 --- !u!1 &1108862635
 GameObject:
   m_ObjectHideFlags: 0
@@ -18071,6 +18132,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &1226467777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1226467776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1226467778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226467777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda23
 --- !u!1 &1281950556
 GameObject:
   m_ObjectHideFlags: 0
@@ -18970,6 +19051,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &1506921899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1506921898}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1506921900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506921899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda22
 --- !u!1 &1534139787
 GameObject:
   m_ObjectHideFlags: 0
@@ -19198,22 +19299,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8423803935777404918, guid: 2db60577603785042b7b1d3e0109b78a,
         type: 3}
-    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.42
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.57
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.42
       objectReference: {fileID: 0}
-    - target: {fileID: 2393595489757114016, guid: 00bb268756fd2004096371794b75ea77,
+    - target: {fileID: 2393595489757114021, guid: 00bb268756fd2004096371794b75ea77,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.57
@@ -19700,6 +19801,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &1773651069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1773651068}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1773651070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773651069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda21
 --- !u!1 &1814396567
 GameObject:
   m_ObjectHideFlags: 0
@@ -20025,6 +20146,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &1836384405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1836384404}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1836384406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836384405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda16
 --- !u!1001 &1862257731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20094,6 +20235,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &1862257732 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1862257731}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1862257733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862257732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda17
 --- !u!114 &1876319129 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6849091201521741397, guid: 14b3d75562f4b1b438e3210e3fb3b078,
@@ -20181,6 +20342,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbeb795cc3783814c86f193801a3cd72, type: 3}
+--- !u!1 &1960789677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737437649520390023, guid: cbeb795cc3783814c86f193801a3cd72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1960789676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1960789678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960789677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeca8b24b8e2d948a82525a6577c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cogida: 0
+  nombreMoneda: moneda24
 --- !u!1001 &1978451354
 PrefabInstance:
   m_ObjectHideFlags: 0

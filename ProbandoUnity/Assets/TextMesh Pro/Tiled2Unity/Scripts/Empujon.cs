@@ -36,19 +36,20 @@ public class Empujon : MonoBehaviour
                         {
                             collision.GetComponent<PokemonEnemigosDatos>().pokemonsEnemigo.pokemons.RemoveAt(c);
                             collision.gameObject.SetActive(false);
-
                         }
                     }
-                    
+
 
                 }
-                enemy.isKinematic = false;
-                Vector2 difference = enemy.transform.position - transform.position;
-                difference = difference.normalized * thrust;
-                enemy.AddForce(difference, ForceMode2D.Impulse);
-                StartCoroutine(EmpujonBicho(enemy));
                 
             }
+            Vector2 difference = enemy.transform.position - transform.position;
+            difference = difference.normalized * thrust;
+            enemy.AddForce(difference, ForceMode2D.Impulse);
+            StartCoroutine(EmpujonBicho(enemy));
+        }
+        else{
+            gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
         }
     }
     private IEnumerator EmpujonBicho(Rigidbody2D enemigo)
@@ -75,6 +76,10 @@ public class Empujon : MonoBehaviour
             tem++;
         }
         collision2D.enabled = true;
+    }
+    private IEnumerator tiempo()
+    {
+        yield return new WaitForSeconds(1f);
     }
 }
 
